@@ -1,0 +1,101 @@
+import fs from 'fs';
+import {
+	outputJSON,
+	fetch_with_cached,
+	read_json_file,
+	// get_bili_data_url,
+	// bilidata_to_obj,
+	// fetch_bili_name_from_xml_to_json,
+} from './u.mjs';
+// import { addition_skills } from './addtion_skills.mjs';
+import {
+	trans_key_map,
+	fetch_bili_page_rest,
+	muli_fetch_bili_page_rest,
+} from './u-fetch-bili.mjs';
+
+// const FORCE_FETCH = true;
+const FORCE_FETCH = process.argv.includes('--force-fetch');
+
+let roles = read_json_file('./_pre/roles.src.json') || [];
+
+// let roles_with_adv_skills_list_raw = await muli_fetch_bili_page_rest({
+// 	names: roles.map(role => decodeURIComponent(role.path)),
+// 	ignore_cached: FORCE_FETCH,
+// });
+
+// let roles_with_adv_skills_list = roles_with_adv_skills_list_raw.map((data, index) => {
+// 	const role = roles[index];
+// 	return {
+// 		name: role.name,
+// 		pinyin: role.pinyin,
+// 		new: !role.pinyin_tw,
+// 		adv_skills: [
+// 			(data['绝学化神1'] || '').split(','),
+// 			(data['绝学化神2'] || '').split(','),
+// 			(data['绝学化神3'] || '').split(','),
+// 		].flat().filter(Boolean),
+// 	};
+// })
+// .filter(i => i.adv_skills.length)
+
+let roles_with_adv_skills_list = {};
+for (const role of roles) {
+	try {
+		const data = await fetch_bili_page_rest({
+			name: decodeURIComponent(role.path),
+			ignore_cached: FORCE_FETCH,
+		});
+
+		const adv_skills = [
+				(data['绝学化神1'] || '').split(','),
+				(data['绝学化神2'] || '').split(','),
+				(data['绝学化神3'] || '').split(','),
+			].flat().filter(Boolean);
+
+		if (adv_skills.length) {
+			roles_with_adv_skills_list[role.pinyin] = {
+				name: role.name,
+				pinyin: role.pinyin,
+				new: !role.pinyin_tw,
+				adv_skills,
+			};
+		}
+
+		// roles_with_adv_skills_list.push({
+		// 	name: role.name,
+		// 	pinyin: role.pinyin,
+		// 	new: !role.pinyin_tw,
+		// 	adv_skills: [
+		// 		(data['绝学化神1'] || '').split(','),
+		// 		(data['绝学化神2'] || '').split(','),
+		// 		(data['绝学化神3'] || '').split(','),
+		// 	].flat().filter(Boolean),
+		// });
+	} catch (error) {
+		console.error(`請求失敗: ${role.name}`, error);
+	}
+}
+
+outputJSON({
+	json: roles_with_adv_skills_list,
+	fn: `./_mid/roles_with_adv_skills_list.json`,
+	// space: 0,
+	// cn2tw: true,
+});
+
+const adv_skills_name = Object.values(roles_with_adv_skills_list)
+	.flatMap(i => (i.adv_skills || []))
+	.filter(i => i.includes('·'));
+
+const adv_skills = await muli_fetch_bili_page_rest({
+	names: adv_skills_name.map(i => '绝学/' + i),
+	ignore_cached: FORCE_FETCH,
+});
+
+outputJSON({
+	json: trans_key_map(adv_skills, '绝学'),
+	fn: `./_mid/adv_skills.json`,
+	// space: 0,
+	// cn2tw: true,
+});
