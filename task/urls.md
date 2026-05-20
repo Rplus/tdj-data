@@ -63,7 +63,8 @@ https://wiki.biligame.com/tdj/api.php?action=ask&query=[[分类:召唤物]]|limi
 拿到 召唤物 name array，search字串可能誤判
 https://wiki.biligame.com/tdj/api.php?action=opensearch&search=召唤物&limit=50
 
-https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:召唤物]]|?名称|?天赋|?射程&format=json
+v
+https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:召唤物]]|?名称=name|?属相=prop|?职业=career|?射程=range|?移动=speed|?属性=status|?天赋=inherent_name|?绝学=skill&format=json
 
 
 
