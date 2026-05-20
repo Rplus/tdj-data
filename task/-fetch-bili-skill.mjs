@@ -17,7 +17,7 @@ import {
 	// parse_wikitext_res,
 	// read_json_file,
 } from './u.mjs';
-import { addition_skills } from './addtion_skills.mjs';
+// import { addition_skills } from './addtion_skills.mjs';
 
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');

@@ -669,3 +669,7 @@
 [2026-04-20T06:28:27.510Z] URL: https://wiki.biligame.com/tdj/rest.php/v1/page/%E9%9A%8B%E9%85%92, Cache: ./_cache/bili/隋酒.rest.json, Error: parsed is not defined
 [2026-04-20T06:29:57.736Z] URL: https://wiki.biligame.com/tdj/rest.php/v1/page/%E4%BA%8E%E5%B0%8F%E9%9B%AA, Cache: ./_cache/bili/于小雪.rest.json, Error: this.save_cache is not a function. (In 'this.save_cache()', 'this.save_cache' is undefined)
 [2026-04-20T17:58:48.256Z] URL: https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:援袭绝学]]|?所属=owner|?星数=star|?名称=name|?类别=type|?冷却=cd|?射程=shoot|?范围=range|?描述#=desc|limit=500&format=json&utf8=1, Cache: ./_cache/bili/援袭绝学/援袭绝学.query.json, Error: JSON Parse error: Unrecognized token '<'
+[2026-04-21T09:46:20.831Z] URL: https://wiki.biligame.com/tdj/rest.php/v1/page/%E6%B4%9E%E8%A7%A3%E5%A4%A9%E5%B9%95, Cache: ./_cache/bili/洞解天幕.rest.json, Error: Fetch failed: 404 Not Found
+[2026-04-21T09:46:58.829Z] URL: https://wiki.biligame.com/tdj/rest.php/v1/page/%E7%BB%9D%E5%AD%A6%2F%E5%B1%B1%E6%B5%B7%E5%85%B1%E8%87%A8, Cache: ./_cache/bili/绝学/山海共臨.rest.json, Error: Fetch failed: 404 Not Found
+[2026-05-15T05:43:14.863Z] URL: https://wiki.biligame.com/tdj/rest.php/v1/page/%E7%BB%9D%E5%AD%A6%2F%E6%80%A8%E7%94%9F%E5%88%9A%E6%84%8E, Cache: ./_cache/bili/绝学/怨生刚愎.rest.json, Error: Fetch failed: 404 Not Found
+[2026-05-15T05:56:11.548Z] URL: https://wiki.biligame.com/tdj/rest.php/v1/page/%E7%BB%9D%E5%AD%A6%2F%E5%B1%B1%E9%AD%88%E7%B4%A2%E9%AD%82, Cache: ./_cache/bili/绝学/山魈索魂.rest.json, Error: Fetch failed: 404 Not Found

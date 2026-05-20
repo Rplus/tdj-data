@@ -70,18 +70,20 @@ export function outputJSON(obj = {}) {
 		space = 2;
 	}
 	let fileContent = JSON.stringify(obj.json, null, space);
-	writeFile(obj.fn, fileContent, obj.cn2tw);
+	writeFile(obj.fn, fileContent, obj.cn2tw, obj.silent);
 }
 
-export function writeFile(fileName = '', fileContent = '', cn2tw = false) {
+export function writeFile(fileName = '', fileContent = '', cn2tw = false, silent = false) {
 	if (cn2tw) {
 		fileContent = converter_cn2tw(fileContent);
 	}
 	ensureDirectoryExistence(fileName);
 	fs.writeFileSync(fileName, fileContent);
-	console.log(
-		`\x1b[7mv\x1b[0m Data saved as ${fileName} ! ( ${fileContent.length / 1000} kb )`,
-	);
+	if (!silent) {
+		console.log(
+			`\x1b[7mv\x1b[0m Data saved as ${fileName} ! ( ${fileContent.length / 1000} kb )`,
+		);
+	}
 }
 
 // ref: https://stackoverflow.com/a/34509653

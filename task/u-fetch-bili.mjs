@@ -19,7 +19,7 @@ export const key_map = {
 	'援袭绝学': {
 		'名称': 'name',
 		'所属': 'owner',
-		'星数': '',
+		'星数': 'star',
 		'类别': 'type',
 		'冷却': 'cd',
 		'射程': 'shoot',
@@ -28,23 +28,27 @@ export const key_map = {
 	},
 };
 
-export function trans_key_map(data = [], template = '') {
-	return data.map(item => {
-		const mapping = key_map[template || data.template]; // 根據 template 找到轉換規則
-		const newItem = {};
+export function trans_key_map(item = {}, template = '绝学', remove_template = true) {
+	const mapping = key_map[template || data.template]; // 根據 template 找到轉換規則
+	const newItem = {};
+	Object.keys(item).forEach(key => {
+		if (mapping?.[key]) {
+			// 如果 key_map 有定義，使用新名稱
+			newItem[mapping[key]] = item[key];
+		} else {
+			// 如果沒定義（如 template 本身），保留原始名稱或視需求捨棄
+			newItem[key] = item[key];
+		}
+	});
+	if (remove_template) {
+		delete newItem.template;
+	}
+	return newItem;
+}
 
-		// 遍歷原始資料的每個 Key
-		Object.keys(item).forEach(key => {
-			if (mapping && mapping[key]) {
-				// 如果 key_map 有定義，使用新名稱
-				newItem[mapping[key]] = item[key];
-			} else {
-				// 如果沒定義（如 template 本身），保留原始名稱或視需求捨棄
-				newItem[key] = item[key];
-			}
-		});
-
-		return newItem;
+export function trans_array_key_map(arr = [], template = '', remove_template = true,) {
+	return arr.map(item => {
+		return trans_key_map(item, template, remove_template);
 	});
 }
 
@@ -63,12 +67,19 @@ export async function fetch_bili_page_rest({
 		ignore_cached,
 	});
 
-	return parse_wikitext(res.source);
+	return res && parse_wikitext(res.source);
 }
 function parse_wikitext(str = '') {
-	const doc = wtf(str.replaceAll('<br>', '\n'));
+	const doc = wtf(clean_sub(str).replaceAll('<br>', '\n'));
 	const templates = doc.templates();
 	return doc.templates()[0].json();
+}
+function clean_sub(text) {
+	// 匹配 {{#sub: 字串 | 偏移量}} 並取出字串
+	// 範例：{{#sub:绝学/挑拨离间|3}} -> 提取 "绝学/挑拨离间" 後再 slice(3)
+	return text.replace(/\{\{#sub:([^|]+)\|(\d+)\}\}/g, (match, str, offset) => {
+		return str.slice(Number(offset));
+	});
 }
 
 
@@ -175,7 +186,9 @@ export async function fetch_with_cached({
 				etag_cache.delete(url);
 			}
 		} else if (!res.ok) {
-			throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
+			// throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
+			console.error(`Fetch failed: ${res.status} ${res.statusText}`);
+
 		} else {
 			const new_etag = res.headers.get('etag');
 			log_state.row3 = `有更新，重新處理 ${new_etag}`;

@@ -37,10 +37,10 @@ fetch-force: fetch-ornament--force fetch-role--force print-date
 # 	bun ./task/sorting.mjs;
 
 
-update-bili-data--summon:
+fetch-bili-summon:
 	bun ./task/fetch-bili-summon.mjs;
 
-update-bili-data--summon--force:
+fetch-bili-summon--force:
 	bun ./task/fetch-bili-summon.mjs --force-fetch;
 
 

@@ -1,4 +1,4 @@
-import fs from 'fs';
+// import fs from 'fs';
 import {
 	outputJSON,
 	fetch_with_cached,
@@ -9,7 +9,7 @@ import {
 } from './u.mjs';
 // import { addition_skills } from './addtion_skills.mjs';
 import {
-	trans_key_map,
+	trans_array_key_map,
 	fetch_bili_page_rest,
 	muli_fetch_bili_page_rest,
 } from './u-fetch-bili.mjs';
@@ -48,10 +48,10 @@ for (const role of roles) {
 		});
 
 		const adv_skills = [
-				(data['绝学化神1'] || '').split(','),
-				(data['绝学化神2'] || '').split(','),
-				(data['绝学化神3'] || '').split(','),
-			].flat().filter(Boolean);
+				(data['绝学化神1'] || '').split(',').filter(Boolean),
+				(data['绝学化神2'] || '').split(',').filter(Boolean),
+				(data['绝学化神3'] || '').split(',').filter(Boolean),
+			].filter(i => i.length);
 
 		if (adv_skills.length) {
 			roles_with_adv_skills_list[role.pinyin] = {
@@ -85,7 +85,7 @@ outputJSON({
 });
 
 const adv_skills_name = Object.values(roles_with_adv_skills_list)
-	.flatMap(i => (i.adv_skills || []))
+	.flatMap(i => (i.adv_skills.flat() || []))
 	.filter(i => i.includes('·'));
 
 const adv_skills = await muli_fetch_bili_page_rest({
@@ -94,7 +94,7 @@ const adv_skills = await muli_fetch_bili_page_rest({
 });
 
 outputJSON({
-	json: trans_key_map(adv_skills, '绝学'),
+	json: trans_array_key_map(adv_skills, '绝学'),
 	fn: `./_mid/adv_skills.json`,
 	// space: 0,
 	// cn2tw: true,

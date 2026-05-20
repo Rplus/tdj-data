@@ -9,7 +9,7 @@ import {
 import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';
 
 import {
-	trans_key_map,
+	// trans_key_map,
 	fetch_bili_page_rest,
 	muli_fetch_bili_page_rest,
 } from './u-fetch-bili.mjs';
@@ -20,6 +20,7 @@ const FORCE_FETCH = process.argv.includes('--force-fetch');
 
 let roles = read_json_file('./_pre/roles.src.json') || [];
 
+// 現在技能少，一次全撈回來
 const json = await fetch_with_cached({
 	url: 'https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:援袭绝学]]|?所属=owner|?星数=star|?名称=name|?类别=type|?冷却=cd|?射程=shoot|?范围=range|?描述=desc|limit=500&format=json&utf8=1',
 	cached_path: `bili/援袭绝学/援袭绝学.query.json`,
