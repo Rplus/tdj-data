@@ -1,5 +1,27 @@
 [
   {
+    "name": "天音白菀",
+    "rarity": "SSR",
+    "prop": "神",
+    "hero_icon": "Hero1404_HeadIcon_Basic",
+    "career": "祝由",
+    "pinyin": "tianyinbaiwan",
+    "pic": "Hero1404_img",
+    "position": "治療",
+    "range": "2",
+    "speed": "3",
+    "path": "%E5%A4%A9%E9%9F%B3%E7%99%BD%E8%8F%80",
+    "status": {
+      "hp": 180,
+      "atk_mag": 84,
+      "atk_phy": 13,
+      "def_mag": 41,
+      "def_phy": 34,
+      "crit": 14
+    },
+    "strategy": "聆音濟慈陣"
+  },
+  {
     "name": "紫霆司命",
     "rarity": "ULR",
     "prop": "雷",
@@ -76,6 +98,7 @@
     "position": "治療",
     "range": "2",
     "speed": "3",
+    "pinyin_tw": "qinse",
     "path": "%E7%90%B4%E8%89%B2",
     "status": {
       "hp": 186,
@@ -85,7 +108,7 @@
       "def_phy": 34,
       "crit": 20
     },
-    "strategy": "群芳馥郁陣"
+    "strategy": "群芳馥鬱陣"
   },
   {
     "name": "尉遲慎",
@@ -98,6 +121,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
+    "pinyin_tw": "yuchishen",
     "path": "%E5%B0%89%E8%BF%9F%E6%85%8E",
     "status": {
       "hp": 253,
@@ -123,6 +147,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
+    "pinyin_tw": "anyaoyanghuan",
     "path": "%E6%9A%97%E6%9B%9C%E9%98%B3%E5%AF%B0",
     "status": {
       "hp": 200,
