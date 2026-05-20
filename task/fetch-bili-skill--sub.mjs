@@ -10,7 +10,7 @@ import {
 import {
 	trans_key_map,
 	fetch_bili_page_rest,
-	muli_fetch_bili_page_rest,
+	// muli_fetch_bili_page_rest,
 } from './u-fetch-bili.mjs';
 
 import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';

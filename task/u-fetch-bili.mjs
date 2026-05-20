@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import pLimit from 'p-limit';
 import logUpdate from 'log-update';
-import wtf from 'wtf_wikipedia';
+// import wtf from 'wtf_wikipedia';
+import Parser from 'wikiparser-node';
 
 import { etag_cache } from './u-etag.js';
 
@@ -70,9 +71,25 @@ export async function fetch_bili_page_rest({
 	return res && parse_wikitext(res.source);
 }
 function parse_wikitext(str = '') {
-	const doc = wtf(clean_sub(str).replaceAll('<br>', '\n'));
-	const templates = doc.templates();
-	return doc.templates()[0].json();
+	const wikitext = clean_sub(str).replaceAll('<br>', '\n');
+	const ast = Parser.parse(wikitext);
+	const tpl = ast.querySelector('template');
+	const result = {};
+	for (const arg of tpl.getAllArgs()) {
+		result[arg.name] = arg.getValue();
+	}
+	return result;
+
+	// // const doc = wtf(clean_sub(str).replaceAll('<br>', '\n').replaceAll('。', '__XDXDXD__'));
+	// const ttt = clean_sub(str).replaceAll('<br>', '\n');
+	// console.log(3333, ttt);
+	// const doc = wtf(ttt);
+	// const raw = doc.wikitext();
+	// console.log(112, doc.sections());
+	// // const templates = doc.templates();
+	// // console.log(11, templates);
+	// return JSON.parse(JSON.stringify(doc.templates()[0].json()).replaceAll('__XDXDXD__', '。'));
+	// return doc.templates()[0].json();
 }
 function clean_sub(text) {
 	// 匹配 {{#sub: 字串 | 偏移量}} 並取出字串
