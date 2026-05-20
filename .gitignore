@@ -1,3 +1,5 @@
 /_mid/
 # /task/rawdata/
 /_cache/bili-old
+
+task/fetch-bili-test.mjs
