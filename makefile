@@ -4,6 +4,7 @@ all:
 print-date:
 	date +%FT%T%:::z > '../src/lib/data/latest-fetch-time.txt';
 
+#
 
 fetch-%--force:
 	bun ./task/fetch-$*.mjs --force-fetch
@@ -11,6 +12,12 @@ fetch-%--force:
 fetch-%:
 	bun ./task/fetch-$*.mjs
 
+#
+
+update-office: fetch-ornament fetch-role print-date
+	echo 'update-office';
+
+#
 
 fetch-ornament:
 	bun ./task/fetch-ornament.mjs;
@@ -24,18 +31,15 @@ fetch-role:
 fetch-role--force:
 	bun ./task/fetch-role.mjs --force-fetch;
 
-fetch: fetch-ornament fetch-role print-date
-	echo 'done: update-data';
+# fetch: fetch-ornament fetch-role print-date
+# 	echo 'done: update-data';
 
-fetch-force: fetch-ornament--force fetch-role--force print-date
-	echo 'done: fetch-force';
+# fetch-force: fetch-ornament--force fetch-role--force print-date
+# 	echo 'done: fetch-force';
 
-# fetch-parse: print-date
-# 	bun ./task/fetch.mjs;
-
-# fetch-sorting:
-# 	bun ./task/sorting.mjs;
-
+#
+#
+#
 
 fetch-bili-summon:
 	bun ./task/fetch-bili-summon.mjs;
