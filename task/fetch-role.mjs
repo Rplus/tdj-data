@@ -223,8 +223,16 @@ const ICONS_MAPPING = {
 	'light/shadow/dusk': '光暗幽',
 };
 
+outputJSON({
+	json: {all_icons, ICONS_MAPPING},
+	fn: './_mid/_strategy_icons.json',
+	// space: 0,
+	// cn2tw: true,
+});
+
 const strategy_overrides = {
 	'三身通智陣': [ 'strategy_core', 'strategy_core' ],
+	'群芳馥鬱陣': [ 'rider' ],
 	// '驅雷魔魄陣': [ 'dusk' ],
 	// '狐靈神氛陣': [ 'dusk' ],
 	// '暗月鬥靈陣': [ 'melee' ],
@@ -253,7 +261,13 @@ const op_strategy = all_strategy.map((item) => {
 
 outputJSON({
 	json: op_strategy,
-	fn: './_mid/_all_strategy.json',
+	fn: './_pre/strategy.src.json',
+	// space: 0,
+	cn2tw: true,
+});
+outputJSON({
+	json: op_strategy,
+	fn: '../src/lib/data/strategy.min.json',
 	space: 0,
 	cn2tw: true,
 });
