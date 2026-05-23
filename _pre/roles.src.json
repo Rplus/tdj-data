@@ -1150,7 +1150,10 @@
       "def_phy": 35,
       "crit": 22
     },
-    "strategy": "六天自在陣"
+    "strategy": "六天自在陣",
+    "summons": [
+      "鏈.蛛母"
+    ]
   },
   {
     "name": "相胤",
@@ -1315,7 +1318,10 @@
       "def_phy": 36,
       "crit": 24
     },
-    "strategy": "玄雷淬火陣"
+    "strategy": "玄雷淬火陣",
+    "summons": [
+      "賽特分身"
+    ]
   },
   {
     "name": "李靖",
