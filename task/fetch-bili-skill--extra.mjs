@@ -57,7 +57,7 @@ const skill_template = {
 	'cost': '-',
 	'shoot': '自身',
 	'range': '單體',
-	'type': '主動',
+	'type': '',
 	'desc': '',
 };
 

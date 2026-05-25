@@ -44,7 +44,7 @@ const status = rows.map((row, row_index) => {
 
 const res = await fetch_with_cached({
 	url: 'https://wiki.biligame.com/tdj/api.php?action=ask&query=[[分类:状态]]|limit=9999|?类别=cate|?驱散=dispellable|?扩散=extendable|?偷取=stealable|?描述=desc&format=json',
-	cached_path: `bili/state.askquery.res.json`,
+	cached_path: `bili-state.askquery.res.json`,
 	is_json: true,
 	ignore_cached: FORCE_FETCH,
 });

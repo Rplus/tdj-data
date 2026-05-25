@@ -69,7 +69,7 @@ const op = {
 		// 	3: '腰',
 		// 	4: '手',
 		// },
-		job: ['俠客', '羽士', '鐵衛', '咒師', '祝由', '御風', '鬥將'],
+		job: ['俠客', '羽士', '鐵衛', '咒師', '祝由', '御風', '鬥將', '破軍'],
 		// type: ['physical_attack','physical_defense','magic_attack','magic_defense','treatment','qixue','currency'];
 		type: ['物攻', '物防', '法攻', '法防', '治療', '氣血'],
 	},

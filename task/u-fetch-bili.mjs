@@ -204,7 +204,9 @@ export async function fetch_with_cached({
 			}
 		} else if (!res.ok) {
 			// throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
-			console.error(`Fetch failed: ${res.status} ${res.statusText}`);
+			console.error(`Fetch ${url} failed: ${res.status} ${res.statusText}`);
+			const log_msg = `[${new Date().toISOString()}] URL: ${url}, Cache: ${cached_path}, Error: ${res.status} ${res.statusText}\n`;
+			fs.appendFileSync('./task/fetch_errors.log', log_msg, 'utf8');
 
 		} else {
 			const new_etag = res.headers.get('etag');
