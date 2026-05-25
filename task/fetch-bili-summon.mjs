@@ -167,7 +167,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			inherent_name: '火神降臨',
 			inherent:
 				'氣血越高，傷害、炎屬相免傷越高（最高25%）。\n主動攻擊造成傷害後，對目標施加「燃燒」狀態，持續2回合。\n主動攻擊「對戰中」有機率（氣血越高，機率越高（最高100%））觸發「重擊·崩山」。',
-			stats: [100, 100, 100, 100, 100, 100],
+			status: [100, 100, 100, 100, 100, 100],
 			prop: '炎',
 			career: '俠客',
 			range: 1,
@@ -185,7 +185,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			inherent_name: '凶劍煬魂',
 			inherent:
 				'行動時無視敵方角色阻擋。死亡時對周圍2格敵人施加「魂創」狀態，持續2回合，重置「天劍聖裁」冷卻時間。',
-			stats: [80, 80, 80, 80, 80, 80],
+			status: [80, 80, 80, 80, 80, 80],
 			prop: '光',
 			career: '御風',
 			range: 1,
@@ -229,7 +229,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			inherent_name: '捐身循義',
 			inherent:
 				'免傷提高15%。行動結束時，對夜無陵施加1層「徇義」狀態(上限15層)。\n「徇義」：除氣血外全屬性提高2%。',
-			stats: [100, 100, 100, 100, 100, 100],
+			status: [100, 100, 100, 100, 100, 100],
 			prop: '暗',
 			career: '鐵衛',
 			range: 1,
@@ -270,7 +270,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			inherent_name: '玲瓏妙心',
 			inherent:
 				'主動攻擊物攻提高15%。\n若氣血大於等於80%，物理免傷提高20%且主動普攻觸發「追擊」（0.5倍傷害）。\n主動攻擊若造成暴擊，則行動結束時為自身召喚物/召喚者施加「蓄電」狀態。\n若不攜帶「離魂」狀態，受到致命傷害免除死亡，氣血恢復50%，並永久進入「離魂」狀態。\n場上不存在友方「雷晶分身」時，行動結束前可選擇使用絕學「凝雷聚形」（間隔4回合觸發）',
-			stats: [100, 140, 100, 100, 100, 100],
+			status: [100, 140, 100, 100, 100, 100],
 			prop: '雷',
 			career: '俠客',
 			range: 1,
@@ -304,7 +304,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			owner: ['瑚兒', 'huer'],
 			inherent_name: '公主親從?',
 			inherent: '免傷提高15%。法攻的75%額外附加到物攻上。拾取的「御禮奇珍」獲得「有益狀態」數量+1。\n若本回合拾取過友方「御禮奇珍」,行動結束時使「瑚兒」隨機絕學冷卻-1。\n自身在場時,「瑚兒」受到致命傷害時免除死亡且氣血恢復50%,若成功觸發, 「公主親從」自身死亡。',
-			stats: [140, 100, 100, 100, 100, 100],
+			status: [140, 100, 100, 100, 100, 100],
 			prop: '冰',
 			career: '俠客',
 			range: 1,
@@ -342,7 +342,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			owner: ['瑚兒', 'huer'],
 			inherent_name: '帝姬侍女?',
 			inherent: '治療效果提高15%。拾取的「御禮奇珍」獲得「有益狀態」等級+1。\n若本回合拾取過友方「御禮奇珍」，行動結束時使「瑚兒」隨機絕學冷卻-1。\n自身在場時，「瑚兒」受到致命傷害時免除死亡且氣血恢復50%，若成功觸發，「帝姬侍女」自身死亡。',
-			stats: [100, 100, 100, 100, 100, 100],
+			status: [100, 100, 100, 100, 100, 100],
 			prop: '光',
 			career: '祝由',
 			range: 2,
@@ -378,7 +378,7 @@ for (const skill_name of summon_skills_name.flat()) {
 			inherent_name: '縛魔羅網',
 			inherent:
 				'傷害提高20%。主動攻擊「對戰前」自身獲得1個隨機「進攻類增益狀態」。行動結束時，若本次行動未發起攻擊，獲得1個「防禦類增益狀態」。',
-			stats: [100, 100, 100, 100, 100, 100],
+			status: [100, 100, 100, 100, 100, 100],
 			prop: '幽',
 			career: '俠客',
 			range: 1,
