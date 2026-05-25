@@ -1,5 +1,6 @@
 /_mid/
 # /task/rawdata/
 /_cache/bili-old
-
+/_cache/etag.json
+/task/fetch_errors.log
 task/fetch-bili-test.mjs
