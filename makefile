@@ -14,20 +14,18 @@ fetch-%:
 
 #
 
-update-office: fetch-ornament fetch-role print-date
-	echo 'update-office';
+update-official: fetch-ornament fetch-role print-date
+	echo 'update-official';
 
 #
 
 fetch-ornament:
 	bun ./task/fetch-ornament.mjs;
-
 fetch-ornament--force:
 	bun ./task/fetch-ornament.mjs --force-fetch;
 
 fetch-role:
 	bun ./task/fetch-role.mjs;
-
 fetch-role--force:
 	bun ./task/fetch-role.mjs --force-fetch;
 
@@ -41,39 +39,44 @@ fetch-role--force:
 #
 #
 
+update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill
+	echo 'update from biliwiki'
+
 fetch-bili-summon:
 	bun ./task/fetch-bili-summon.mjs;
-
 fetch-bili-summon--force:
 	bun ./task/fetch-bili-summon.mjs --force-fetch;
-
 
 fetch-bili-state:
 	bun ./task/fetch-bili-state.mjs;
 fetch-bili-state--force:
 	bun ./task/fetch-bili-state.mjs --force-fetch;
 
+fetch-bili-skill: fetch-bili-skill--adv fetch-bili-skill--extra fetch-bili-skill--sub fetch-bili-skill--support merge-skills;
+	echo 'fetch-bili-skill';
+
+fetch-bili-skill--adv:
+	bun ./task/fetch-bili-skill--adv.mjs;
+fetch-bili-skill--adv--force:
+	bun ./task/fetch-bili-skill--adv.mjs --force-fetch;
+
+fetch-bili-skill--extra:
+	bun ./task/fetch-bili-skill--extra.mjs;
+fetch-bili-skill--extra--force:
+	bun ./task/fetch-bili-skill--extra.mjs --force-fetch;
+
+fetch-bili-skill--sub:
+	bun ./task/fetch-bili-skill--sub.mjs;
+fetch-bili-skill--sub--force:
+	bun ./task/fetch-bili-skill--sub.mjs --force-fetch;
 
 fetch-bili-skill--support:
 	bun ./task/fetch-bili-skill--support.mjs;
 fetch-bili-skill--support--force:
 	bun ./task/fetch-bili-skill--support.mjs --force-fetch;
 
-
-fetch-bili-skill: fetch-bili-skill--support
-	bun ./task/fetch-bili-skill.mjs;
-fetch-bili-skill--force: fetch-skill--support--force
-	bun ./task/fetch-bili-skill.mjs --force-fetch;
-
-
-# fetch-bili-skill:
-# 	bun ./task/fetch-bili-skill.mjs;
-# fetch-bili-skill--force:
-# 	bun ./task/fetch-bili-skill.mjs --force-fetch;
-
-
-
-
+merge-skills:
+	bun ./task/merge_skills.mjs;
 
 gitgc:
 	git gc --prune=now --aggressive;
