@@ -31,7 +31,7 @@ for (let role in role_with_adv_skills) {
 	role_with_adv_skills[role].adv_skills = role_with_adv_skills[role].adv_skills.map(skill_set => {
 		return skill_set.map(skill_name => {
 			const _skill = all_adv_skills.find(s => s.name === skill_name);
-			return _skill ? _skill : skill_name;
+			return _skill ? _skill : { name: skill_name, path: encodeURIComponent(skill_name), };
 		})
 	});
 }
