@@ -1,5 +1,15 @@
 // bili wiki 爬得到的額外技能
 export const extra_fetching_resource = {
+	'zitingsiming': {
+		'pinyin': 'zitingsiming',
+		'name': '紫霆司命',
+		'skills': [
+			{
+				'name': '琳琅启震',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/thumb/c/c2/ai5aoyrxckyjxfihv2c2iddymagzwpn.png/80px-%E7%BB%9D%E5%AD%A6_%E7%90%B3%E7%90%85%E5%90%AF%E9%9C%87.png'
+			},
+		]
+	},
 	'mosuhuoyong': {
 		'pinyin': 'mosuhuoyong',
 		'name': '魔宿霍雍',
@@ -7,7 +17,7 @@ export const extra_fetching_resource = {
 			{
 				'name': '洞解天幕',
 				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/thumb/6/62/lyg2ji80lfrzhbxyzt0m3d4bggrc25i.png/80px-%E7%BB%9D%E5%AD%A6_%E6%B4%9E%E8%A7%A3%E5%A4%A9%E5%B9%95.png'
-			}
+			},
 		]
 	},
 	'yuchishen': {
@@ -460,6 +470,23 @@ export const custom_skills = {
 		'name': '趙雲',
 		'custom_skills': [
 			['無雙戰魂', '主動使用，自身獲得「無雙」狀態，持續 3回合。\n「無雙」:免疫「移動力限制」狀態，受到致命傷害時免除死亡，氣血恢復 30%，持續時間降低1回合。主動攻擊後獲得1層「龍膽」狀態，若擊殺目標或目標觸發「抵擋致命傷害」的效果，額外獲得1層「龍膽」狀態，並使「無雙」狀態持續時間延長1回合。\n「龍膽」:全屬性提升5%，獲得「龍膽」狀態時所有傷害絕學冷卻時間-1(上限4層)。'],
+		],
+	},
+
+	'zitingsiming': {
+		'pinyin': 'zitingsiming',
+		'name': '紫霆司命',
+		'custom_skills': [
+			['雷鳴·乾音界', '友方「雷」屬相英靈全屬性提升10%，降低全體「冰」「魔」屬相敵方10%除氣血外全屬性。\n立即對所有敵方施加「電流」狀態，持續2回合。\n立即對所有友方施加「迅捷I」狀態，持續2回合，且立即使所有「雷」屬相友方隨機一個傷害絕學冷卻時間-1。\n「雷」屬相友方主動攻擊後，對目標施加1層「驚霆」狀態，持續2回合，「對戰後」若造成暴擊額外施加「雷劫」狀態，持續1回合。\n「雷」屬相友方主動攻擊後，冷卻時間最長的絕學冷卻時間-1，若造成暴擊該絕學冷卻時間-1。'],
+			['雷鳴·坤音界', '友方「雷」屬相英靈全屬性提升10%，降低全體「冰」「魔」屬相敵方10%除氣血外全屬性。\n立即對所有敵方施加「電流」狀態，持續2回合。\n立即對所有友方施加「迅捷I」狀態，持續2回合。\n立即反轉「雷」屬相友方1個「有害狀態」為「防禦類有益狀態」。\n「雷」屬相友方主動攻擊「對戰後」，恢復傷害數值30%的氣血。\n敵方行動結束時，若處於我方「「雷場」地形上，則獲得1層「驚霆」狀態，持續2回合。'],
+		],
+	},
+
+	'tianyinbaiwan': {
+		'pinyin': 'tianyinbaiwan',
+		'name': '天音白菀',
+		'custom_skills': [
+			['玉笛飛聲', '選擇1個其他友方，為目標施加「天音」狀態，持續2回合。\n「天音」：添加時立刻根據施加者進攻魂鏈屬相，變更自身屬相，不變更自身普攻和絕學屬相。主動攻擊或遭受攻擊受到傷害後移除，並獲得1層「神祐狀態」，恢復自身氣血（恢復量為施術者法攻的1倍）。', '', '菱形5格'],
 		],
 	},
 };

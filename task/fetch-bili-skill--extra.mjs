@@ -66,6 +66,7 @@ for (let role in custom_skills) {
 		return {
 			...skill_template,
 			...{
+				'shoot': i[3],
 				'name': i[0],
 				'type': i[2],
 				'desc': i[1],
