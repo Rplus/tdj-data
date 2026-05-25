@@ -19,6 +19,7 @@ const customDict = [
 	['指鑑', '指鑒'],
 	['希光迴音', '希光回音'],
 	['公子同游', '公子同遊'],
+	['魂嫋無明', '魂裊無明'],
 ];
 
 export const converter_cn2tw = OpenCC
