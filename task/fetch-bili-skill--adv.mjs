@@ -77,13 +77,6 @@ for (const role of roles) {
 	}
 }
 
-outputJSON({
-	json: roles_with_adv_skills_list,
-	fn: `./_mid/roles_with_adv_skills_list.json`,
-	// space: 0,
-	// cn2tw: true,
-});
-
 const adv_skills_name = Object.values(roles_with_adv_skills_list)
 	.flatMap(i => (i.adv_skills.flat() || []))
 	.filter(i => i.includes('·'));
@@ -91,6 +84,27 @@ const adv_skills_name = Object.values(roles_with_adv_skills_list)
 const adv_skills = await muli_fetch_bili_page_rest({
 	names: adv_skills_name.map(i => '绝学/' + i),
 	ignore_cached: FORCE_FETCH,
+});
+
+{ // workaround
+
+	// 太玄靈狐 反制禁咒 => 反咒禁制
+	roles_with_adv_skills_list.taixuanlinghu.adv_skills[1].forEach((s, index) => {
+		roles_with_adv_skills_list.taixuanlinghu.adv_skills[1][index] = s.replace('反制禁咒', '反咒禁制');
+	});
+	adv_skills.forEach(i => {
+		if (i?.['绝学名称'] && i['绝学名称'].indexOf('反制禁咒') !== -1) {
+			i['绝学名称'] = i['绝学名称'].replace('反制禁咒', '反咒禁制');
+		}
+	})
+}
+
+
+outputJSON({
+	json: roles_with_adv_skills_list,
+	fn: `./_mid/roles_with_adv_skills_list.json`,
+	// space: 0,
+	// cn2tw: true,
 });
 
 outputJSON({
