@@ -1,7 +1,6 @@
 import {
 	pick_obj,
 	outputJSON,
-	fetch_with_cached,
 	uniq_array,
 	read_json_file,
 	remove_html_tag,
@@ -9,6 +8,7 @@ import {
 
 import {
 	trans_key_map,
+	// fetch_with_cached,
 	fetch_bili_page_rest,
 	// muli_fetch_bili_page_rest,
 } from './u-fetch-bili.mjs';

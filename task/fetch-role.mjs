@@ -3,14 +3,17 @@ import pLimit from 'p-limit';
 import {
 	raw_data,
 	outputJSON,
-	fetch_with_cached,
 	pick_obj,
 	remove_html_tag,
 	uniq_array,
-	random_time,
+	// random_time,
 	get_bili_data_url,
 	bilidata_to_obj,
 } from './u.mjs';
+
+import {
+	fetch_with_cached,
+} from './u-fetch-bili.mjs';
 
 // import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';
 

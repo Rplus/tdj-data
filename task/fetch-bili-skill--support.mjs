@@ -1,15 +1,13 @@
 import {
 	outputJSON,
-	fetch_with_cached,
 	remove_html_tag,
 	read_json_file,
-	pick_obj,
-	// fetch_bili_name_from_xml_to_json,
 } from './u.mjs';
 import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';
 
 import {
 	// trans_key_map,
+	fetch_with_cached,
 	fetch_bili_page_rest,
 	muli_fetch_bili_page_rest,
 } from './u-fetch-bili.mjs';

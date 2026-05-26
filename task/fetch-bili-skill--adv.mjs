@@ -1,7 +1,6 @@
 // import fs from 'fs';
 import {
 	outputJSON,
-	fetch_with_cached,
 	read_json_file,
 	// get_bili_data_url,
 	// bilidata_to_obj,
@@ -9,6 +8,7 @@ import {
 } from './u.mjs';
 // import { addition_skills } from './addtion_skills.mjs';
 import {
+	// fetch_with_cached,
 	trans_array_key_map,
 	fetch_bili_page_rest,
 	muli_fetch_bili_page_rest,

@@ -1,10 +1,13 @@
 import fs from 'fs';
 import {
 	outputJSON,
-	fetch_with_cached,
 	compress_objects,
 	remove_html_tag,
 } from './u.mjs';
+
+import {
+	fetch_with_cached,
+} from './u-fetch-bili.mjs';
 // import { parse } from 'node-html-parser';
 
 

@@ -1,5 +1,13 @@
 import fs from 'fs';
-import { raw_data, outputJSON, fetch_with_cached, pick_obj } from './u.mjs';
+import {
+	raw_data,
+	outputJSON,
+	pick_obj
+} from './u.mjs';
+
+import {
+	fetch_with_cached,
+} from './u-fetch-bili.mjs';
 
 // const FORCE_FETCH = false;
 // const FORCE_FETCH = true;
