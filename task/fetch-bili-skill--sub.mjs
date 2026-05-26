@@ -117,7 +117,8 @@ const xx_kwds = [
 // query subkills
 const subskills = query_skills.filter(i => {
 	if (!i.desc) {
-		console.log(111, i);
+		// console.log(111, i);
+		return false;
 	}
 	return i.desc.includes('切換') && i.desc.match(/「[^」]+」/);
 })
