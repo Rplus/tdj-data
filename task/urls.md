@@ -84,6 +84,40 @@ https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:援袭绝学]]
 https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:援袭绝学]]|?所属=owner|?星数=star|?名称=name|?类别=type|?冷却=cd|?射程=shoot|?范围=range|?描述=desc|limit=500&format=json&utf8=1
 
 
+用來拿取所有絕學的圖片網址
+https://wiki.biligame.com/tdj/api.php?action=query
+&titles=File:援袭绝学 九阴真经.png|File:援袭绝学 九阴真经2.png
+&prop=imageinfo
+&iiprop=url
+&format=json
+
+or 改用 POST 避免撞 url 過長
+```js
+	const titles = [
+		'File:援袭绝学 光轮斩·援.png',
+		'File:援袭绝学 反咒禁制·援.png',
+	].join('|');
+
+	const body = new URLSearchParams({
+		action: 'query',
+		prop: 'imageinfo',
+		iiprop: 'url',
+		format: 'json',
+		titles,
+	});
+
+	const response = await fetch(
+		'https://wiki.biligame.com/tdj/api.php',
+		{
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded',
+			},
+			body,
+		},
+	);
+```
+
 
 通用型取頁面 property，資料較髒
 ```js
