@@ -20,7 +20,12 @@ const customDict = [
 	['希光迴音', '希光回音'],
 	['公子同游', '公子同遊'],
 	['魂嫋無明', '魂裊無明'],
-	['六慾', '六欲'],
+	// ['六慾', '六欲'],
+];
+
+const customDictTw2Cn = [
+	['千栗', '千慄'],
+	['摧心暗矢', '摧心闇矢'],
 ];
 
 export const converter_cn2tw = OpenCC
@@ -29,4 +34,4 @@ export const converter_cn2tw = OpenCC
 
 export const converter_tw2cn = OpenCC
 	// .Converter({ from: 'cn', to: 'tw' })
-	.ConverterFactory(OpenCC.Locale.from.tw, OpenCC.Locale.to.cn);
+	.ConverterFactory(OpenCC.Locale.from.tw, OpenCC.Locale.to.cn, [customDictTw2Cn]);
