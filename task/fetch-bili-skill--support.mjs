@@ -33,17 +33,38 @@ let results = Object.values(json.query.results).map(item => {
 	);
 });
 
+// 取得技能圖片網址
+let skills_name = [...new Set(results.map(i => i.name))];
+// console.log(skills_name);
+let _titles = skills_name.map(i => `File:援袭绝学 ${i}.png`).join('|');
+let skills_image_raw = await fetch_with_cached({
+	url: `https://wiki.biligame.com/tdj/api.php?action=query&titles=${_titles}&prop=imageinfo&iiprop=url&format=json`,
+	cached_path: `bili/援袭绝学/援袭绝学img.json`,
+	is_json: true,
+	ignore_cached: FORCE_FETCH,
+});
+
+let skills_image_map = Object.values(skills_image_raw?.query.pages).reduce((all, page) => {
+	let title = page.title.match(/^文件:援袭绝学 (.+)\.png$/)?.[1];
+	if (title) {
+		all[title] = page.imageinfo?.[0]?.url;
+	}
+	return all;
+}, {});
+
 
 let support_skills = results.reduce((all, i) => {
 	const owner = i.owner;
 	const role = roles.find(r => r.name === converter_cn2tw(owner));
 	const pinyin = role?.pinyin || owner;
+	const img = skills_image_map[i.name] || '';
 	if (!all[pinyin]) {
 		all[pinyin] = {
 			owner,
 			owner_pinyin: role?.pinyin,
 			support_skill: {
 				name: i.name,
+				img,
 				type: i.type,
 				cd: i.cd,
 				shoot: i.shoot,
