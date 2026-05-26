@@ -7,6 +7,7 @@ import {
 	// bilidata_to_obj,
 	// fetch_bili_name_from_xml_to_json,
 } from './u.mjs';
+import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';
 // import { addition_skills } from './addtion_skills.mjs';
 import {
 	// trans_key_map,
@@ -19,6 +20,7 @@ const FORCE_FETCH = process.argv.includes('--force-fetch');
 
 let roles = read_json_file('./_pre/roles.src.json') || [];
 
+let role_details = read_json_file('./_mid/roles_details.raw.json');
 let all_adv_skills = read_json_file('./_mid/adv_skills.json') || [];
 let role_with_adv_skills = read_json_file('./_mid/roles_with_adv_skills_list.json') || {};
 let role_with_extra_skills = read_json_file('./_mid/extra_skills.json') || {};
@@ -26,12 +28,39 @@ let role_with_custom_skills = read_json_file('./_mid/custom_skills.json') || {};
 let role_with_support_skills = read_json_file('./_mid/roles_with_support_skills.json') || {};
 
 
+let all_basic_skills_with_img = role_details
+	.flatMap(dd => dd.data?.data?.[0]?.skill)
+	.map(s => {
+		return {
+			name: converter_tw2cn(s.name),
+			img: s.img,
+		}
+	});
+
+
+outputJSON({
+	json: all_basic_skills_with_img,
+	fn: `./_mid/_all_basic_skills_with_img.json`,
+	// space: 0,
+	// cn2tw: true,
+});
+
 // merge adv skills
 for (let role in role_with_adv_skills) {
 	role_with_adv_skills[role].adv_skills = role_with_adv_skills[role].adv_skills.map(skill_set => {
 		return skill_set.map(skill_name => {
 			const _skill = all_adv_skills.find(s => s.name === skill_name);
-			return _skill ? _skill : { name: skill_name, path: encodeURIComponent(skill_name), };
+			if (_skill) {
+				return _skill;
+			}
+
+			let _basic_skill = all_basic_skills_with_img.find(i => i.name === skill_name)
+
+			return {
+				name: skill_name,
+				// path: encodeURIComponent(skill_name),
+				img: _basic_skill?.img,
+			}
 		})
 	});
 }
