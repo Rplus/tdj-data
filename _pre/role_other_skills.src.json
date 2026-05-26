@@ -5602,6 +5602,7 @@
     ],
     "support_skill": {
       "name": "反咒禁制·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/4/43/0rh2k20kexi0cmznobrgwsu4v9ijsxd.png",
       "type": "主動",
       "cd": "2回合",
       "shoot": "3格",
@@ -8162,6 +8163,7 @@
     ],
     "support_skill": {
       "name": "矩子之域·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/3/30/cp4zmsx6mlki26k75oa8ogydbxtls5m.png",
       "type": "物攻傷害",
       "cd": "2回合",
       "shoot": "3格",
@@ -8255,6 +8257,7 @@
     ],
     "support_skill": {
       "name": "引曜浣塵·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/2/2c/en0nmgdyp8xh8vf6pyslxrrncua4utv.png",
       "type": "治療",
       "cd": "-",
       "shoot": "2格",
@@ -8348,6 +8351,7 @@
     ],
     "support_skill": {
       "name": "流火綴甲·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/0/07/po905x8fis87rskdmqfl7t9igrxyudz.png",
       "type": "支援",
       "cd": "3回合",
       "shoot": "自身",
@@ -11655,6 +11659,7 @@
     ],
     "support_skill": {
       "name": "百鬼召喚·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/7/75/fn2vnqcc6jfrm26j4passyrcufy1ikg.png",
       "type": "召喚",
       "cd": "5回合",
       "shoot": "自身",
@@ -12052,6 +12057,7 @@
     ],
     "support_skill": {
       "name": "光輪斬·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/2/23/hzs3ugqc3ou4imvz1s59x9snv3mqcki.png",
       "type": "物攻傷害",
       "cd": "1回合",
       "shoot": "十字4格",
