@@ -134,7 +134,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "主動使用，在指定2個格子布置「琳」和「琅」機關，持續3回合。若不處於自身「結界」中，則立刻在全場展開結界「驚雷待聲界」，持續3回合。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/c2/ai5aoyrxckyjxfihv2c2iddymagzwpn.png/80px-%E7%BB%9D%E5%AD%A6_%E7%90%B3%E7%90%85%E5%90%AF%E9%9C%87.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c2/ai5aoyrxckyjxfihv2c2iddymagzwpn.png"
       },
       {
         "name": "雷鳴·乾音界",
@@ -312,7 +312,7 @@
         "shoot": "7格",
         "range": "菱形1格",
         "desc": "選擇1個格子釋放，移除範圍內敵方隨機1個「有益狀態」，並召喚「羅睺化相」，持續3回合。「羅睺化相」會在每回合開始時擴大1格「戍援」範圍。\n「羅睺化相」「戍援」：當友方對「戍援」範圍內的敵方發起對戰後，將對範圍內所有格子造成1次0.2倍法攻傷害，並對目標施加1層「魔疫狀態」（每回合最多觸發3次）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/6/62/lyg2ji80lfrzhbxyzt0m3d4bggrc25i.png/80px-%E7%BB%9D%E5%AD%A6_%E6%B4%9E%E8%A7%A3%E5%A4%A9%E5%B9%95.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/6/62/lyg2ji80lfrzhbxyzt0m3d4bggrc25i.png"
       }
     ]
   },
@@ -476,7 +476,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "移除「靈淵」和「化境」狀態，並召喚「[[召喚物/白澤|白澤]]」和「[[召喚物/騶吾|騶吾]]」進行作戰（繼承自身80%氣血屬性，其他屬性繼承100%）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/c7/ct36t3q7d1fdajrlrht1ks8cirp4wod.png/80px-%E7%BB%9D%E5%AD%A6_%E5%B1%B1%E6%B5%B7%E5%85%B1%E4%B8%B4.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c7/ct36t3q7d1fdajrlrht1ks8cirp4wod.png"
       }
     ]
   },
@@ -564,7 +564,7 @@
         "shoot": "7格",
         "range": "單體",
         "desc": "選擇1個其他友方英靈，使其所有「有害狀態」持續時間-2，若目標未行動結束則使其和其全部召喚物變為已行動結束狀態且自身獲得再啟動。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/a/aa/g33rj3vx0juqa0dipr98r9uzqv337fw.png/80px-%E7%BB%9D%E5%AD%A6_%E9%80%86%E6%9B%9C%E8%BD%AE%E5%9B%9E.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/a/aa/g33rj3vx0juqa0dipr98r9uzqv337fw.png"
       },
       {
         "name": "飛槊貫雲",
@@ -574,7 +574,7 @@
         "shoot": "自身",
         "range": "直線5格",
         "desc": "對直線上第一個敵人造成1倍傷害，擊退目標2格，如果路線被阻擋，則施加「定身」狀態，持續1回合。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/e/ec/i1r4r8rbm42bl63v1zs9g5mil1toqs1.png/80px-%E7%BB%9D%E5%AD%A6_%E9%A3%9E%E6%A7%8A%E8%B4%AF%E4%BA%91.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/ec/i1r4r8rbm42bl63v1zs9g5mil1toqs1.png"
       },
       {
         "name": "冥影焚滅",
@@ -584,7 +584,7 @@
         "shoot": "自身",
         "range": "直線4x3格",
         "desc": "對範圍內所有敵人造成0.5倍傷害，擊退目標1格，在絕學範圍最遠端空格製造「劫壁」機關，持續2回合。\n「劫壁」：無法生成其他地形，不可停留，僅飛行和輕功角色可以跨越，無法被敵方的衝刺絕學穿過。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/9/9a/bog3dbz70egbcciy9umw85j538iywnt.png/80px-%E7%BB%9D%E5%AD%A6_%E5%86%A5%E5%BD%B1%E7%84%9A%E7%81%AD.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/9/9a/bog3dbz70egbcciy9umw85j538iywnt.png"
       },
       {
         "name": "暗帷",
@@ -594,7 +594,7 @@
         "shoot": "-",
         "range": "-",
         "desc": "行動結束時，若本次行動使用過絕學，自身獲得「暗鎧」狀態。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/1/1e/b6njqkqlj6zxqlokjrdge26p25csys4.png/80px-%E7%BB%9D%E5%AD%A6_%E6%9A%97%E5%B8%B7.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/1/1e/b6njqkqlj6zxqlokjrdge26p25csys4.png"
       }
     ]
   },
@@ -910,7 +910,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "主動使用，對單個友方施加「蝶霧」狀態（場上最多存在1個攜帶「蝶霧」狀態的友方），使目標「有益狀態」等級+1，「有害狀態」持續時間-1，自身獲得護盾（最大氣血的30%）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/5/5e/50ch9vosoqre17vh8ulid18qnxhbd36.png/80px-%E7%BB%9D%E5%AD%A6_%E5%86%A5%E8%9D%B6%E5%AF%84%E7%BE%BD.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/5/5e/50ch9vosoqre17vh8ulid18qnxhbd36.png"
       }
     ]
   },
@@ -1150,7 +1150,7 @@
         "shoot": "7格",
         "range": "單體",
         "desc": "主動使用，對單個其他角色施加「醉回春」狀態，持續2回合，對友方/敵方「女性角色」額外施加「憐香意」/「鎖驚鴻」狀態（場上最多存在1個攜帶「憐香意」/「鎖驚鴻」狀態的友方/敵方）。\n「醉回春」：行動結束後，反轉施加者1個「有害狀態」為「進攻類有益狀態」，並恢復其30%最大氣血\n「憐香意」：施加者代替攜帶者承受攻擊，且此次「對戰中」施加者免傷提高20%（觸發後移除）\n「鎖驚鴻」：若主動攻擊的目標中不包含施加者，攻擊前反轉自身2個「有益狀態」為「進攻類有害狀態」（觸發後移除）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/9/9f/iphgg2nfy7quodih5x2xd1d6thodpaz.png/80px-%E7%BB%9D%E5%AD%A6_%E9%86%89%E6%AD%8C%E7%82%B9%E5%A6%86.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/9/9f/iphgg2nfy7quodih5x2xd1d6thodpaz.png"
       }
     ]
   },
@@ -1390,7 +1390,7 @@
         "shoot": "全場",
         "range": "單體",
         "desc": "選擇傳送到「荒刃」機關周身1圈的空位，自身獲得再行動（2格）。絕學前在原地生成「荒刃」機關，持續2回合。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/1/10/iarvyf7hil0tf4nub5ds2sh4up559o9.png/80px-%E7%BB%9D%E5%AD%A6_%E8%A3%82%E7%A9%BA%C2%B7%E6%B5%81%E9%A3%8E.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/1/10/iarvyf7hil0tf4nub5ds2sh4up559o9.png"
       }
     ]
   },
@@ -1649,7 +1649,7 @@
         "shoot": "5格",
         "range": "1圈",
         "desc": "主動使用，選擇1個無阻擋的3*3空格處，召喚「[[召喚物/冥淵魁王|冥淵魁王]]」，持續3回合。「[[召喚物/冥淵魁王|冥淵魁王]]」氣血繼承召喚者對應屬性的200%，其他屬性繼承召喚者對應屬性的140%。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/8/86/4vm9fto5dgqt11hvi7gxlib32c3riuo.png/80px-%E7%BB%9D%E5%AD%A6_%E9%AD%94%E6%88%BE%E6%B8%8A%E7%9B%B8.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/8/86/4vm9fto5dgqt11hvi7gxlib32c3riuo.png"
       }
     ]
   },
@@ -1737,7 +1737,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "對目標施加2層「禁卦」「蝕魔I」狀態，持續2回合。獲得護盾（自身最大氣血的40%）。\n「禁卦」：每層傷害、治療量降低15%，若自身未行動結束，每個其他友方行動後移除1層。自身行動後消失。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/4/41/408sne3zdwrs0y7ani8qskowfzn11l2.png/80px-%E7%BB%9D%E5%AD%A6_%E5%8D%9C%E5%91%BD%C2%B7%E7%A6%81.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/4/41/408sne3zdwrs0y7ani8qskowfzn11l2.png"
       },
       {
         "name": "卜命·行",
@@ -1747,7 +1747,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "對目標施加2層「行卦」「疲弱I」狀態，持續2回合。獲得護盾（自身最大氣血的40%）。\n「行卦」：若自身未行動結束，每個其他友方行動後使1個不在冷卻中的傷害絕學獲得1回合冷卻並移除1層。自身行動後消失。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/a/ab/ehgx070tiai9kgplyxj36vux2y0dzzu.png/80px-%E7%BB%9D%E5%AD%A6_%E5%8D%9C%E5%91%BD%C2%B7%E8%A1%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/a/ab/ehgx070tiai9kgplyxj36vux2y0dzzu.png"
       }
     ]
   },
@@ -1835,7 +1835,7 @@
         "shoot": "",
         "range": "",
         "desc": "選擇1個施法方向，自身獲得對應方向的「無恙盾」狀態，護衛範圍提高到3格，持續3回合。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/1/11/l6rrygcojstli8k3vtxxoqvwkjjqyua.png/80px-%E7%BB%9D%E5%AD%A6_%E7%9B%BE%E5%8E%8B%E5%9B%9B%E6%96%B9.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/1/11/l6rrygcojstli8k3vtxxoqvwkjjqyua.png"
       }
     ]
   },
@@ -2015,7 +2015,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "主動使用，獲得再行動（3格）。若自身「有害狀態」數量大於3個，則轉化多餘數量「有害狀態」為「可升級有益狀態」（最多轉化3個）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/cd/87p4bkmdp4v3ai5ydux4j7ei6oyluzn.png/80px-%E7%BB%9D%E5%AD%A6_%E5%8C%96%E8%85%90%E7%94%9F%E8%82%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/cd/87p4bkmdp4v3ai5ydux4j7ei6oyluzn.png"
       }
     ]
   },
@@ -2103,7 +2103,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "主動使用，對2個其他友方目標施加「共生」狀態，複製自身3個「有益狀態」給目標。（場上最多存在2個攜帶「共生」狀態的友方）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/2/2c/nbdyxursupx477zsrp2i5utfp4pu0aa.png/80px-%E7%BB%9D%E5%AD%A6_%E5%B9%B6%E6%9E%9D%E5%90%8C%E5%BA%8F.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/2/2c/nbdyxursupx477zsrp2i5utfp4pu0aa.png"
       }
     ]
   },
@@ -2191,7 +2191,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "選擇1個其他友方，以目標為中心展開3格範圍領域「宿曜幽力」，持續3回合（場上最多存在1個自身施加的「宿曜幽力」狀態）。\n「宿曜幽力」：施加者的主動攻擊或使用絕學可以無視射程限制以3格範圍內的目標釋放（施加者「離場」時移除）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/cf/cdds0kttm6c8vy4m97p3bjwgkrj1y2v.png/80px-%E7%BB%9D%E5%AD%A6_%E5%B9%BD%E7%83%81%E5%87%AD%E7%A5%9E.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/cf/cdds0kttm6c8vy4m97p3bjwgkrj1y2v.png"
       }
     ]
   },
@@ -2355,7 +2355,7 @@
         "shoot": "全場",
         "range": "單體",
         "desc": "主動使用，對單個目標釋放，若目標為敵方，則額外施加1層「煞火」狀態，持續2回合，且預示該目標的下次行動（若首次行動主動攻擊過）。\n應驗預示時在全場展開結界「熾蟒天伐界」，持續3回合，若目標為敵方則額外對其施加「定身」狀態，持續1回合。\n「熾蟒天伐界」：友方炎屬相英靈全屬性提升10%，立即驅散敵方2個「有益狀態」並施加1層「燃燒」狀態，攜帶「燃燒」狀態的敵方受到「固定傷害」提高50%；友方炎屬相英靈主動攻擊造成傷害後，將基於首次「攻擊行為」釋放一次「烈炙封剎」/「殞火如織」（每人每回合觸發一次）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png/80px-絕學_洞若觀火·殺伐.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png"
       },
       {
         "name": "洞若觀火·謀算",
@@ -2365,7 +2365,7 @@
         "shoot": "全場",
         "range": "單體",
         "desc": "主動使用，對單個目標釋放，若目標為敵方，則額外施加1層「煞火」狀態，持續2回合，且預示該目標的下次行動（若首次行動釋放過非傷害絕學）。\n應驗預示時在全場展開結界「熾蟒謀動界」，持續3回合，若目標為敵方則額外對其施加「定身」狀態，持續1回合。\n「熾蟒謀動界」：友方炎屬相英靈全屬性提升10%，立即驅散敵方2個「有益狀態」並施加1層「燃燒」狀態，炎屬相英靈友方主動攻擊後對目標施加「燃燒」「煞火」狀態，持續2回合，冷卻時間最長的絕學冷卻-1。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/1/16/siiic75ib32xz84du8gdfhed7i6rg41.png/80px-絕學_洞若觀火·謀算.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/1/16/siiic75ib32xz84du8gdfhed7i6rg41.png"
       },
       {
         "name": "洞若觀火·蟄伏",
@@ -2375,7 +2375,7 @@
         "shoot": "全場",
         "range": "單體",
         "desc": "主動使用，對單個目標釋放，若目標為敵方，則額外施加1層「煞火」狀態，持續2回合，且預示該目標的下次行動（若首次行動為待機）。應驗預示時在全場展開結界「熾蟒伏養界」，持續3回合，若目標為敵方則額外對其施加「定身」狀態，持續1回合。\n「熾蟒伏養界」：友方炎屬相英靈全屬性提升10%，立即驅散敵方2個「有益狀態」並施加1層「燃燒」狀態，且立即反轉友方炎屬相英靈2個「有害狀態」為「熔鎧」和1個隨機「有益狀態」，炎屬相英靈友方受到的來自「燃燒」和「真炎」地形的「固定傷害」的50%轉化為治療，且主動攻擊「對戰後」，恢復傷害數值30%的氣血。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/0/03/oxixjk66jckd60unbv6fd59wbu6b5dd.png/80px-絕學_洞若觀火·蟄伏.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/0/03/oxixjk66jckd60unbv6fd59wbu6b5dd.png"
       },
       {
         "name": "烈炙封剎",
@@ -2385,7 +2385,7 @@
         "shoot": "1格",
         "range": "單體",
         "desc": "對單個敵人造成1次「固定傷害」（法攻+物攻的15%），次數最多為（「燃燒」狀態層數次），每次攻擊反轉目標1個「有益狀態」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png/80px-絕學_洞若觀火·殺伐.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png"
       },
       {
         "name": "殞火如織",
@@ -2395,7 +2395,7 @@
         "shoot": "1格",
         "range": "單體",
         "desc": "對絕學範圍內隨機敵人造成1次「固定傷害」（法攻+物攻的15%），次數最多為（1+絕學範圍內攜帶「燃燒」狀態角色數量*2，每個敵人最多可被攻擊2次），每次攻擊驅散目標1個「有益狀態」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png/80px-絕學_洞若觀火·殺伐.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/ee/l7novmenhem0rv36m78zhserbnw3ym4.png"
       }
     ]
   },
@@ -2483,7 +2483,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "主動使用，在指定格子布置1盞「長明燈」（上限3盞），持續3回合。\n「長明燈」：回合開始時，恢復1圈內友方氣血（恢復量為施術者法攻的0.5倍）並使「有害狀態」等級-1（無法疊加生效）。敵方拾取後自身「有益狀態」等級-1。敵方落位或妲己死亡後消失。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/a/ae/ew77q267an9e6amaoa1cuguivz1yjzn.png/80px-%E7%BB%9D%E5%AD%A6_%E5%87%AD%E8%BA%AB%E5%8C%96%E7%83%9B.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/a/ae/ew77q267an9e6amaoa1cuguivz1yjzn.png"
       }
     ]
   },
@@ -2571,7 +2571,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "對目標敵人施加「綾縛」狀態，持續2回合。\n「綾縛」：無法移動，遭受攻擊受到傷害後轉化自身1個「有益狀態」為「燃燒」狀態，持續2回合。若自身死亡則將「綾縛」狀態傳遞給2格範圍1名其他友方。（其他友方行動結束若處於自身1圈範圍降低1回合持續時間）（有害狀態，不可驅散）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/7/78/05ohbero2bz6xsilu8bghq2kng1thol.png/80px-%E7%BB%9D%E5%AD%A6_%E6%B7%B7%E5%A4%A9%E7%BC%9A%E6%B5%B7.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/7/78/05ohbero2bz6xsilu8bghq2kng1thol.png"
       }
     ]
   },
@@ -2887,7 +2887,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "自身切換為「妖魂虞兮」，並將「人魂」切換為「妖魂」。使用後切換自身「兵刃特性」，將絕學切換為「玄曄破封」「妖氛鎮魄」「諸靈退散」並刷新冷卻時間。\n「兵刃特性」：[丹陽][貫清]切換為[決明][鎖心]。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/2/29/n01rabazy7d77jc606sm4afgofq1mye.png/80px-%E7%BB%9D%E5%AD%A6_%E5%A6%96%E6%90%BA%E5%BD%B1.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/2/29/n01rabazy7d77jc606sm4afgofq1mye.png"
       },
       {
         "name": "靈返光",
@@ -2897,7 +2897,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "自身切換為「人魂虞兮」，並將「妖魂」切換為「人魂」。使用後切回自身「兵刃特性」，恢復為初始絕學並刷新冷卻時間。\n「兵刃特性」：[決明][鎖心]切換回[丹陽][貫清]。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/c9/jlusm2gmi88uk5yxy547v3bdxh8h4ft.png/80px-%E7%BB%9D%E5%AD%A6_%E7%81%B5%E8%BF%94%E5%85%89.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c9/jlusm2gmi88uk5yxy547v3bdxh8h4ft.png"
       },
       {
         "name": "諸靈退散",
@@ -2907,7 +2907,7 @@
         "shoot": "自身",
         "range": "菱形4格",
         "desc": "[被動]自身周圍3格內友方連擊，追擊和反擊的傷害提升20%，「對戰後」恢復自身氣血，恢復量為本次傷害的30%。\n[主動]對範圍內所有敵人造成0.6倍傷害，施加「引靈」狀態，持續1回合，偷取所有目標1個「有益狀態」並施加1個隨機「有害狀態」，對召喚物造成致命傷害。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/f/f6/q6fvjmpblg6pa65hnmlbu67zipuftor.png/80px-絕學_諸靈退散.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/f/f6/q6fvjmpblg6pa65hnmlbu67zipuftor.png"
       },
       {
         "name": "妖氛鎮魄",
@@ -2917,7 +2917,7 @@
         "shoot": "1格",
         "range": "單體",
         "desc": "攻擊單個敵人，造成1.5倍傷害，施加「逆闕」狀態，持續2回合，「對戰後」對氣血百分比最低的敵方施加「禁療」狀態，持續2回合，並造成1次法術傷害（法攻的50%）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/a/af/hya680sc8x7w6wnsuprxv0urqfkbvd2.png/80px-絕學_妖氛鎮魄.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/a/af/hya680sc8x7w6wnsuprxv0urqfkbvd2.png"
       },
       {
         "name": "玄曄破封",
@@ -2927,7 +2927,7 @@
         "shoot": "1格",
         "range": "單體",
         "desc": "攻擊單個敵人，造成1.6倍傷害，「對戰前」偷取目標2個「有益狀態」，若自身攜帶護盾，剋制攻擊加成提升20%且「對戰後」該絕學冷卻時間-2。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/6/62/dhnq4ppq1t4zh6avy2qf4fcp813b285.png/80px-絕學_玄曄破封.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/6/62/dhnq4ppq1t4zh6avy2qf4fcp813b285.png"
       }
     ]
   },
@@ -3015,7 +3015,7 @@
         "shoot": "自身",
         "range": "全場",
         "desc": "選擇1個方向，將全場敵方朝該方向擊退1格，自身獲得該方向的「風場」狀態，持續1回合。全場友方獲得「迅捷I」狀態，持續1回合。\n「風場」：敵方角色行動結束時，若本次行動未使用絕學，朝該方向擊退1格，若為飛行角色額外擊退1格。\n「迅捷I」：移動力+1",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/c1/4uj7ggeq443o5qrsv85rf1ds0sf65co.png/80px-%E7%BB%9D%E5%AD%A6_%E6%89%B6%E6%91%87%E9%9C%84%E6%B1%89.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c1/4uj7ggeq443o5qrsv85rf1ds0sf65co.png"
       }
     ]
   },
@@ -3255,7 +3255,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "消耗4層「鏡朦朧」，複製自身（複製的「朧夢嫿妖」除氣血外全屬性降低30%，無法使用「鏡分虛實」），行動與召喚者獨立，分身獲得「虛實莫測」狀態，持續2回合。\n「虛實莫測」：自身無法被敵方選中，行動結束時，給2格範圍敵方施加1個隨機「有害狀態」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/c9/ir5gz9w4srpzb44l0j7mtnak10uua8d.png/80px-%E7%BB%9D%E5%AD%A6_%E9%95%9C%E5%88%86%E8%99%9A%E5%AE%9E.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c9/ir5gz9w4srpzb44l0j7mtnak10uua8d.png"
       }
     ]
   },
@@ -3419,7 +3419,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "選擇5格內一個其他角色，根據目標屬相，變更自身屬相，不變更自身普攻和絕學屬相，獲得護盾（自身最大氣血的40%）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/ce/jwvey8aj1jlp20s61okkhgups0n7yig.png/80px-%E7%BB%9D%E5%AD%A6_%E4%BB%A5%E9%AA%A8%E5%8C%96%E5%BD%A2.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/ce/jwvey8aj1jlp20s61okkhgups0n7yig.png"
       }
     ]
   },
@@ -3507,7 +3507,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "主動使用，變成敵方目標（繼承自身「氣血百分比」和「有益/有害狀態」）並可立即行動，行動結束後變回原形。（無法對「悟空」和「特殊」單位使用）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/4/45/nnh2wvar8kd75y2vpxijma2lup2rpvu.png/80px-%E7%BB%9D%E5%AD%A6_%E4%B8%83%E5%8D%81%E4%BA%8C%E5%8F%98.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/4/45/nnh2wvar8kd75y2vpxijma2lup2rpvu.png"
       }
     ]
   },
@@ -3747,7 +3747,7 @@
         "shoot": "自身",
         "range": "十字5格",
         "desc": "「立刀勢」：警戒目標區域，自身獲得「縱切」狀態，持續1回合。\n「縱切」：敵方行動結束時，若處於自身十字5格範圍內，對目標所在方向平行5格範圍總共造成1倍傷害（觸發後移除）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/0/0b/aixfy30gm1aky6sfqcfa2ofeg21vee6.png/80px-%E7%BB%9D%E5%AD%A6_%E7%AB%8B%E5%88%80%E5%8A%BF.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/0/0b/aixfy30gm1aky6sfqcfa2ofeg21vee6.png"
       },
       {
         "name": "橫刀勢",
@@ -3757,7 +3757,7 @@
         "shoot": "自身",
         "range": "十字5格",
         "desc": "「橫刀勢」：警戒目標區域，自身獲得「橫斬」狀態，持續1回合。\n「橫斬」：敵方行動結束時，若處於自身十字5格範圍內，對目標所在方向垂直5格範圍總共造成1倍傷害（觸發後移除）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/2/21/6t8k358spfk4ourgy9ny6cy9t1ckght.png/80px-%E7%BB%9D%E5%AD%A6_%E6%A8%AA%E5%88%80%E5%8A%BF.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/2/21/6t8k358spfk4ourgy9ny6cy9t1ckght.png"
       }
     ]
   },
@@ -4301,7 +4301,7 @@
         "shoot": "2格",
         "range": "單體",
         "desc": "召喚1個「[[召喚物/封豨|封豨]]」進行作戰（繼承自身150%氣血屬性，其他屬性繼承100%，「[[召喚物/封豨|封豨]]」和「[[召喚物/昂昴|昂昴]]」場上同時只能存在1個）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/b/b1/i96dwaf0ry8lj6imtnetjf01w2dvi32.png/80px-%E7%BB%9D%E5%AD%A6_%E5%8F%AC%E5%94%A4%E5%B0%81%E8%B1%A8.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/b/b1/i96dwaf0ry8lj6imtnetjf01w2dvi32.png"
       },
       {
         "name": "召喚昂昴",
@@ -4311,7 +4311,7 @@
         "shoot": "2格",
         "range": "單體",
         "desc": "召喚1個「[[召喚物/昂昴|昂昴]]」進行作戰（繼承自身100%屬性，「[[召喚物/封豨|封豨]]」和「[[召喚物/昂昴|昂昴]]」場上同時只能存在1個）。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/0/09/tapakidhgoxq0yuo4yxux81bvhx7o1p.png/80px-%E7%BB%9D%E5%AD%A6_%E5%8F%AC%E5%94%A4%E6%98%82%E6%98%B4.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/0/09/tapakidhgoxq0yuo4yxux81bvhx7o1p.png"
       }
     ]
   },
@@ -4399,7 +4399,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "在全場展開結界「折竹界」，持續3回合。\n「折竹界」：友方冰屬相英靈全屬性提升10%，友方冰屬相英靈主動攻擊後對目標施加「遲緩I」狀態，持續2回合，若戰前目標已攜帶「遲緩」狀態則戰後使其「遲緩」狀態等級+1，並額外施加「冰霜」狀態，持續2回合。\n「遲緩I」：移動力-1，無法護衛\n「冰霜」：受治療效果、護盾獲得加成降低10%，達到3層時立刻受到1次「固定傷害」（當前氣血的20%），並在所在格製造敵方陣營的「霜凍」地形，持續2回合。（觸發後移除）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/4/4a/ig7v90zeodlqkub1mn87zmyyb8nostn.png/80px-%E7%BB%9D%E5%AD%A6_%E6%8A%98%E7%AB%B9%E7%95%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/4/4a/ig7v90zeodlqkub1mn87zmyyb8nostn.png"
       },
       {
         "name": "德慈界",
@@ -4409,7 +4409,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "在全場展開結界「德慈界」，持續3回合。\n「德慈界」：友方冰屬相英靈全屬性提升10%。友方冰屬相英靈遭受攻擊後恢復氣血（恢復量為施術者法攻的0.5倍）並獲得「冰清」狀態，持續2回合。\n「冰清」：免疫所有有害效果",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/cd/2mk0qsupko8eldfv6zxb6tdkp0cpi2l.png/80px-%E7%BB%9D%E5%AD%A6_%E5%BE%B7%E6%85%88%E7%95%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/cd/2mk0qsupko8eldfv6zxb6tdkp0cpi2l.png"
       },
       {
         "name": "雪重摺竹界",
@@ -4419,7 +4419,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "在全場展開結界「雪重摺竹界」，持續3回合。\n「雪重摺竹界」：友方冰屬相英靈全屬性提升10%，友方冰屬相英靈主動攻擊後對目標施加「遲緩I」「冰霜」狀態，持續2回合，並在目標格製造「霜凍」地形，持續2回合。若戰前目標已攜帶「遲緩」狀態則戰後使其「遲緩」狀態等級+1，並額外施加「冰霜」狀態，持續2回合。\n「遲緩I」：移動力-1，無法護衛\n「冰霜」：受治療效果、護盾獲得加成降低10%，達到3層時立刻受到1次「固定傷害」（當前氣血的20%），並在所在格製造敵方陣營的「霜凍」地形，持續2回合。（觸發後移除）\n「霜凍」：霜凍內的敵方角色，移動力-1",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/c/c5/jxdswyqrh7ie33myw2yr9grx108sa6h.png/80px-%E7%BB%9D%E5%AD%A6_%E9%9B%AA%E9%87%8D%E6%8A%98%E7%AB%B9%E7%95%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c5/jxdswyqrh7ie33myw2yr9grx108sa6h.png"
       },
       {
         "name": "冰心德慈界",
@@ -4429,7 +4429,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "在全場展開結界「冰心德慈界」，持續3回合。\n「冰心德慈界」：友方冰屬相英靈全屬性提升10%。友方冰屬相英靈遭受攻擊後恢復氣血（恢復量為施術者法攻的0.5倍）並獲得「冰清」狀態，持續2回合。敵方主動移動時，若移動距離小於3格則對主動移動後的格子製造敵方陣營的「霜凍」地形且自身獲得1層「冰霜」狀態，持續2回合。\n「冰清」：免疫所有有害效果\n「霜凍」：霜凍內的敵方角色，移動力-1\n「冰霜」：受治療效果、護盾獲得加成降低10%，達到3層時立刻受到1次「固定傷害」（當前氣血的20%），並在所在格製造敵方陣營的「霜凍」地形，持續2回合。（觸發後移除）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/5/5d/86qnvbpqb3xvd6gc3fuqp0v6vjjf6hw.png/80px-%E7%BB%9D%E5%AD%A6_%E5%86%B0%E5%BF%83%E5%BE%B7%E6%85%88%E7%95%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/5/5d/86qnvbpqb3xvd6gc3fuqp0v6vjjf6hw.png"
       }
     ]
   },
@@ -5353,7 +5353,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "選擇1個空格釋放，種植1株「生息草」，持續2回合。恢復2格範圍內所有友方氣血（恢復量為施術者法攻的0.3倍），驅散1個「有害狀態」。\n「生息草」：落位於1格範圍內時拾取，友方拾取時獲得「生息」狀態，持續2回合。敵方拾取時，獲得「䔄毒」狀態，持續2回合。\n「生息」：免疫敵方造成的「傳送」效果，「對戰後」恢復氣血（恢復量為施術者0.5倍法攻）並驅散1個「有害狀態」。\n「䔄毒」：攻擊前每移動1格，暴擊率降低15%（最多降低30%），行動結束時，損失10%最大氣血，若攻擊前每多移動1格，則額外損失10%最大氣血（最多額外20%）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/7/7c/nsyluz75jibeiwcoaaz6d1ilo2nom6g.png/80px-%E7%BB%9D%E5%AD%A6_%E7%A7%8D%E7%94%9F.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/7/7c/nsyluz75jibeiwcoaaz6d1ilo2nom6g.png"
       },
       {
         "name": "育殺",
@@ -5363,7 +5363,7 @@
         "shoot": "5格",
         "range": "單體",
         "desc": "選擇1個空格釋放，種植1株「命殺草」，持續2回合。恢復2格範圍內所有友方氣血（恢復量為施術者法攻的0.3倍），施加「刺骨I」狀態，持續2回合。\n「命殺草」：落位於1格範圍內時可拾取，友方拾取時獲得「命殺」狀態，持續2回合。敵方拾取時，使其自身發生1圈內「擾動」效果。\n「命殺」：免疫「屬性類降低」有害狀態，主動攻擊「對戰後」，使目標發生1圈內「擾動」效果。\n「刺骨I」：暴擊率+20%",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/7/7e/apvxuyn9hu1o4199m59woeoupmqzgk8.png/80px-%E7%BB%9D%E5%AD%A6_%E8%82%B2%E6%9D%80.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/7/7e/apvxuyn9hu1o4199m59woeoupmqzgk8.png"
       }
     ]
   },
@@ -5773,7 +5773,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "切換為光屬相，立刻恢復3格範圍內的友方氣血（恢復量為施術者法攻的0.75倍），施加2個隨機「有益狀態」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/a/a0/oicgyl3a07jef4h396xy7ywu619v97v.png/80px-%E7%BB%9D%E5%AD%A6_%E5%85%89%C2%B7%E8%87%AA%E5%9C%A8.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/a/a0/oicgyl3a07jef4h396xy7ywu619v97v.png"
       },
       {
         "name": "雷·自在",
@@ -5783,7 +5783,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "切換為雷屬相，立刻隨機對3格範圍敵人造成自身攜帶「有益狀態」數量次數（最多3次）的「固定傷害」（法攻的30%）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/8/88/ftntcrl12g2wrgjmjte3dgufwxy032h.png/80px-%E7%BB%9D%E5%AD%A6_%E9%9B%B7%C2%B7%E8%87%AA%E5%9C%A8.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/8/88/ftntcrl12g2wrgjmjte3dgufwxy032h.png"
       },
       {
         "name": "梵音超度",
@@ -5793,7 +5793,7 @@
         "shoot": "2格",
         "range": "單體",
         "desc": "攻擊單個敵人，造成1.5倍傷害，「對戰後」為全場氣血最低的友方恢復氣血（恢復量為施術者法攻的0.8倍），若目標攜帶「電流」狀態則天賦和該絕學冷卻減少1回合。\n切換為雷屬相時切換為「超度梵音」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/0/0a/4t64e9el90xfnvtx5cg0dwajh04r1er.png/80px-%E7%BB%9D%E5%AD%A6_%E6%A2%B5%E9%9F%B3%E8%B6%85%E5%BA%A6.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/0/0a/4t64e9el90xfnvtx5cg0dwajh04r1er.png"
       },
       {
         "name": "往生禮讚",
@@ -5803,7 +5803,7 @@
         "shoot": "自身",
         "range": "直線5格",
         "desc": "對範圍內所有敵人造成0.3倍傷害，每命中1個目標自身獲得1個隨機「有益狀態」（最多3個）。\n切換為雷屬相時切換為「禮讚往生」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/f/fc/nki8x2xtbfk57yxnmq7flj6f390p6fm.png/80px-%E7%BB%9D%E5%AD%A6_%E5%BE%80%E7%94%9F%E7%A4%BC%E8%B5%9E.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/f/fc/nki8x2xtbfk57yxnmq7flj6f390p6fm.png"
       },
       {
         "name": "羅剎道",
@@ -5813,7 +5813,7 @@
         "shoot": "自身",
         "range": "菱形3格",
         "desc": "[協攻]其他友方在自身3格內主動進入戰鬥時，則在「對戰前」為其施加「癒合」狀態，持續2回合。（每回合最多觸發2次）\n主動使用，恢復範圍內所有友方氣血（恢復量為施術者法攻的1倍），反轉2個「有害狀態」。\n切換為雷屬相時切換為「菩薩行」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/b/b1/oqko5v17uwy10au8vrekcky6bmgz0yw.png/80px-%E7%BB%9D%E5%AD%A6_%E7%BD%97%E5%88%B9%E9%81%93.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/b/b1/oqko5v17uwy10au8vrekcky6bmgz0yw.png"
       },
       {
         "name": "嘆妙伽藍",
@@ -5823,7 +5823,7 @@
         "shoot": "自身",
         "range": "菱形4格",
         "desc": "對範圍內所有敵人造成0.6倍傷害，暴擊率提高20%，使4格範圍內友方2個「有害狀態」轉化為隨機「有益狀態」，該絕學每造成1次暴擊，獲得1點氣力。\n[氣力技]消耗3點氣力，才可釋放絕學。（每造成1次傷害，受到傷害均可累積1點氣力）\n切換為雷屬相時切換為「天鼓伽藍」。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/6/69/82wwmo1h01tzghgpxmxulr55envjt6l.png/80px-%E7%BB%9D%E5%AD%A6_%E5%8F%B9%E5%A6%99%E4%BC%BD%E8%93%9D.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/6/69/82wwmo1h01tzghgpxmxulr55envjt6l.png"
       }
     ]
   },
@@ -6139,7 +6139,7 @@
         "shoot": "2格",
         "range": "單體",
         "desc": "主動使用，選擇2格範圍內的1個其他友方，目標和自身獲得「迴響」狀態。\n「迴響」：使用傷害絕學「對戰後」若2格內存在其他友方，該絕學冷卻-1（不可驅散，觸發後消耗）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/b/bb/pujx7nh40xp1utd82exxkml07vnz9co.png/80px-%E7%BB%9D%E5%AD%A6_%E5%85%B3%E5%88%87.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/b/bb/pujx7nh40xp1utd82exxkml07vnz9co.png"
       },
       {
         "name": "授業",
@@ -6149,7 +6149,7 @@
         "shoot": "2格",
         "range": "單體",
         "desc": "主動使用，選擇2格範圍內的1個其他友方，施加「望歸」和「迅捷I」狀態，持續2回合。\n「迅捷I」：移動力+1\n「望歸」：行動結束時若處於敵方危險範圍和施加者十字7格範圍內，則傳送至施加者身邊（不可驅散，觸發後消耗）",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/1/1f/bso99ds5e79iacn8999msu9l4zkv89w.png/80px-%E7%BB%9D%E5%AD%A6_%E6%8E%88%E4%B8%9A.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/1/1f/bso99ds5e79iacn8999msu9l4zkv89w.png"
       }
     ]
   },
@@ -6921,7 +6921,7 @@
         "shoot": "自身",
         "range": "菱形3格",
         "desc": "對3格內1個隨機敵方單位造成0.4倍物攻傷害",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/4/42/4ks3lro72qet9mtml5bdmkoeyet9xui.png/80px-%E7%BB%9D%E5%AD%A6_%E6%A8%AA%E8%B4%A2.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/4/42/4ks3lro72qet9mtml5bdmkoeyet9xui.png"
       },
       {
         "name": "迷竅",
@@ -6931,7 +6931,7 @@
         "shoot": "自身",
         "range": "菱形3格",
         "desc": "對3格內1個隨機敵方單位造成0.2倍物攻傷害並施加1個隨機「有害狀態」",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/1/1f/bso99ds5e79iacn8999msu9l4zkv89w.png/80px-%E7%BB%9D%E5%AD%A6_%E6%8E%88%E4%B8%9A.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/1/1f/bso99ds5e79iacn8999msu9l4zkv89w.png"
       }
     ]
   },
@@ -7360,7 +7360,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "主動使用，使自身氣血、位置、使用過的絕學重置到本回合行動前的狀態。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/d/d1/5nqc2xr6txj30filaw8fp0p4o7heosx.png/80px-%E7%BB%9D%E5%AD%A6_%E5%A4%8D%E5%88%9D.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/d/d1/5nqc2xr6txj30filaw8fp0p4o7heosx.png"
       }
     ]
   },
@@ -7676,7 +7676,7 @@
         "shoot": "7格",
         "range": "單體",
         "desc": "主動使用，對7格範圍內的1個敵方施加「離間」和「疲弱I」狀態，持續2回合",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/0/0d/h7enwbtoshrfh6i4h5eu2rc1d2780oq.png/80px-%E7%BB%9D%E5%AD%A6_%E6%8C%91%E6%8B%A8%E7%A6%BB%E9%97%B4.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/0/0d/h7enwbtoshrfh6i4h5eu2rc1d2780oq.png"
       },
       {
         "name": "傳風煽火",
@@ -7686,7 +7686,7 @@
         "shoot": "2格",
         "range": "單體",
         "desc": "主動使用，對2格範圍內的1個其他友方施加「煽動」和「激盪」狀態，持續3回合",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/9/97/3somc4hhl65eqh3dnmgijxune6kqu9k.png/80px-%E7%BB%9D%E5%AD%A6_%E4%BC%A0%E9%A3%8E%E7%85%BD%E7%81%AB.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/9/97/3somc4hhl65eqh3dnmgijxune6kqu9k.png"
       },
       {
         "name": "聚眾成勢",
@@ -7696,7 +7696,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "主動使用，複製2格範圍內其他友方隨機1個「有益狀態」並獲得「結黨」狀態，持續3回合",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/f/fb/nyb5524jq8d09d9deyd93txphj60a9p.png/80px-%E7%BB%9D%E5%AD%A6_%E8%81%9A%E4%BC%97%E6%88%90%E5%8A%BF.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/f/fb/nyb5524jq8d09d9deyd93txphj60a9p.png"
       }
     ]
   },
@@ -9282,7 +9282,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "下一個敵方角色使用非傷害絕學後觸發償願，對其施加「封咒」「疲弱I」狀態，持續1回合。\n「封咒」：無法使用主動「絕學」\n「疲弱I」：物攻、法攻-20%",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/3/39/g6bgda2p1rcchax46z7vzk5knttmskc.png/80px-%E7%BB%9D%E5%AD%A6_%E4%B8%80%E4%B8%96%E6%84%BF%C2%B7%E6%88%92%E5%BF%8C.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/3/39/g6bgda2p1rcchax46z7vzk5knttmskc.png"
       },
       {
         "name": "二世願·守護",
@@ -9292,7 +9292,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "下一個敵方角色發起攻擊「對戰前」觸發償願，對遭受攻擊的友方角色施加「神護II」「固元II」狀態，持續1回合。\n「神護II」：物理免傷+20%\n「固元II」：法術免傷+20%",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/3/36/j8fzuik7d70p8o6axr3e1lrhqkm34wf.png/80px-%E7%BB%9D%E5%AD%A6_%E4%BA%8C%E4%B8%96%E6%84%BF%C2%B7%E5%AE%88%E6%8A%A4.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/3/36/j8fzuik7d70p8o6axr3e1lrhqkm34wf.png"
       },
       {
         "name": "三世願·共念",
@@ -9302,7 +9302,7 @@
         "shoot": "自身",
         "range": "單體",
         "desc": "下一個敵方角色使用非對戰絕學造成傷害後觸發償願，為受到傷害的友方恢復25%氣血並累積1點氣力。",
-        "imgsrc": "https://patchwiki.biligame.com/images/tdj/thumb/e/ef/dp95kz41653w8drhlty7rfldhxu0krg.png/80px-%E7%BB%9D%E5%AD%A6_%E4%B8%89%E4%B8%96%E6%84%BF%C2%B7%E5%85%B1%E5%BF%B5.png"
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/ef/dp95kz41653w8drhlty7rfldhxu0krg.png"
       }
     ]
   },
