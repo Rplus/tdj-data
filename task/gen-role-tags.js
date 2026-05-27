@@ -10,6 +10,7 @@ const roles = read_json_file('./_pre/roles.src.json');
 const role_other_skills = read_json_file('./_pre/role_other_skills.src.json');
 
 const roles_has_adv_skill = Object.keys(role_other_skills).filter(i => role_other_skills[i]?.adv_skills.length);
+const roles_has_support_skill = Object.keys(role_other_skills).filter(i => role_other_skills[i]?.support_skill);
 
 // const kwd = '免除死亡';
 // const rrr = roles_details.map(i => {
@@ -61,6 +62,10 @@ let tags = [
 	{
 		tag: '再行動',
 		data: query_kwd('再行動'),
+	},
+	{
+		tag: '援襲技能', // support_skill
+		data: roles.map(r => !roles_has_support_skill.includes(r.pinyin) && [r.pinyin, r.name]).filter(Boolean),
 	},
 	// {
 	// 	tag: '無3C',
