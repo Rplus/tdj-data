@@ -25,7 +25,8 @@ function query_kwd(kwd = '') {
 		if (dd && JSON.stringify(dd).includes(kwd)) {
 			const { pinyin, name } = dd;
 			// acc.push(name + ' - ' + pinyin);
-			acc.push(pinyin);
+			// acc.push(pinyin);
+			acc.push([pinyin, name]);
 		}
 		return acc;
 	}, []);
@@ -47,16 +48,16 @@ let tags = [
 	{
 		tag: '召喚物',
 		// data: roles.map(r => r.summons && r.name + ' - ' + r.pinyin).filter(Boolean),
-		data: roles.map(r => r.summons && r.pinyin).filter(Boolean),
+		data: roles.map(r => r.summons && [r.pinyin, r.name]).filter(Boolean),
 	},
 	{
 		tag: '協攻',
 		data: [...new Set(['協攻', '友方主動發起對戰', '優先攻擊'].flatMap(tag => query_kwd(tag)))],
 	},
-	{
-		tag: '抵擋致命傷害',
-		data: query_kwd('抵擋致命傷害'),
-	},
+	// {
+	// 	tag: '抵擋致命傷害',
+	// 	data: query_kwd('抵擋致命傷害'),
+	// },
 	{
 		tag: '再行動',
 		data: query_kwd('再行動'),
@@ -68,22 +69,23 @@ let tags = [
 	{
 		tag: '剋制免死',
 		data: [
-			'nezha', // 哪吒
-			'wukong', // 悟空
-			'libai', // 李白
-			'xiangyin', // 相胤
-			'shuanghunyuxi', // 雙魂虞兮
-			'tianxuanyijian', // 天玄義劍
-			'jianxinwuxie', // 劍心無邪
+			['nezha', '哪吒'],
+			['libai', '李白'],
+			['yuebei', '月孛'],
+			['wukong', '悟空'],
+			['xiangyin', '相胤'],
+			['shuanghunyuxi', '雙魂虞兮'],
+			['tianxuanyijian', '天玄義劍'],
+			['jianxinwuxie', '劍心無邪'],
 		],
 	},
 	{
 		tag: '剋制召喚物',
 		data: [
-			'tianyinbaiwan', // 天音白菀
-			'shuanghunyuxi', // 雙魂虞兮
-			'luwensheng', // 陸文生
-			'luoyuannvhuang', // 羅淵女皇
+			['tianyinbaiwan', '天音白菀'],
+			['shuanghunyuxi', '雙魂虞兮'],
+			['luwensheng', '陸文生'],
+			['luoyuannvhuang', '羅淵女皇'],
 		],
 	},
 ];
@@ -1023,7 +1025,7 @@ let role_tag_map = {
 
 tags.forEach(item => {
 	item.data.forEach(i => {
-		role_tag_map[i].tags.push(item.tag);
+		role_tag_map[i[0]].tags.push(item.tag);
 	})
 });
 
