@@ -29,6 +29,9 @@ fetch-role:
 fetch-role--force:
 	bun ./task/fetch-role.mjs --force-fetch;
 
+gen-tags:
+	bun ./task/gen-role-tags.js;
+
 # fetch: fetch-ornament fetch-role print-date
 # 	echo 'done: update-data';
 

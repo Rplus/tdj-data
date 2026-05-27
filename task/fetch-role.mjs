@@ -15,6 +15,8 @@ import {
 	fetch_with_cached,
 } from './u-fetch-bili.mjs';
 
+import { role_tags, } from './gen-role-tags.js';
+
 // import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';
 
 
@@ -192,6 +194,12 @@ const op_roles = fetched_details
 		// attackive_tank
 		if ((role.career === '铁卫' || role.career === '鐵衛') && role.equipment?.[3]?.physical_attack) {
 			ooop.career2 = '猛士';
+		}
+
+		// tags
+		let tags = role_tags[role.pinyin]?.tags;
+		if (tags) {
+			ooop.tags = tags;
 		}
 
 		return ooop;
