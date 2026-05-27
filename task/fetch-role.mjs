@@ -114,9 +114,35 @@ outputJSON({
 	// space: 0,
 	cn2tw: true,
 });
+
+//// skills for query
+let skills_for_query = fetched_details.map(i => {
+		let role = i.data.data[0];
+		let skills = role.skill.map(ss => {
+			return {
+				name: ss.name,
+				desc: remove_html_tag(ss.desc),
+			};
+		});
+		if (role.godclass_weapon) {
+			let gg = role.godclass_weapon[role.godclass_weapon.length - 1];
+			skills.push({
+				name: gg.name,
+				desc: remove_html_tag(gg.desc),
+				type: 'godclass_weapon',
+			});
+		}
+		return {
+			name: role.name,
+			pinyin: role.pinyin,
+			star6: role.star6,
+			skills,
+		};
+	})
+
 outputJSON({
-	json: fetched_details,
-	fn: './_pre/roles_details.raw.json',
+	json: skills_for_query,
+	fn: './_pre/roles_skills_for_query.min.json',
 	space: 0,
 	cn2tw: true,
 });
