@@ -71,7 +71,7 @@ export async function fetch_bili_page_rest({
 	return res && parse_wikitext(res.source);
 }
 function parse_wikitext(str = '') {
-	const wikitext = clean_sub(str).replaceAll('<br>', '\n');
+	const wikitext = clean_sub(str).replaceAll('<br>', '\n').replace(/\[\[[^\]|]*\|([^\]]+)\]\]/g, '$1');
 	const ast = Parser.parse(wikitext);
 	const tpl = ast.querySelector('template');
 	const result = {};
