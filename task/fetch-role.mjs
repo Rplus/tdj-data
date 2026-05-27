@@ -114,6 +114,12 @@ outputJSON({
 	// space: 0,
 	cn2tw: true,
 });
+outputJSON({
+	json: fetched_details,
+	fn: './_pre/roles_details.raw.json',
+	space: 0,
+	cn2tw: true,
+});
 
 const all_icons = {};
 const all_strategy = [];
