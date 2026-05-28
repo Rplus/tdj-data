@@ -95,6 +95,16 @@ let tags = [
 	},
 ];
 
+tags.forEach(tag => {
+	tag.data.forEach(item => {
+		if (item[0] === '' && item[1]) {
+			let _role = roles.find(role => role.name === item[1]);
+			if (_role) {
+				item[0] = _role.pinyin;
+			}
+		}
+	})
+})
 
 outputJSON({
 	json: tags,
