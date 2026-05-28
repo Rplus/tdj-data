@@ -65,7 +65,7 @@ let tags = [
 	},
 	{
 		tag: '援襲技能', // support_skill
-		data: roles.map(r => !roles_has_support_skill.includes(r.pinyin) && [r.pinyin, r.name]).filter(Boolean),
+		data: roles.map(r => roles_has_support_skill.includes(r.pinyin) && [r.pinyin, r.name]).filter(Boolean),
 	},
 	// {
 	// 	tag: '無3C',
