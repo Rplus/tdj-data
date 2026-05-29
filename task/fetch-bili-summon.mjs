@@ -21,12 +21,13 @@ const raw = await fetch_with_cached({
 	// ignore_cached: true,
 });
 
+const keep_as_array = ['skills_name'];
 const bili_summons = Object.values(raw.query.results)
 	.map(i => {
 		let op = i.printouts;
 
 		for (let key in op) {
-			if (Array.isArray(op[key]) && op[key].length <= 1) {
+			if (Array.isArray(op[key]) && op[key].length <= 1 && !keep_as_array.includes(key)) {
 				op[key] = op[key][0] ?? null; // 有值就取第一個，沒值(空陣列)就給 null
 				if (key === 'name') {
 					op[key] = i.fulltext.replace('召唤物/', '');
