@@ -14,14 +14,14 @@ import {
 const FORCE_FETCH = process.argv.includes('--force-fetch');
 
 const raw = await fetch_with_cached({
-	url: 'https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:召唤物]]|?名称=name|?属相=prop|?职业=career|?射程=range|?移动=speed|?属性=status|?天赋=inherent_name|?绝学=skills_name&format=json',
+	url: 'https://wiki.biligame.com/tdj/api.php?action=ask&query=[[Category:召唤物]]|?名称=name|?属相=prop|?职业=career|?射程=range|?移动=speed|?属性=status|?天赋=inherent_name|?绝学=skill_names&format=json',
 	cached_path: 'bili-summon-list.query.res.json',
 	// is_json: true,
 	ignore_cached: FORCE_FETCH,
 	// ignore_cached: true,
 });
 
-const keep_as_array = ['skills_name'];
+const keep_as_array = ['skill_names'];
 const bili_summons = Object.values(raw.query.results)
 	.map(i => {
 		let op = i.printouts;
@@ -94,7 +94,7 @@ for (const summon of bili_summons) {
 	}
 
 	summon_data.push(op);
-	summon_skills_name.push(summon.skills_name);
+	summon_skills_name.push(summon.skill_names);
 }
 
 // fetch summon skills' data
@@ -417,7 +417,7 @@ for (const skill_name of summon_skills_name.flat()) {
 
 const all_data = {
 	summons: summon_data,
-	// skills_name: summon_skills_name.flat(),
+	// skill_names: summon_skills_name.flat(),
 	skills: uniq_array(summon_skills, 'name', 'desc')
 		.sort((a, b) => {
 			return a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' });
