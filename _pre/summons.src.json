@@ -15,7 +15,7 @@
         140
       ],
       "inherent_name": "萬殍冥甲",
-      "skills_name": [
+      "skill_names": [
         "冥讖",
         "化厲群噬",
         "千魄蕩魂"
@@ -42,7 +42,7 @@
         80
       ],
       "inherent_name": "凶劍戾魂",
-      "skills_name": [
+      "skill_names": [
         "滌罪之儀",
         "逆轉乾坤",
         "魂刻"
@@ -69,7 +69,7 @@
         100
       ],
       "inherent_name": "哮雲撼天",
-      "skills_name": [
+      "skill_names": [
         "掠風",
         "神嗥",
         "霆擊"
@@ -96,7 +96,7 @@
         140
       ],
       "inherent_name": "荒野狼王",
-      "skills_name": [
+      "skill_names": [
         "潛野蓄擊",
         "自然之靈",
         "覓血尋獵"
@@ -123,7 +123,9 @@
         70
       ],
       "inherent_name": "咒法挪移",
-      "skills_name": "守護",
+      "skill_names": [
+        "守護"
+      ],
       "key": "%E5%8F%AC%E5%94%A4%E7%89%A9%2F%E5%AE%88%E5%8D%AB%E7%81%B5%E4%BF%91",
       "owner": [
         "鄲陰",
@@ -146,7 +148,7 @@
         100
       ],
       "inherent_name": "熔甲魔焰",
-      "skills_name": [
+      "skill_names": [
         "三昧本相",
         "封豨易位",
         "怒火撼御"
@@ -173,7 +175,7 @@
         100
       ],
       "inherent_name": "咒法挪移",
-      "skills_name": [
+      "skill_names": [
         "亡厲爪襲",
         "天濁地動",
         "魔化外皮"
@@ -200,7 +202,7 @@
         80
       ],
       "inherent_name": "靈體役使",
-      "skills_name": [
+      "skill_names": [
         "偵察",
         "替死",
         "追蹤"
@@ -227,7 +229,7 @@
         80
       ],
       "inherent_name": "靈體役使·壹式",
-      "skills_name": [
+      "skill_names": [
         "偵察·壹式",
         "替死·壹式",
         "追蹤·壹式"
@@ -254,7 +256,7 @@
         80
       ],
       "inherent_name": "靈體役使·貳式",
-      "skills_name": [
+      "skill_names": [
         "偵察·貳式",
         "替死·貳式",
         "追蹤·貳式"
@@ -281,7 +283,7 @@
         0
       ],
       "inherent_name": "未知",
-      "skills_name": [
+      "skill_names": [
         "毒液",
         "盤絲"
       ],
@@ -307,7 +309,7 @@
         0
       ],
       "inherent_name": "靈械返身",
-      "skills_name": [
+      "skill_names": [
         "護繭",
         "毒液",
         "盤絲"
@@ -334,7 +336,7 @@
         100
       ],
       "inherent_name": "雷霆之力",
-      "skills_name": [
+      "skill_names": [
         "昂昴易位",
         "疾風迅雷",
         "風雷本相"
@@ -361,7 +363,7 @@
         50
       ],
       "inherent_name": "燈下玄明",
-      "skills_name": [
+      "skill_names": [
         "燈暈",
         "燭影搖紅",
         "裂袍咒"
@@ -388,7 +390,7 @@
         70
       ],
       "inherent_name": "機巧甲仙",
-      "skills_name": [
+      "skill_names": [
         "掩護",
         "械角守衛"
       ],
@@ -414,7 +416,7 @@
         70
       ],
       "inherent_name": "機巧甲仙·壹式",
-      "skills_name": [
+      "skill_names": [
         "掩護·壹式",
         "械角守衛·壹式"
       ],
@@ -440,7 +442,7 @@
         70
       ],
       "inherent_name": "機巧甲仙·貳式",
-      "skills_name": [
+      "skill_names": [
         "掩護·貳式",
         "械角守衛·貳式"
       ],
@@ -466,7 +468,7 @@
         100
       ],
       "inherent_name": "通世瑞靈",
-      "skills_name": [
+      "skill_names": [
         "巧躍",
         "明照",
         "靈淵"
@@ -493,7 +495,7 @@
         15
       ],
       "inherent_name": "未知",
-      "skills_name": [
+      "skill_names": [
         "祭品",
         "禁血滅殺"
       ],
@@ -519,7 +521,9 @@
         15
       ],
       "inherent_name": "未知",
-      "skills_name": "禁血滅殺·壹式",
+      "skill_names": [
+        "禁血滅殺·壹式"
+      ],
       "key": "%E5%8F%AC%E5%94%A4%E7%89%A9%2F%E7%A7%BD%E5%9C%9F%E7%81%B5%E4%BF%91%C2%B7%E5%A3%B9",
       "owner": [
         "鄲陰",
@@ -542,7 +546,9 @@
         20
       ],
       "inherent_name": "未知",
-      "skills_name": "禁血滅殺·貳式",
+      "skill_names": [
+        "禁血滅殺·貳式"
+      ],
       "key": "%E5%8F%AC%E5%94%A4%E7%89%A9%2F%E7%A7%BD%E5%9C%9F%E7%81%B5%E4%BF%91%C2%B7%E8%B4%B0",
       "owner": [
         "鄲陰",
@@ -565,7 +571,7 @@
         100
       ],
       "inherent_name": "五采仁獸",
-      "skills_name": [
+      "skill_names": [
         "化境",
         "天嘯",
         "驍騰"
