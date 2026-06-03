@@ -8,16 +8,16 @@ import Parser from 'wikiparser-node';
 import { etag_cache } from './u-etag.js';
 
 export const key_map = {
+	// '绝学': {
+	// 	'绝学名称': 'name',
+	// 	'绝学类别': 'type',
+	// 	'绝学冷却': 'cd',
+	// 	'绝学消耗': 'cost',
+	// 	'绝学射程': 'shoot',
+	// 	'绝学范围': 'range',
+	// 	'绝学描述': 'desc',
+	// },
 	'绝学': {
-		'绝学名称': 'name',
-		'绝学类别': 'type',
-		'绝学冷却': 'cd',
-		'绝学消耗': 'cost',
-		'绝学射程': 'shoot',
-		'绝学范围': 'range',
-		'绝学描述': 'desc',
-	},
-	'绝学化神': {
 		'名称': 'name',
 		'类别': 'type',
 		'冷却': 'cd',
@@ -42,9 +42,10 @@ export function trans_key_map(item = {}, template = '绝学', remove_template = 
 	const mapping = key_map[template || data.template]; // 根據 template 找到轉換規則
 	const newItem = {};
 	Object.keys(item).forEach(key => {
-		if (mapping?.[key]) {
+		let _key = key.replace('绝学', '');
+		if (mapping?.[_key]) {
 			// 如果 key_map 有定義，使用新名稱
-			newItem[mapping[key]] = item[key];
+			newItem[mapping[_key]] = item[key];
 		} else {
 			// 如果沒定義（如 template 本身），保留原始名稱或視需求捨棄
 			newItem[key] = item[key];
