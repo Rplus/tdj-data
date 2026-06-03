@@ -271,9 +271,9 @@ let role_tag_map = {
 		'pinyin': 'shenhuangbingli',
 		'tags': []
 	},
-	'mosuhuoyong': {
+	'moxiuhuoyong': {
 		'name': '魔宿霍雍',
-		'pinyin': 'mosuhuoyong',
+		'pinyin': 'moxiuhuoyong',
 		'tags': []
 	},
 	'qinse': {
@@ -1184,6 +1184,10 @@ let role_tag_map = {
 
 tags.forEach(item => {
 	item.data.forEach(i => {
+		if (!role_tag_map[i[0]]) {
+			console.log(i[0]);
+			return;
+		}
 		role_tag_map[i[0]].tags.push(item.tag);
 	})
 });
