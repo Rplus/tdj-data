@@ -1,5 +1,49 @@
 [
   {
+    "name": "關羽",
+    "rarity": "SSR",
+    "prop": "雷",
+    "hero_icon": "Hero2029_HeadIcon_Basic",
+    "career": "鬥將",
+    "pinyin": "guanyu",
+    "pic": "Hero2029_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "path": "%E5%85%B3%E7%BE%BD",
+    "status": {
+      "hp": 203,
+      "atk_mag": 13,
+      "atk_phy": 105,
+      "def_mag": 23,
+      "def_phy": 41,
+      "crit": 34
+    },
+    "strategy": "義勇無雙陣"
+  },
+  {
+    "name": "諸葛亮",
+    "rarity": "SSR",
+    "prop": "神",
+    "hero_icon": "Hero2031_HeadIcon_Basic",
+    "career": "咒師",
+    "pinyin": "zhugeliang",
+    "pic": "Hero2031_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "path": "%E8%AF%B8%E8%91%9B%E4%BA%AE",
+    "status": {
+      "hp": 185,
+      "atk_mag": 107,
+      "atk_phy": 14,
+      "def_mag": 36,
+      "def_phy": 30,
+      "crit": 25
+    },
+    "strategy": "六韜信戰陣"
+  },
+  {
     "name": "天音白菀",
     "rarity": "SSR",
     "prop": "神",
@@ -66,6 +110,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
+    "pinyin_tw": "shenhuangbingli",
     "path": "%E7%A5%9E%E7%85%8C%E5%86%B0%E7%92%83",
     "status": {
       "hp": 208,
@@ -88,11 +133,12 @@
     "prop": "魔",
     "hero_icon": "Hero1504_HeadIcon_Basic",
     "career": "鬥將",
-    "pinyin": "mosuhuoyong",
+    "pinyin": "moxiuhuoyong",
     "pic": "Hero1504_img",
     "position": "近攻",
     "range": "1",
     "speed": "4",
+    "pinyin_tw": "moxiuhuoyong",
     "path": "%E9%AD%94%E5%AE%BF%E9%9C%8D%E9%9B%8D",
     "status": {
       "hp": 191,
