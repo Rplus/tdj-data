@@ -1,5 +1,5 @@
 import fs from 'fs';
-import pLimit from 'p-limit';
+// import pLimit from 'p-limit';
 import {
 	raw_data,
 	outputJSON,
@@ -22,7 +22,7 @@ import { role_tags, } from './gen-role-tags.js';
 
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');
-const fetch_limit = pLimit(5);
+// const fetch_limit = pLimit(5);
 
 let all_summons = null;
 
@@ -39,14 +39,12 @@ try {
 const roles_tw = await fetch_with_cached({
 	url: raw_data.roles.url('tw'),
 	cached_path: 'roles.tw.res.json',
-	is_json: true,
-	ignore_cached: FORCE_FETCH,
+	ignore_cached: true,
 });
 const roles_cn = await fetch_with_cached({
 	url: raw_data.roles.url('cn'),
 	cached_path: 'roles.cn.res.json',
-	is_json: true,
-	ignore_cached: FORCE_FETCH,
+	ignore_cached: true,
 });
 
 const tw_map = new Map(
