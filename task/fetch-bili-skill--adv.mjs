@@ -108,7 +108,7 @@ outputJSON({
 });
 
 outputJSON({
-	json: trans_array_key_map(adv_skills, '绝学'),
+	json: trans_array_key_map(adv_skills, '绝学化神'),
 	fn: `./_mid/adv_skills.json`,
 	// space: 0,
 	// cn2tw: true,

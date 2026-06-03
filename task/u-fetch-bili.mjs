@@ -17,6 +17,15 @@ export const key_map = {
 		'绝学范围': 'range',
 		'绝学描述': 'desc',
 	},
+	'绝学化神': {
+		'名称': 'name',
+		'类别': 'type',
+		'冷却': 'cd',
+		'消耗': 'cost',
+		'射程': 'shoot',
+		'范围': 'range',
+		'描述': 'desc',
+	},
 	'援袭绝学': {
 		'名称': 'name',
 		'所属': 'owner',
