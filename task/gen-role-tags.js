@@ -1182,6 +1182,18 @@ let role_tag_map = {
 	}
 };
 
+role_tag_map = {
+	...roles.reduce((all, r) => {
+		all[r.pinyin] = {
+			name: r.name,
+			pinyin: r.pinyi,
+			tags: [],
+		};
+		return all;
+	}, {}),
+	...role_tag_map,
+}
+
 tags.forEach(item => {
 	item.data.forEach(i => {
 		if (!role_tag_map[i[0]]) {
