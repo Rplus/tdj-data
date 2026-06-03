@@ -1,5 +1,41 @@
 // bili wiki 爬得到的額外技能
 export const extra_fetching_resource = {
+	'zhugeliang': {
+		'pinyin': 'zhugeliang',
+		'name': '諸葛亮',
+		'skills': [
+			{
+				'name': '观星·争锋',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/0/0b/sguj2i9pp149u8rnw315el75xxxwjt7.png'
+			},
+			{
+				'name': '观星·解厄',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/c/c9/n5ju45mdnib9dmunth03az96kvlgbke.png'
+			},
+			{
+				'name': '观星·持守',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/b/bd/mc0b4lq9jh0c4es0gfmngobuo0v6vyr.png'
+			},
+		]
+	},
+	'guanyu': {
+		'pinyin': 'guanyu',
+		'name': '關羽',
+		'skills': [
+			{
+				'name': '偃月',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/f/f3/f1hp8r4v721wm3mnohxmc3grxzpt9xd.png'
+			},
+			{
+				'name': '夜觀韜略',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/6/64/2d55hl4wb8gf26772m0mwybf8oeqj6y.png'
+			},
+			{
+				'name': '止戈',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/d/d5/jctj4vcp9vs3i6d36ogkbf5t3e8ew6y.png'
+			},
+		]
+	},
 	'zitingsiming': {
 		'pinyin': 'zitingsiming',
 		'name': '紫霆司命',

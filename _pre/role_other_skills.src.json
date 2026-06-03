@@ -73,6 +73,38 @@
           "desc": "攻擊單個敵人，造成1.8倍傷害，暴擊率+20%。\n主動攻擊「對戰前」每有1層「飛馳」狀態，暴擊傷害+5%（最高25%）。若「對戰前」移動距離大於3格，本次攻擊無法閃避。「對戰後」自身獲得「威震華夏·懾」狀態，持續2回合。若擊殺目標或目標觸發「抵擋致命傷害」的效果，則自身對1圈範圍內敵方施加「失魂」狀態，持續1回合，絕學後可選擇使用絕學「君侯顯聖·貳式」。\n[氣力技]消耗3點氣力，才可釋放絕學（每造成1次傷害累計1點氣力，受到傷害均可累積1點氣力，暴擊額外獲得1點氣力）。"
         }
       ]
+    ],
+    "extra_skills": [
+      {
+        "name": "偃月",
+        "type": "物攻傷害",
+        "cd": "2回合",
+        "cost": "-",
+        "shoot": "1圈",
+        "range": "單體",
+        "desc": "造成1.5倍傷害，施加「蝕御I」「電流」狀態，持續2回合。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/f/f3/f1hp8r4v721wm3mnohxmc3grxzpt9xd.png"
+      },
+      {
+        "name": "夜觀韜略",
+        "type": "支援",
+        "cd": "3回合",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "desc": "主動使用，為範圍內所有友方施加「雷鎧」「刺骨I」狀態，持續3回合。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/6/64/2d55hl4wb8gf26772m0mwybf8oeqj6y.png"
+      },
+      {
+        "name": "止戈",
+        "type": "被動",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "-",
+        "range": "-",
+        "desc": "閃避1次「物理攻擊」，每成功閃避1次「物理攻擊」，獲得1層 「飛馳」狀態。（每回合觸發2次）",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/d/d5/jctj4vcp9vs3i6d36ogkbf5t3e8ew6y.png"
+      }
     ]
   },
   "zhugeliang": {
@@ -149,6 +181,38 @@
           "desc": "對範圍內所有敵人造成0.8倍傷害，暴擊率提高20%，絕學後，額外對選中格目標觸發1次「伏火連陣·潰」。\n「伏火連陣·潰」：對自身周圍1格範圍內友方造成1次法攻傷害（施加者法攻的0.1倍）並施加1個「可升級有害狀態」和1層「神序狀態」，觸發後將此狀態傳到給周圍1格內所有未觸發過此狀態的友方。\n[氣力技]消耗3點氣力，才可釋放絕學。（每造成1次傷害累計1點氣力，觀星預判成功額外獲得3點氣力）"
         }
       ]
+    ],
+    "extra_skills": [
+      {
+        "name": "觀星·爭鋒",
+        "type": "支援",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "單體",
+        "desc": "下一個敵方角色發起攻擊前，對目標施加「敗露」狀態。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/0/0b/sguj2i9pp149u8rnw315el75xxxwjt7.png"
+      },
+      {
+        "name": "觀星·解厄",
+        "type": "支援",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "單體",
+        "desc": "下一個敵方角色使用非傷害絕學前，對目標施加「敗露」狀態。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c9/n5ju45mdnib9dmunth03az96kvlgbke.png"
+      },
+      {
+        "name": "觀星·持守",
+        "type": "支援",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "單體",
+        "desc": "下一個敵方角色待機後，對目標施加「敗露」狀態。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/b/bd/mc0b4lq9jh0c4es0gfmngobuo0v6vyr.png"
+      }
     ]
   },
   "tianyinbaiwan": {
