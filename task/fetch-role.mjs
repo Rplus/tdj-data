@@ -130,10 +130,15 @@ let skills_for_query = fetched_details.map(i => {
 				type: 'godclass_weapon',
 			});
 		}
+		skills.push({
+			name: role.inherent_name,
+			desc: role.star6,
+			type: 'inherent',
+		})
 		return {
 			name: role.name,
 			pinyin: role.pinyin,
-			star6: role.star6,
+			// star6: role.star6,
 			skills,
 		};
 	})
