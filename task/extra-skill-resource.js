@@ -46,8 +46,8 @@ export const extra_fetching_resource = {
 			},
 		]
 	},
-	'mosuhuoyong': {
-		'pinyin': 'mosuhuoyong',
+	'moxiuhuoyong': {
+		'pinyin': 'moxiuhuoyong',
 		'name': '魔宿霍雍',
 		'skills': [
 			{
