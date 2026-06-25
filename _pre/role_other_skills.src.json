@@ -1163,6 +1163,16 @@
         "range": "單體",
         "desc": "主動使用，對單個友方施加「蝶霧」狀態（場上最多存在1個攜帶「蝶霧」狀態的友方），使目標「有益狀態」等級+1，「有害狀態」持續時間-1，自身獲得護盾（最大氣血的30%）。",
         "imgsrc": "https://patchwiki.biligame.com/images/tdj/5/5e/50ch9vosoqre17vh8ulid18qnxhbd36.png"
+      },
+      {
+        "name": "化繭成蝶",
+        "type": "主動",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "單體",
+        "desc": "主動使用，變成此處陣亡的友方目標（繼承自身「氣血百分比」和「有益/有害狀態」），並獲得「蝶霧」狀態。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/e8/hgy1kj7a5ehqvmo0prxbof00qpv0vdw.png"
       }
     ]
   },
