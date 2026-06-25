@@ -95,6 +95,10 @@ export const extra_fetching_resource = {
 			{
 				'name': '冥蝶寄羽',
 				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/5/5e/50ch9vosoqre17vh8ulid18qnxhbd36.png'
+			},
+			{
+				'name': '化繭成蝶',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/e/e8/hgy1kj7a5ehqvmo0prxbof00qpv0vdw.png'
 			}
 		]
 	},
