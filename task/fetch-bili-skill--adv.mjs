@@ -47,6 +47,11 @@ for (const role of roles) {
 			ignore_cached: FORCE_FETCH,
 		});
 
+		if (!data) {
+			console.log(111, 'error data:', role);
+			continue;
+		}
+
 		const adv_skills = [
 				(data['绝学化神1'] || '').split(',').filter(Boolean),
 				(data['绝学化神2'] || '').split(',').filter(Boolean),
