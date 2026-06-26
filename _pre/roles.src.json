@@ -1,5 +1,27 @@
 [
   {
+    "name": "妖佑宇韶容",
+    "rarity": "SSR",
+    "prop": "幽",
+    "hero_icon": "Hero2510_HeadIcon_Basic",
+    "career": "鬥將",
+    "pinyin": "yaoyouyushaorong",
+    "pic": "Hero2510_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "4",
+    "path": "%E5%A6%96%E4%BD%91%E5%AE%87%E9%9F%B6%E5%AE%B9",
+    "status": {
+      "hp": 186,
+      "atk_mag": 105,
+      "atk_phy": 14,
+      "def_mag": 27,
+      "def_phy": 35,
+      "crit": 25
+    },
+    "strategy": "往生斷厄陣"
+  },
+  {
     "name": "關羽",
     "rarity": "SSR",
     "prop": "雷",
@@ -51,7 +73,10 @@
       "免死",
       "再啟動",
       "陣眼",
-      "再行動"
+      "再行動",
+      "機關",
+      "剋制機關",
+      "剋制地形"
     ]
   },
   {
@@ -250,8 +275,8 @@
     },
     "strategy": "鬼噬御武陣",
     "tags": [
-      "再啟動",
       "免死",
+      "再啟動",
       "陣眼",
       "機關"
     ]
@@ -3930,9 +3955,9 @@
       "穢土靈俑·貳"
     ],
     "tags": [
-      "協攻",
       "免死",
       "召喚物",
+      "協攻",
       "援襲技能"
     ]
   },
