@@ -128,6 +128,7 @@
     "position": "遠攻",
     "range": "2",
     "speed": "3",
+    "pinyin_tw": "zitingsiming",
     "path": "%E7%B4%AB%E9%9C%86%E5%8F%B8%E5%91%BD",
     "status": {
       "hp": 182,
