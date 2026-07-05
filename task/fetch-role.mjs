@@ -35,6 +35,15 @@ try {
 	all_summons = { summons: [], skills: [], };
 }
 
+let all_skins = null;
+try {
+	const raw = fs.readFileSync('./_pre/role_with_skin_imgs.json', 'utf8');
+	all_skins = JSON.parse(raw);
+} catch (err) {
+	console.error('讀取 role_with_skin_imgs.json 失敗:', err.message);
+	// 這裡可以選擇給預設值
+	all_skins = {};
+}
 
 const roles_tw = await fetch_with_cached({
 	url: raw_data.roles.url('tw'),
@@ -225,6 +234,11 @@ const op_roles = fetched_details
 			...(summons && {summons}),
 
 		};
+
+		let skins = all_skins[role.pinyin]?.skins;
+		if (skins) {
+			ooop.skins = skins;
+		}
 
 		// attackive_tank
 		if ((role.career === '铁卫' || role.career === '鐵衛') && role.equipment?.[3]?.physical_attack) {
