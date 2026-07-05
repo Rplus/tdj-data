@@ -20,6 +20,10 @@
       "crit": 25
     },
     "strategy": "往生斷厄陣",
+    "skins": {
+      "重淵赤影": "https://patchwiki.biligame.com/images/tdj/9/9a/62puat6b71gaxcy0rkue1adqngcv8nw.png",
+      "妖佑宇韶容": "https://patchwiki.biligame.com/images/tdj/d/d1/hidhygws1te4ey7s4ul0qfkjipql2h2.png"
+    },
     "tags": [
       "免死",
       "再啟動",
@@ -53,6 +57,10 @@
       "crit": 34
     },
     "strategy": "義勇無雙陣",
+    "skins": {
+      "破雪行": "https://patchwiki.biligame.com/images/tdj/d/d4/elgtsou1ftlyhedxtbpdlux71i7w6cs.png",
+      "關羽": "https://patchwiki.biligame.com/images/tdj/5/5f/trrhau8bsll4qs43o0p18suhg4muul3.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -80,6 +88,10 @@
       "crit": 25
     },
     "strategy": "六韜信戰陣",
+    "skins": {
+      "無薄我": "https://patchwiki.biligame.com/images/tdj/9/9d/gyck4nmfsiupw5c76mbgz6auohfzkwx.png",
+      "諸葛亮": "https://patchwiki.biligame.com/images/tdj/9/94/izx1r6e90t8cjmyv9ulybq0q3c7dcu5.png"
+    },
     "tags": [
       "免死",
       "再啟動",
@@ -111,6 +123,10 @@
       "crit": 14
     },
     "strategy": "聆音濟慈陣",
+    "skins": {
+      "夜闌將寐": "https://patchwiki.biligame.com/images/tdj/2/2f/bkgfmrlvkqqnuwcy5tihwndovzrbt0g.png",
+      "天音白菀": "https://patchwiki.biligame.com/images/tdj/f/f5/qto0mpzbapbde65cdngu9boazmfb08j.png"
+    },
     "tags": [
       "陣眼",
       "協攻",
@@ -139,6 +155,10 @@
       "crit": 34
     },
     "strategy": "九天雲雷陣",
+    "skins": {
+      "芳菲不見": "https://patchwiki.biligame.com/images/tdj/c/c3/0x2x3ep3gjyyqc94rzuzz7qg2wpiu5g.png",
+      "紫霆司命": "https://patchwiki.biligame.com/images/tdj/9/9d/3wru0qt22fsowc69hzn30ln132jyb5u.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -169,6 +189,10 @@
       "crit": 20
     },
     "strategy": "羅淵歸誓陣",
+    "skins": {
+      "漫籠寒紗": "https://patchwiki.biligame.com/images/tdj/b/b8/gi8f7g3ihfkf2z955uvy3obaoj1e2t4.png",
+      "神煌冰璃": "https://patchwiki.biligame.com/images/tdj/4/42/szmroxtphsh23d1qmtlp0ekyj6dzjfh.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -230,6 +254,10 @@
       "crit": 20
     },
     "strategy": "群芳馥鬱陣",
+    "skins": {
+      "早春曲": "https://patchwiki.biligame.com/images/tdj/d/d5/jxlhu6wmcd2p2niv6iobkeydqrz1okw.png",
+      "琴色": "https://patchwiki.biligame.com/images/tdj/4/4e/ijv6uyh2iarirznkk1edezd07xj2c28.png"
+    },
     "tags": [
       "再啟動",
       "陣眼",
@@ -261,6 +289,10 @@
       "白澤",
       "騶吾"
     ],
+    "skins": {
+      "曜靈渡幽": "https://patchwiki.biligame.com/images/tdj/7/72/es7hz880vxdut1t1j9lvrp0xhdmv7y6.png",
+      "尉遲慎": "https://patchwiki.biligame.com/images/tdj/a/a5/n6owjtqe4lwgxhlqkj5eqsxbvtjhwvt.png"
+    },
     "tags": [
       "免死",
       "召喚物",
@@ -289,6 +321,10 @@
       "crit": 20
     },
     "strategy": "鬼噬御武陣",
+    "skins": {
+      "鐵馬冰河": "https://patchwiki.biligame.com/images/tdj/1/18/jv3f8lzicvwrf8h4vi7eotjchl44dei.png",
+      "暗曜陽寰": "https://patchwiki.biligame.com/images/tdj/0/06/t7mwy9qvhau0h7oq78sdqcjk27xg31n.png"
+    },
     "tags": [
       "免死",
       "再啟動",
@@ -319,6 +355,10 @@
       "crit": 51
     },
     "strategy": "邀月三人陣",
+    "skins": {
+      "將進酒": "https://patchwiki.biligame.com/images/tdj/4/4c/9q8soy1kamr7nj4l2hn7tidu35erk22.png",
+      "李白": "https://patchwiki.biligame.com/images/tdj/9/9e/a6xwb6mohwob3nzupoqumabivxoteuo.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -347,6 +387,10 @@
       "def_phy": 31,
       "crit": 22
     },
+    "skins": {
+      "仙人承酒": "https://patchwiki.biligame.com/images/tdj/4/4a/qvn30lzqnvadv30esigjjaygm3ltr97.png",
+      "上元夫人": "https://patchwiki.biligame.com/images/tdj/9/9e/qzhxzv9lw2872gcgn12abixpny5ygeh.png"
+    },
     "tags": [
       "協攻"
     ]
@@ -373,6 +417,10 @@
       "crit": 45
     },
     "strategy": "幽燭攝魂陣",
+    "skins": {
+      "羲和之未揚": "https://patchwiki.biligame.com/images/tdj/0/07/eos275jhocebf13jv7a4cdcvlzae9oc.png",
+      "刀八": "https://patchwiki.biligame.com/images/tdj/f/ff/4a46xgftt69vtmit6kagvpycfaatnrm.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -399,6 +447,11 @@
       "def_mag": 28,
       "def_phy": 37,
       "crit": 20
+    },
+    "skins": {
+      "和景幽夢": "https://patchwiki.biligame.com/images/tdj/c/c4/6e0hl1omeixguf11h0pjn83u3cxscw7.png",
+      "垂雲逐月": "https://patchwiki.biligame.com/images/tdj/5/5d/higy9t6mpk80x63kahsm1gpwzgsoute.png",
+      "承影": "https://patchwiki.biligame.com/images/tdj/b/bb/ijbvckxr1vo8aivw9f51da9et61gcav.png"
     },
     "tags": [
       "機關",
@@ -430,6 +483,11 @@
       "crit": 22
     },
     "strategy": "幽獄伏邪陣",
+    "skins": {
+      "行道崢嶸": "https://patchwiki.biligame.com/images/tdj/3/36/ozvty02x6n6otxalbteyrgckcf2mexb.png",
+      "迷津失途": "https://patchwiki.biligame.com/images/tdj/b/b9/mu9o1s9s1c4368tt29di5zxe9mw4f52.png",
+      "幽寰夏侯儀": "https://patchwiki.biligame.com/images/tdj/5/55/5qu8l1d8n86e5e7ldgwwnfh3332vyh5.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -461,6 +519,10 @@
       "crit": 49
     },
     "strategy": "神曜一線陣",
+    "skins": {
+      "幽漩歸虛": "https://patchwiki.biligame.com/images/tdj/9/99/27n47bko7ps9af3nw475qqkoffphbfy.png",
+      "計都": "https://patchwiki.biligame.com/images/tdj/b/b4/qo8hxxsf2p6tfo08uxchf55r19kfc3l.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -489,6 +551,11 @@
       "crit": 17
     },
     "strategy": "劍氣凝香陣",
+    "skins": {
+      "赤子行": "https://patchwiki.biligame.com/images/tdj/2/2c/6gfudgyluqtqq1r46ynxx8qbingfcjz.png",
+      "霜天試劍": "https://patchwiki.biligame.com/images/tdj/d/d8/cizcn2n7yjtlwbzi12w8azme99k33pv.png",
+      "劍心無邪": "https://patchwiki.biligame.com/images/tdj/9/97/10ecyh77jx6hg0lwahh0xaiuxxg4w25.png"
+    },
     "career2": "猛士",
     "tags": [
       "免死",
@@ -519,6 +586,10 @@
       "def_mag": 27,
       "def_phy": 38,
       "crit": 17
+    },
+    "skins": {
+      "醒神威": "https://patchwiki.biligame.com/images/tdj/3/38/oirn2on82s1trq0cwwr2qulxqzaoevl.png",
+      "食夢貘": "https://patchwiki.biligame.com/images/tdj/7/78/mdqg4w4bn1lxx8qlwbvjjrsrcjk6fyb.png"
     },
     "tags": [
       "剋制機關",
@@ -552,6 +623,10 @@
       "公主親從",
       "帝姬侍女"
     ],
+    "skins": {
+      "霞綃驚蝶": "https://patchwiki.biligame.com/images/tdj/6/63/4zt0or5uesnkay88sc1a5q6sy2y0c27.png",
+      "瑚兒": "https://patchwiki.biligame.com/images/tdj/9/9e/3elimftd159hbgiei3ew41207tg4cgn.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -581,6 +656,11 @@
       "crit": 24
     },
     "strategy": "靈闕明滅陣",
+    "skins": {
+      "如火烈烈": "https://patchwiki.biligame.com/images/tdj/5/5a/7l7443ghr2fyq8cbklb1lsnaa4035rt.png",
+      "如火烈烈·貳": "https://patchwiki.biligame.com/images/tdj/8/87/3ougg3s62delftff15smdccqxdpdkxa.png",
+      "流舞": "https://patchwiki.biligame.com/images/tdj/4/4e/6elk9frzogndgdca8l7zqzcubeoyqdc.png"
+    },
     "tags": [
       "陣眼",
       "機關"
@@ -608,6 +688,10 @@
       "crit": 54
     },
     "strategy": "七進七破陣",
+    "skins": {
+      "當陽爭鋒": "https://patchwiki.biligame.com/images/tdj/d/d2/ipx5v7t21p843elvoxd23i1034e7ifn.png",
+      "趙雲": "https://patchwiki.biligame.com/images/tdj/b/b5/5ljh1x865qq7hklqgg2czlbtya6paix.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -640,6 +724,10 @@
     "summons": [
       "雷晶分身"
     ],
+    "skins": {
+      "逐水戲荷": "https://patchwiki.biligame.com/images/tdj/3/3e/gm8n7av5jmpuqo6sv1b1urcg3ecgm3n.png",
+      "上官玥": "https://patchwiki.biligame.com/images/tdj/2/21/3plhb4y8t82tqgurdwu3gcfiq5eyt40.png"
+    },
     "tags": [
       "免死",
       "再啟動",
@@ -671,6 +759,10 @@
     "summons": [
       "冥淵魁王"
     ],
+    "skins": {
+      "懸絲戲偶": "https://patchwiki.biligame.com/images/tdj/e/e2/c7xtkaw2oksvouuju75zut5l3d9gnso.png",
+      "幻海冥皇": "https://patchwiki.biligame.com/images/tdj/8/8f/k7z9twvxuyx68l78kjjfp6bfz2sd1ty.png"
+    },
     "tags": [
       "陣眼",
       "召喚物",
@@ -702,6 +794,10 @@
       "crit": 20
     },
     "strategy": "渾雲覆山陣",
+    "skins": {
+      "懸簾聽雨": "https://patchwiki.biligame.com/images/tdj/4/4e/6fadtnmxlfzqy316qt9xzg1v2a4s7qu.png",
+      "第二瑛": "https://patchwiki.biligame.com/images/tdj/9/9e/olwugt1zmwnc6sn0iwarqjhxz46onyd.png"
+    },
     "tags": [
       "陣眼",
       "機關",
@@ -729,6 +825,10 @@
       "def_mag": 38,
       "def_phy": 34,
       "crit": 14
+    },
+    "skins": {
+      "狩荒": "https://patchwiki.biligame.com/images/tdj/8/85/hnsvrfla58jqa245fwvkcswccnrf4qg.png",
+      "耶律紗": "https://patchwiki.biligame.com/images/tdj/a/a5/czu1f4r31s2cd0akbjhx2biztpzw6yt.png"
     },
     "tags": [
       "免死",
@@ -758,6 +858,12 @@
       "crit": 40
     },
     "strategy": "華日明燿陣",
+    "skins": {
+      "寒嵐拂雪": "https://patchwiki.biligame.com/images/tdj/f/fd/5cimvzawmpynuojw0vqkjfbpr8u88ba.png",
+      "寒嵐拂雪·貳": "https://patchwiki.biligame.com/images/tdj/0/09/mlf6zd7u1e7s4royi88fyxg89oim5ak.png",
+      "頌河山": "https://patchwiki.biligame.com/images/tdj/c/c6/efy3kfyvafu8jaa4edg3ukzh55e91nt.png",
+      "銀川公主": "https://patchwiki.biligame.com/images/tdj/d/d0/odz4qf3x2h0a83hodxyneqznnj2gbdv.png"
+    },
     "tags": [
       "陣眼",
       "機關",
@@ -788,6 +894,11 @@
       "crit": 17
     },
     "strategy": "濁渡九寰陣",
+    "skins": {
+      "久戰滯風": "https://patchwiki.biligame.com/images/tdj/a/a2/3y2yysetd7ounahr49r9jiqb8dmf6nm.png",
+      "鹿鳴攸聞": "https://patchwiki.biligame.com/images/tdj/8/84/4tmpw3ss38ivcqkz97sysprmq3pd4ew.png",
+      "幽姬鹿昭依": "https://patchwiki.biligame.com/images/tdj/3/35/t2p0nvp67hsxi8mydxjm9rgyuk5nrdo.png"
+    },
     "career2": "猛士",
     "tags": [
       "陣眼",
@@ -819,6 +930,11 @@
       "crit": 20
     },
     "strategy": "貫日啟明陣",
+    "skins": {
+      "金烏踏枝": "https://patchwiki.biligame.com/images/tdj/d/de/dxuugpjbdnvevmqzieb3qybs71n2hgf.png",
+      "青銅祀": "https://patchwiki.biligame.com/images/tdj/8/8b/aq1koye9wsgkkwr5nsy96hzihng7s2m.png",
+      "瓊枝扶桑": "https://patchwiki.biligame.com/images/tdj/f/fd/mt33sipfmc2gztutkl4beryx2s1pc8o.png"
+    },
     "tags": [
       "陣眼",
       "協攻",
@@ -847,6 +963,10 @@
       "crit": 47
     },
     "strategy": "幽氛萬瀚陣",
+    "skins": {
+      "祀吾身": "https://patchwiki.biligame.com/images/tdj/1/1e/3pit2cctil2ofbudsq5cknp9knf86wb.png",
+      "紫炁": "https://patchwiki.biligame.com/images/tdj/1/1f/bg9ku09h40pnfmhjz0bqke1qgu2aocy.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -878,6 +998,10 @@
     "summons": [
       "九黎悍士"
     ],
+    "skins": {
+      "濁浪": "https://patchwiki.biligame.com/images/tdj/0/00/5bc1fy6etty1zbcnuiqpt8o4n800t7r.png",
+      "夜無陵": "https://patchwiki.biligame.com/images/tdj/6/68/6xgue3iqqzcwdwp5xa4fv8fbxm7ct7q.png"
+    },
     "tags": [
       "召喚物",
       "再行動"
@@ -905,6 +1029,11 @@
       "crit": 20
     },
     "strategy": "煞蛇煌炎陣",
+    "skins": {
+      "一池春夢": "https://patchwiki.biligame.com/images/tdj/1/1b/quk6kj803fcjo3sm557orlq22q5xaqe.png",
+      "燃天之期": "https://patchwiki.biligame.com/images/tdj/2/2b/7ti5t3e6kmt372tdsbidgl2i8q9bm1g.png",
+      "赤妭韓無砂": "https://patchwiki.biligame.com/images/tdj/6/61/sx9cmyt9gfwj973l846u915czbpmqv0.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -933,6 +1062,10 @@
       "def_phy": 31,
       "crit": 30
     },
+    "skins": {
+      "黃泉彼岸": "https://patchwiki.biligame.com/images/tdj/0/02/tffzjhmcywlw5hlqo0uoaph6lcvitve.png",
+      "蘇妲己": "https://patchwiki.biligame.com/images/tdj/f/f1/mb7o5g5t0ww1vluhtd1zhxalcpumq99.png"
+    },
     "tags": [
       "剋制地形",
       "剋制再動"
@@ -960,6 +1093,10 @@
       "crit": 51
     },
     "strategy": "三壇海會陣",
+    "skins": {
+      "蓮火化聖": "https://patchwiki.biligame.com/images/tdj/1/1e/dybl9i2bvz1fibicrwg342ejeydvlu2.png",
+      "哪吒": "https://patchwiki.biligame.com/images/tdj/a/a7/1ev5kidavhc78mockf1twgwg5ywhp2a.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -992,6 +1129,10 @@
     "summons": [
       "哮天犬"
     ],
+    "skins": {
+      "神通天目": "https://patchwiki.biligame.com/images/tdj/e/ee/4qvsczseigepmlupeomupuf0ldklsbz.png",
+      "楊戩": "https://patchwiki.biligame.com/images/tdj/4/45/0ke73d98ryw3wto7lwu54cfg7sjbor6.png"
+    },
     "tags": [
       "陣眼",
       "召喚物",
@@ -1022,6 +1163,10 @@
       "crit": 24
     },
     "strategy": "東山歸鴻陣",
+    "skins": {
+      "夜橋燈": "https://patchwiki.biligame.com/images/tdj/6/66/dxwm2y4wqqd4xj34y5udduwzpg7tmrp.png",
+      "嶺外飛燕": "https://patchwiki.biligame.com/images/tdj/d/d0/m9z38tmv1vis86g3fprwmbwkeor9rw3.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -1048,6 +1193,10 @@
       "def_mag": 27,
       "def_phy": 34,
       "crit": 40
+    },
+    "skins": {
+      "能飲一杯無": "https://patchwiki.biligame.com/images/tdj/5/56/aa0rsjs2lcapu2giipu3s69bjccx8bc.png",
+      "聞任宇": "https://patchwiki.biligame.com/images/tdj/8/89/bc4qbam34e6lq372sdr2rj5mpo8dj0h.png"
     },
     "tags": [
       "機關",
@@ -1076,6 +1225,10 @@
       "crit": 20
     },
     "strategy": "乾坤吐曜陣",
+    "skins": {
+      "燭照幽熒": "https://patchwiki.biligame.com/images/tdj/c/ce/akf15kwye1wwi7vtqggwhcldi73vk00.png",
+      "雙魂虞兮": "https://patchwiki.biligame.com/images/tdj/3/37/dp08p59wj7e467vzar7oz6zocmvsqbw.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -1108,6 +1261,11 @@
       "def_phy": 32,
       "crit": 40
     },
+    "skins": {
+      "響遏行雲": "https://patchwiki.biligame.com/images/tdj/5/56/8uevl70f7hftfcy4iugndcfjl3jphdr.png",
+      "燕燕于飛": "https://patchwiki.biligame.com/images/tdj/5/5c/64eq7acqkgd8y23weinx0yryj8an8ds.png",
+      "瑤空": "https://patchwiki.biligame.com/images/tdj/0/06/64eqiwz2knr7kw41s9oy388t6q4oltq.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -1134,6 +1292,11 @@
       "crit": 49
     },
     "strategy": "華月掠影陣",
+    "skins": {
+      "寒華映月": "https://patchwiki.biligame.com/images/tdj/e/ed/q6d1wlu5sd35ywh0svpj7fsx21y2d4w.png",
+      "竹露浮白": "https://patchwiki.biligame.com/images/tdj/3/3b/hxwpqb4flk4r4bgcfffmoue3jgg662k.png",
+      "四象明月": "https://patchwiki.biligame.com/images/tdj/f/f2/1e4fxzzkqicc784p2iv6x8s4q33wsxk.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -1160,6 +1323,12 @@
       "crit": 16
     },
     "strategy": "蒼原林嘯陣",
+    "skins": {
+      "舒天昭暉": "https://patchwiki.biligame.com/images/tdj/5/56/omcg0d20caz9bjb8vml51qk4upgo7zu.png",
+      "靄靄雲山": "https://patchwiki.biligame.com/images/tdj/1/10/nvgjueq9rjljjvwq5luus76lg0k2buq.png",
+      "靄靄雲山·貳": "https://patchwiki.biligame.com/images/tdj/f/f2/1r0gp0srs1ywxq8ns64wuerqzv2w7yv.png",
+      "桑然": "https://patchwiki.biligame.com/images/tdj/5/50/enx8wughjo4654h9vlr23zz4s7vf0go.png"
+    },
     "tags": [
       "陣眼",
       "挪移友方",
@@ -1188,6 +1357,11 @@
       "def_phy": 31,
       "crit": 22
     },
+    "skins": {
+      "孽鏡臺前": "https://patchwiki.biligame.com/images/tdj/2/2b/5u95wafbrrvt7eej5ox9jez8qzojd9n.png",
+      "照海朦朧": "https://patchwiki.biligame.com/images/tdj/f/fd/4na8oipc559xc2eltffo7jgqocljrpi.png",
+      "朧夢嫿妖": "https://patchwiki.biligame.com/images/tdj/9/92/hcsvhbpn4h6bxe9y3ifioun6r0hxev8.png"
+    },
     "tags": [
       "召喚物",
       "協攻"
@@ -1213,6 +1387,10 @@
       "def_mag": 41,
       "def_phy": 24,
       "crit": 22
+    },
+    "skins": {
+      "羽誨三昧": "https://patchwiki.biligame.com/images/tdj/0/02/cihc2wysyf5kik73w06tq913h5yfl0d.png",
+      "地仙羅剎": "https://patchwiki.biligame.com/images/tdj/0/05/g97t7zslvjaejn5r03lku02k4rm1ah1.png"
     },
     "tags": [
       "協攻",
@@ -1242,6 +1420,10 @@
       "def_phy": 36,
       "crit": 25
     },
+    "skins": {
+      "離魂思魅": "https://patchwiki.biligame.com/images/tdj/0/0a/nj8vujhw3evvf303q40dr4owr8ahztn.png",
+      "白骨夫人": "https://patchwiki.biligame.com/images/tdj/f/f8/0z92gsrrivy4hjuqkywf73r38mbyh43.png"
+    },
     "tags": [
       "機關",
       "嘲諷",
@@ -1270,6 +1452,11 @@
       "crit": 20
     },
     "strategy": "無量自在陣",
+    "skins": {
+      "碎靈霄": "https://patchwiki.biligame.com/images/tdj/8/8f/nyfcpo6yfrpt6dd0eob7ak92z2npx8m.png",
+      "縱九天": "https://patchwiki.biligame.com/images/tdj/b/b6/bu35quko462n2u2sxl5tr0bcho99uzx.png",
+      "悟空": "https://patchwiki.biligame.com/images/tdj/5/52/qzsdgnutxx0afz7vvzyq35azre42g4u.png"
+    },
     "career2": "猛士",
     "tags": [
       "免死",
@@ -1299,6 +1486,9 @@
       "def_phy": 34,
       "crit": 25
     },
+    "skins": {
+      "妙弋": "https://patchwiki.biligame.com/images/tdj/9/91/9lq5dy6dtiy59q5wxp3f6dc4w39pdu4.png"
+    },
     "tags": [
       "再行動",
       "嘲諷"
@@ -1326,6 +1516,11 @@
       "crit": 22
     },
     "strategy": "天玄義劍陣",
+    "skins": {
+      "乾葉哮風": "https://patchwiki.biligame.com/images/tdj/b/b9/lpy6jx5ow5vbdpng8a9c1e0tql44fer.png",
+      "截雲意": "https://patchwiki.biligame.com/images/tdj/a/a9/c26opfic7n6qr1bjo3yyefeilgvm7b4.png",
+      "天玄義劍": "https://patchwiki.biligame.com/images/tdj/6/6d/lgw9dogzbyt48h3eudhb5tvz5wm6tp3.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -1355,6 +1550,11 @@
       "def_phy": 40,
       "crit": 22
     },
+    "skins": {
+      "悼世凶羅": "https://patchwiki.biligame.com/images/tdj/a/a9/p3johpfz5faw0pv0fbsr5c7g2mhgulp.png",
+      "洞庭望湘": "https://patchwiki.biligame.com/images/tdj/a/af/j9ycewgauh0rjc98ugw1ewnmc3qoysx.png",
+      "驚飛羽": "https://patchwiki.biligame.com/images/tdj/e/ea/guznmid43y8hn512seskxyfs09kcltn.png"
+    },
     "career2": "猛士",
     "tags": [
       "免死",
@@ -1383,6 +1583,10 @@
       "crit": 30
     },
     "strategy": "誅惡破魔陣",
+    "skins": {
+      "天將勾陳": "https://patchwiki.biligame.com/images/tdj/f/f0/hmcoqx69vpgvynjzcpvwtl2ugmwvy95.png",
+      "陸文生": "https://patchwiki.biligame.com/images/tdj/3/32/t2zcj3f4qtfb20ipq5w3kbi7wke2uy1.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -1412,6 +1616,10 @@
       "crit": 14
     },
     "strategy": "筆勾神意陣",
+    "skins": {
+      "妙筆生花": "https://patchwiki.biligame.com/images/tdj/4/46/bu12cq46dia2taw86ubjmh4sxk3n0e4.png",
+      "六歧": "https://patchwiki.biligame.com/images/tdj/1/1e/2q7m4hdxbkzbxhfcng49406qdnb49sr.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -1436,6 +1644,11 @@
       "def_mag": 35,
       "def_phy": 29,
       "crit": 25
+    },
+    "skins": {
+      "登臨": "https://patchwiki.biligame.com/images/tdj/8/89/lkpcsmegik4g5fftfkdny97xfcv7m1j.png",
+      "赤澤": "https://patchwiki.biligame.com/images/tdj/3/35/79ig8w8qckhzs2uudrglixomws7okld.png",
+      "玉觴": "https://patchwiki.biligame.com/images/tdj/b/b2/abk92i4ihkgakaj4kcljjl5e4tt93ld.png"
     }
   },
   {
@@ -1460,6 +1673,10 @@
       "crit": 20
     },
     "strategy": "酌酒忘塵陣",
+    "skins": {
+      "貴公子行": "https://patchwiki.biligame.com/images/tdj/b/b0/2698v6qhcrnvp4e4ree68axrbenjsfp.png",
+      "景樂齊": "https://patchwiki.biligame.com/images/tdj/8/88/7ohgnd84a5k5q5pwr2wg7rb1t5v2h77.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -1484,6 +1701,13 @@
       "def_mag": 37,
       "def_phy": 28,
       "crit": 25
+    },
+    "skins": {
+      "蜉蝣": "https://patchwiki.biligame.com/images/tdj/d/d2/g7lbdolxtkwxmq6g5msqz7trcf7sdzt.png",
+      "金桂盈月": "https://patchwiki.biligame.com/images/tdj/2/2b/dm79sc57omqpskdz4iqenge0qqiccmx.png",
+      "香擾三更夢": "https://patchwiki.biligame.com/images/tdj/9/95/9xidjgt23sgjtgmp5tfxqvfmfv5rgit.png",
+      "香擾三更夢·貳": "https://patchwiki.biligame.com/images/tdj/6/6e/kh7xc4b5sz6wbxlm04qqfaagv50sq33.png",
+      "甦醒者": "https://patchwiki.biligame.com/images/tdj/0/04/nklnqss0pdu7qwo21gqfyjdo9ss2jip.png"
     },
     "tags": [
       "免死",
@@ -1515,6 +1739,10 @@
     "summons": [
       "鏈.蛛母"
     ],
+    "skins": {
+      "他化自在天": "https://patchwiki.biligame.com/images/tdj/6/69/emjshz6atmbza7elvh52bmdk4gczj6k.png",
+      "波旬尉遲良": "https://patchwiki.biligame.com/images/tdj/a/a4/esxb6poxwlkh2b0si6rfo4d0eeu81ry.png"
+    },
     "tags": [
       "再啟動",
       "陣眼",
@@ -1547,6 +1775,12 @@
       "封豨",
       "昂昴"
     ],
+    "skins": {
+      "漢山邊雲": "https://patchwiki.biligame.com/images/tdj/4/46/3dcxshauqf7s4p4g285g2050uvem18o.png",
+      "綴血鳴雷": "https://patchwiki.biligame.com/images/tdj/f/f6/gbdef2hljryvbsnjhat8tic3w7zajs6.png",
+      "綴血鳴雷·貳": "https://patchwiki.biligame.com/images/tdj/2/28/6pymzznmx4vex5p3nz2d26g1grjsb5l.png",
+      "相胤": "https://patchwiki.biligame.com/images/tdj/5/53/qz3gch8i9pe7npaelgj7j1ij7k1ycmu.png"
+    },
     "tags": [
       "召喚物",
       "剋制免死"
@@ -1574,6 +1808,12 @@
       "crit": 24
     },
     "strategy": "冰天照雪陣",
+    "skins": {
+      "不隱珠": "https://patchwiki.biligame.com/images/tdj/f/f2/oybmjr1a1rdlaf78xe4ofm527nxnyya.png",
+      "擎玉問雨": "https://patchwiki.biligame.com/images/tdj/b/bc/ae469vf9um5j0mvjwbcaxkaqn0jumel.png",
+      "渡仙闕": "https://patchwiki.biligame.com/images/tdj/b/b5/gvpq4q075axro5k7t5wka789hi39sir.png",
+      "祿存高皇君": "https://patchwiki.biligame.com/images/tdj/9/9d/pwxgj5ttt78l48zoujt2hnmtlunn3lm.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -1605,6 +1845,10 @@
     "summons": [
       "夢種燈"
     ],
+    "skins": {
+      "盈手贈佳期": "https://patchwiki.biligame.com/images/tdj/a/a3/hrhnjspd12cv84s1iqzsscm11skeh7l.png",
+      "白鹿": "https://patchwiki.biligame.com/images/tdj/2/2a/kfhov6756cbopxk32nnl0lzif5ysbyw.png"
+    },
     "tags": [
       "召喚物",
       "領域",
@@ -1633,6 +1877,11 @@
       "crit": 20
     },
     "strategy": "頭狼尋獵陣",
+    "skins": {
+      "朔方寥大野": "https://patchwiki.biligame.com/images/tdj/7/7f/4rvd11x45i6wn1k9tuzuhch7gvvb3fh.png",
+      "獨見斜陽": "https://patchwiki.biligame.com/images/tdj/3/34/k0o9zaacuyyemzklm16g1bbqy251ymi.png",
+      "蒼狼": "https://patchwiki.biligame.com/images/tdj/7/7c/e40ccg8bhueslsihn84uckh2f8uuhxc.png"
+    },
     "tags": [
       "陣眼",
       "協攻",
@@ -1662,6 +1911,11 @@
       "crit": 25
     },
     "strategy": "劍心凜蟬陣",
+    "skins": {
+      "清冰萬壑": "https://patchwiki.biligame.com/images/tdj/0/09/l4k3urptiip3jgoq0hiym6w814wryoi.png",
+      "看花攜劍來": "https://patchwiki.biligame.com/images/tdj/0/08/khzmp3siscuelx19zv3ahbd81jwr4gv.png",
+      "冰蟬玉劍": "https://patchwiki.biligame.com/images/tdj/d/d1/bzdjrlprfewhx46kd73goqcdckpto3c.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -1719,6 +1973,10 @@
     "summons": [
       "賽特分身"
     ],
+    "skins": {
+      "榮光賦": "https://patchwiki.biligame.com/images/tdj/3/33/bthrmmuyhe35ugyurq0d46bw5t7pdb0.png",
+      "賽特": "https://patchwiki.biligame.com/images/tdj/4/43/rm9xsou3r10ayo130mwapbzohx782oi.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -1746,6 +2004,10 @@
       "def_phy": 36,
       "crit": 28
     },
+    "skins": {
+      "神霄志": "https://patchwiki.biligame.com/images/tdj/1/1a/kro2nrc8xp924lozp1nkv6a5x7u8d93.png",
+      "李靖": "https://patchwiki.biligame.com/images/tdj/d/dc/8muy3meza2g4q04vxodbive7o4by9p5.png"
+    },
     "tags": [
       "嘲諷"
     ]
@@ -1772,6 +2034,10 @@
       "crit": 47
     },
     "strategy": "牽靈懾魂陣",
+    "skins": {
+      "捧心歡": "https://patchwiki.biligame.com/images/tdj/e/e5/ldfm2srwiksaw9ks9pes53f7p930i2r.png",
+      "妮可": "https://patchwiki.biligame.com/images/tdj/3/39/mn1vyhuh8bmcj9ot92b0jy9c4c9itzx.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -1797,6 +2063,10 @@
       "def_mag": 36,
       "def_phy": 29,
       "crit": 24
+    },
+    "skins": {
+      "冠世鼎元": "https://patchwiki.biligame.com/images/tdj/2/29/fx30flwkg10o5lvt1rohm45wxw1khvt.png",
+      "瞿牧之": "https://patchwiki.biligame.com/images/tdj/2/29/hrz1dwi64ux8n13xh0xjl0h3xvxdge7.png"
     },
     "tags": [
       "再行動"
@@ -1824,6 +2094,11 @@
       "crit": 14
     },
     "strategy": "問仙破禦陣",
+    "skins": {
+      "瑤仙宴": "https://patchwiki.biligame.com/images/tdj/b/b9/9y18eb6se6db2gvq6500s0qo2695fy5.png",
+      "疑是霜": "https://patchwiki.biligame.com/images/tdj/e/e3/6636ozegv9jsemu6f2iz6p75c152f57.png",
+      "雪芝": "https://patchwiki.biligame.com/images/tdj/d/dc/1hpadlgwksvof80on2uf7rmkebm3chx.png"
+    },
     "career2": "猛士",
     "tags": [
       "陣眼",
@@ -1852,6 +2127,10 @@
       "crit": 35
     },
     "strategy": "驅雷魔魄陣",
+    "skins": {
+      "我主崑崙": "https://patchwiki.biligame.com/images/tdj/f/f2/lnruyctmezu1ya6scq55ngu6khil4n2.png",
+      "劍魂·天尊": "https://patchwiki.biligame.com/images/tdj/b/bf/f2ht3gxfmff46nxc9uf7938wxg1ag5o.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -1880,6 +2159,13 @@
       "crit": 18
     },
     "strategy": "幽使馭天陣",
+    "skins": {
+      "不欺晦朔": "https://patchwiki.biligame.com/images/tdj/0/0c/3s85x5w5zn6cdzykaeorg9uplqvexhj.png",
+      "不釋寒英": "https://patchwiki.biligame.com/images/tdj/d/d6/q2a9sdk1vgq64b5srq34okp4026jmif.png",
+      "不釋寒英·貳": "https://patchwiki.biligame.com/images/tdj/2/23/7eimivjc9hmg0as7gjxhjrhc9aafre4.png",
+      "劍出幽潮": "https://patchwiki.biligame.com/images/tdj/1/1a/0j0xzawdagpdwhxdwk6t63mmssgw70s.png",
+      "雙曜冰璃": "https://patchwiki.biligame.com/images/tdj/3/3d/7wk1u8lialc15emoem0tqmlyfn4hfeq.png"
+    },
     "career2": "猛士",
     "tags": [
       "免死",
@@ -1909,6 +2195,11 @@
       "def_mag": 40,
       "def_phy": 31,
       "crit": 31
+    },
+    "skins": {
+      "庭立晚楓": "https://patchwiki.biligame.com/images/tdj/4/46/k5r2fo8moxt4gemih0vvr5bm4ea4ogk.png",
+      "月桂延秋": "https://patchwiki.biligame.com/images/tdj/f/f2/7cyhe0fcal5onxy1d2t314kikf2q63c.png",
+      "瑤姬": "https://patchwiki.biligame.com/images/tdj/3/31/fdne0ql2qpskbzepies0oa6w7r7evf0.png"
     }
   },
   {
@@ -1960,6 +2251,11 @@
       "def_phy": 35,
       "crit": 33
     },
+    "skins": {
+      "平陽旭日": "https://patchwiki.biligame.com/images/tdj/f/fc/grzac9zbbz7md48bs4sgmlr9tq779qd.png",
+      "問塵寰": "https://patchwiki.biligame.com/images/tdj/d/d1/3lkynucmovz4g0dklrp47jdiizd2ilm.png",
+      "朱槿": "https://patchwiki.biligame.com/images/tdj/e/ec/dv888ibd07362cl59ssv896xj52wx5s.png"
+    },
     "tags": [
       "再行動",
       "援襲技能",
@@ -1990,6 +2286,10 @@
       "crit": 31
     },
     "strategy": "狐靈神氛陣",
+    "skins": {
+      "恰星流": "https://patchwiki.biligame.com/images/tdj/3/37/grg5ov0p8dktjs0fctez85s1pplj33q.png",
+      "太玄靈狐": "https://patchwiki.biligame.com/images/tdj/8/8e/cfan1j29ycnfc0dpkoqhlnru66hpzsb.png"
+    },
     "tags": [
       "陣眼",
       "援襲技能",
@@ -2019,6 +2319,10 @@
       "def_phy": 44,
       "crit": 16
     },
+    "skins": {
+      "驚山倒": "https://patchwiki.biligame.com/images/tdj/b/b7/338fqtsrl04ac7o0ac26kv0z3ap9kpr.png",
+      "蕭熇": "https://patchwiki.biligame.com/images/tdj/7/7e/eygkae2wxyvb6n8xbzul5grjugv2su7.png"
+    },
     "tags": [
       "領域"
     ]
@@ -2043,6 +2347,10 @@
       "def_mag": 36,
       "def_phy": 29,
       "crit": 38
+    },
+    "skins": {
+      "慧喜同軛": "https://patchwiki.biligame.com/images/tdj/8/86/cofkxbeue8vcz6a977fgae9pqn2e78y.png",
+      "伎樂飛天": "https://patchwiki.biligame.com/images/tdj/7/70/gsfjssnp3740jbrkpsexmmaj06m54l7.png"
     },
     "tags": [
       "協攻",
@@ -2072,6 +2380,10 @@
       "crit": 40
     },
     "strategy": "祝法化生陣",
+    "skins": {
+      "林地夢生": "https://patchwiki.biligame.com/images/tdj/c/c2/ayqs2pxzay0yj45nlcgkb2z3ree0m5b.png",
+      "九色鹿": "https://patchwiki.biligame.com/images/tdj/6/64/oyn7ixyddmr90y3nawygew8ldixovfk.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -2096,6 +2408,11 @@
       "def_mag": 38,
       "def_phy": 32,
       "crit": 21
+    },
+    "skins": {
+      "淨貯琉璃": "https://patchwiki.biligame.com/images/tdj/6/6d/3lz6vquwghb024mtla01zcoucl3vdiw.png",
+      "清漣燈華": "https://patchwiki.biligame.com/images/tdj/3/37/anrp3ivighbbp2wb7mjwws176n2c55n.png",
+      "御卿": "https://patchwiki.biligame.com/images/tdj/6/6c/2pcz3h5pfwfktfoj9qlpcl7kum1519m.png"
     },
     "tags": [
       "再啟動"
@@ -2123,6 +2440,12 @@
       "crit": 24
     },
     "strategy": "劍灼焰染陣",
+    "skins": {
+      "力破山驚": "https://patchwiki.biligame.com/images/tdj/f/f6/734nehrb2h6xffeiu7fpgqtgf1chotr.png",
+      "力破山驚·貳": "https://patchwiki.biligame.com/images/tdj/f/f6/lpl7zhc9yh9vffjjtrz7q9xhrrqnwzz.png",
+      "隆火百鍊": "https://patchwiki.biligame.com/images/tdj/6/62/lf0qwxdcm4975e01plbloepmeavbglz.png",
+      "安逸": "https://patchwiki.biligame.com/images/tdj/0/0a/m5ibuv7vged0v7ri51zdldw3xkctjqu.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -2150,6 +2473,10 @@
       "crit": 25
     },
     "strategy": "天師明光陣",
+    "skins": {
+      "悠悠遠行": "https://patchwiki.biligame.com/images/tdj/f/fd/rs216hn3w4d20d9xiuwhocyq7o03p0h.png",
+      "雙雙": "https://patchwiki.biligame.com/images/tdj/c/c1/q4af7c0eh3aiu0r5nzzdbvt55xzaez4.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -2175,6 +2502,10 @@
       "def_mag": 39,
       "def_phy": 35,
       "crit": 14
+    },
+    "skins": {
+      "鎮惡": "https://patchwiki.biligame.com/images/tdj/b/bf/k1z5estfer5bxpaw2x3w48ng3ofolbo.png",
+      "霸熊高戚": "https://patchwiki.biligame.com/images/tdj/b/b3/kd8ddnlzbw9b13s55apmmhfcj926mbr.png"
     },
     "tags": [
       "剋制機關",
@@ -2203,6 +2534,10 @@
       "def_phy": 31,
       "crit": 51
     },
+    "skins": {
+      "騎鯨客": "https://patchwiki.biligame.com/images/tdj/c/c9/je1pmh2yflgk4rpin7av2s1bfjbrd73.png",
+      "歸棹": "https://patchwiki.biligame.com/images/tdj/3/34/tc8j4ook3el1j9ep2lpibk9hn39f431.png"
+    },
     "tags": [
       "挪移友方"
     ]
@@ -2229,6 +2564,11 @@
       "crit": 29
     },
     "strategy": "冰火絕獄陣",
+    "skins": {
+      "綵衣弄臣": "https://patchwiki.biligame.com/images/tdj/7/71/oft4i0iyobne9ad2a0fqqf2lufmahwf.png",
+      "閻魔羅闍": "https://patchwiki.biligame.com/images/tdj/b/b2/lgkweq3avyn5eq2dvnfskshb2fw8xz2.png",
+      "羅淵女皇": "https://patchwiki.biligame.com/images/tdj/a/a7/qzjvtii7sswx6q95yo5faiwuj6mlpmd.png"
+    },
     "tags": [
       "陣眼",
       "剋制召喚物"
@@ -2255,6 +2595,9 @@
       "def_phy": 31,
       "crit": 22
     },
+    "skins": {
+      "幽篁": "https://patchwiki.biligame.com/images/tdj/6/6a/ekg1rgl1dkuv3yucnq6fmg7jvqntzuh.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -2279,6 +2622,11 @@
       "def_mag": 37,
       "def_phy": 26,
       "crit": 44
+    },
+    "skins": {
+      "權御千秋": "https://patchwiki.biligame.com/images/tdj/5/50/qd5482586h5ogij9x07nwf0uerihddw.png",
+      "桃下劫": "https://patchwiki.biligame.com/images/tdj/c/c9/hjue0v1uajm3k287brrzelcsj7f995v.png",
+      "朝歌": "https://patchwiki.biligame.com/images/tdj/4/44/hyf83a6hgkupz29fif219svvnwu8m2p.png"
     },
     "tags": [
       "再行動"
@@ -2306,6 +2654,10 @@
       "crit": 48
     },
     "strategy": "海潮升歌陣",
+    "skins": {
+      "海中女": "https://patchwiki.biligame.com/images/tdj/a/a1/97zgzbw1wqnbotok4atw3rwyuk63sri.png",
+      "露葵": "https://patchwiki.biligame.com/images/tdj/3/34/6pcy6mmggmwvntfjlxbyp6z2oyuvuns.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -2333,6 +2685,11 @@
       "crit": 24
     },
     "strategy": "天命玄燁陣",
+    "skins": {
+      "不知身是夢": "https://patchwiki.biligame.com/images/tdj/0/07/9o6onaa9sfiv96r8gffjgxh1xqblcz5.png",
+      "贈以青棠": "https://patchwiki.biligame.com/images/tdj/6/6a/87tpj434ig0hq8bvnb6d0hj2em9b3du.png",
+      "朧夜": "https://patchwiki.biligame.com/images/tdj/6/66/e3v4ph874fsnq537tow6qsjcolk80kd.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -2361,6 +2718,10 @@
       "crit": 37
     },
     "strategy": "凶星鎮荒陣",
+    "skins": {
+      "睚眥怒": "https://patchwiki.biligame.com/images/tdj/5/5b/95pntktcpp7n5w83nxc1efvzf2fgs2g.png",
+      "殷千煬": "https://patchwiki.biligame.com/images/tdj/2/29/l0c3kxddw58tqqfvhdsz1ccw4xt9puq.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -2385,6 +2746,11 @@
       "def_mag": 22,
       "def_phy": 36,
       "crit": 24
+    },
+    "skins": {
+      "泓下龍吟": "https://patchwiki.biligame.com/images/tdj/6/6b/n8uktp1zufush4rt2t52ewfa4iem4e6.png",
+      "誅邪": "https://patchwiki.biligame.com/images/tdj/1/1d/8nx9amf9trt9qivhl9pyyunojp9dnk2.png",
+      "少俠應奉仁": "https://patchwiki.biligame.com/images/tdj/f/fc/ktxxklryttkwuue44ipiu8ia2fn5gso.png"
     },
     "tags": [
       "再行動",
@@ -2411,6 +2777,11 @@
       "def_mag": 23,
       "def_phy": 33,
       "crit": 45
+    },
+    "skins": {
+      "千金一笑": "https://patchwiki.biligame.com/images/tdj/b/b9/mt2l6o50vcuun5tmpng961nl7kk7c7j.png",
+      "妙雲趣雨": "https://patchwiki.biligame.com/images/tdj/6/69/oi7hc27e0glgc6s8hll9xaiycpcw6j6.png",
+      "公孫七月": "https://patchwiki.biligame.com/images/tdj/7/71/5ykqhfo9y8i5zr55gk8rdpecyxzcjqq.png"
     },
     "tags": [
       "協攻",
@@ -2439,6 +2810,12 @@
       "crit": 16
     },
     "strategy": "神武曦舒陣",
+    "skins": {
+      "嘗百草": "https://patchwiki.biligame.com/images/tdj/1/15/2we7l8w9txcjf4mpwm1d3nn8mfbpbdw.png",
+      "百祿慶年": "https://patchwiki.biligame.com/images/tdj/2/25/2fddv6t2a5n993fin2y3hxhvwq511hm.png",
+      "融雪生春": "https://patchwiki.biligame.com/images/tdj/d/de/bofvudvfj5yrynu9yfctwwz8gqnt98p.png",
+      "傅雅魚": "https://patchwiki.biligame.com/images/tdj/c/c3/5ql760m9njrizicw5v6nt8cdidy8e9a.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -2463,6 +2840,12 @@
       "def_mag": 23,
       "def_phy": 46,
       "crit": 25
+    },
+    "skins": {
+      "凱旋之獅": "https://patchwiki.biligame.com/images/tdj/e/e6/bbcec3bl219887phg4r83mon8fw02zu.png",
+      "凱旋之獅·貳": "https://patchwiki.biligame.com/images/tdj/3/33/haxippawbfapjxn7swuu83asch6gq6z.png",
+      "歲無憂": "https://patchwiki.biligame.com/images/tdj/7/75/6ihz54ketsdkxs0l6fpmf7s77lsejws.png",
+      "西莉亞": "https://patchwiki.biligame.com/images/tdj/9/96/8hucpsdmgxzn7d7xh4qq00le7cwaulk.png"
     },
     "tags": [
       "免死",
@@ -2491,6 +2874,12 @@
       "crit": 37
     },
     "strategy": "璇光天映陣",
+    "skins": {
+      "歸去來": "https://patchwiki.biligame.com/images/tdj/c/cb/l7aiooc0dtjojgkg4ygpd0y2uqvx7ia.png",
+      "落星穹": "https://patchwiki.biligame.com/images/tdj/9/9b/i51ufwk19sj1nwnahzv4by2vxi0453n.png",
+      "落花辭": "https://patchwiki.biligame.com/images/tdj/4/42/knijgieeun47qu95oukfbxs36stpxyu.png",
+      "星占賢者": "https://patchwiki.biligame.com/images/tdj/e/e2/5bezf75dwc36m7imjkkuykmhfdx5jhf.png"
+    },
     "tags": [
       "陣眼",
       "結界"
@@ -2516,6 +2905,11 @@
       "def_mag": 38,
       "def_phy": 30,
       "crit": 37
+    },
+    "skins": {
+      "花葉長相映": "https://patchwiki.biligame.com/images/tdj/2/2f/9xwvpk1gufk3szfctpkwsmifedw4u8l.png",
+      "花葉長相映 紅幢綠蓋隨": "https://patchwiki.biligame.com/images/tdj/d/d9/fkp84ldmyjkwv7jhaw99009ym22g5q0.png",
+      "白素貞": "https://patchwiki.biligame.com/images/tdj/0/0a/eikw45ci6cz5v9ccto9og2ovn36qae3.png"
     },
     "tags": [
       "再啟動",
@@ -2546,6 +2940,10 @@
       "crit": 35
     },
     "strategy": "佛口蛇心陣",
+    "skins": {
+      "紅幢綠蓋隨": "https://patchwiki.biligame.com/images/tdj/1/12/97rffckxlu77jt7f5l8t7f0nm67ypos.png",
+      "青": "https://patchwiki.biligame.com/images/tdj/0/04/dz6xpk990skp05e132cy602t6h21d45.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -2571,6 +2969,10 @@
       "def_mag": 32,
       "def_phy": 35,
       "crit": 20
+    },
+    "skins": {
+      "一念佛魔": "https://patchwiki.biligame.com/images/tdj/6/62/6kshpcckehfz3he5znl7czzrr5j5jdc.png",
+      "法海": "https://patchwiki.biligame.com/images/tdj/8/8b/c8msu52bd2rxyacu1vr6s4hv1flcmo4.png"
     },
     "career2": "猛士",
     "tags": [
@@ -2604,6 +3006,10 @@
       "獨角仙·壹",
       "獨角仙·貳"
     ],
+    "skins": {
+      "巧械千機": "https://patchwiki.biligame.com/images/tdj/b/bf/60265ofsr7mdpucuajplf1pybuyrjz8.png",
+      "阿秋": "https://patchwiki.biligame.com/images/tdj/d/d9/489f5rqxbmj0ohimuy1dr8adjdfeme2.png"
+    },
     "tags": [
       "陣眼",
       "召喚物",
@@ -2631,6 +3037,10 @@
       "def_phy": 36,
       "crit": 46
     },
+    "skins": {
+      "憩休煎塵": "https://patchwiki.biligame.com/images/tdj/2/2c/71hnd8d3g1qm6kee6ap9vhq7tyoy7ms.png",
+      "呼延朔": "https://patchwiki.biligame.com/images/tdj/3/3f/7x7uvfh9ss2f0mtktqopv7scq28ijug.png"
+    },
     "tags": [
       "剋制機關",
       "剋制地形"
@@ -2656,6 +3066,10 @@
       "def_mag": 34,
       "def_phy": 33,
       "crit": 32
+    },
+    "skins": {
+      "獨狼在野": "https://patchwiki.biligame.com/images/tdj/7/78/78mibntzj2qptb7hpcb51pywhpn86xz.png",
+      "卓爾": "https://patchwiki.biligame.com/images/tdj/f/fc/da9ktztohe5a8m771lbcsshnhqoj15o.png"
     }
   },
   {
@@ -2680,6 +3094,11 @@
       "crit": 41
     },
     "strategy": "流靄絕殺陣",
+    "skins": {
+      "千秋葉": "https://patchwiki.biligame.com/images/tdj/9/99/chdb5ddzgrz8zxg6w52r84gz6r3x6fy.png",
+      "霓裳": "https://patchwiki.biligame.com/images/tdj/2/26/m67t4ukw8vl57j4pspatlzpuieb46h0.png",
+      "巴艾邇": "https://patchwiki.biligame.com/images/tdj/5/58/0nozu9sm84xkcrt4ojg09x2b1si370w.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -2704,6 +3123,10 @@
       "def_mag": 26,
       "def_phy": 33,
       "crit": 26
+    },
+    "skins": {
+      "裁風": "https://patchwiki.biligame.com/images/tdj/4/4c/172df29jizlpge8kwplw0ugulv2abnu.png",
+      "神闕青衣": "https://patchwiki.biligame.com/images/tdj/2/23/58p0k9q74vkny8qydp1lmqguhpltsqk.png"
     }
   },
   {
@@ -2733,6 +3156,10 @@
       "式鬼·壹",
       "式鬼·貳"
     ],
+    "skins": {
+      "逢魔": "https://patchwiki.biligame.com/images/tdj/a/a6/bud7ch8orl36lbvkqquaeskdq3wn188.png",
+      "真胤": "https://patchwiki.biligame.com/images/tdj/4/48/gpbjm6hab26ky1dz32w04xwdnfzdxsy.png"
+    },
     "tags": [
       "陣眼",
       "召喚物",
@@ -2759,6 +3186,11 @@
       "def_mag": 32,
       "def_phy": 33,
       "crit": 43
+    },
+    "skins": {
+      "洊雷降羽人": "https://patchwiki.biligame.com/images/tdj/c/c5/klh0ocp3m4etde7l2ysur98xmumrfe8.png",
+      "題惡名": "https://patchwiki.biligame.com/images/tdj/f/fc/m1nyog7w107944h9trzw5kr8syraid6.png",
+      "魔化皇甫申": "https://patchwiki.biligame.com/images/tdj/1/16/lzwzdrtvkirujvgkrh3dwxyrgx398b4.png"
     },
     "tags": [
       "免死",
@@ -2787,6 +3219,11 @@
       "crit": 46
     },
     "strategy": "附星擢升陣",
+    "skins": {
+      "天方夜譚": "https://patchwiki.biligame.com/images/tdj/c/c7/k4fio3rcl4p55aeyupqoqy8yr4d8w95.png",
+      "海市蜃樓": "https://patchwiki.biligame.com/images/tdj/a/ab/4g594mkeytlikxobarejmeyhlbj3p0y.png",
+      "允迦": "https://patchwiki.biligame.com/images/tdj/4/48/1z20t30cinmhc09jgq5j00tyic47wtx.png"
+    },
     "tags": [
       "陣眼",
       "再行動",
@@ -2821,6 +3258,10 @@
       "律.蛛母",
       "律.蛛母·貳"
     ],
+    "skins": {
+      "墨子道": "https://patchwiki.biligame.com/images/tdj/1/1b/qskdjl0hjepjg9v6bc3ra29yywakhnz.png",
+      "尉遲良": "https://patchwiki.biligame.com/images/tdj/1/17/2w73doi6e27kbuapns9cnyrlb8iudnt.png"
+    },
     "tags": [
       "陣眼",
       "召喚物",
@@ -2848,6 +3289,10 @@
       "def_phy": 26,
       "crit": 15
     },
+    "skins": {
+      "逆旅歸客": "https://patchwiki.biligame.com/images/tdj/9/98/mfwlzts9fjsjvgrs2f0a2342o1q2k94.png",
+      "虞兮": "https://patchwiki.biligame.com/images/tdj/b/b0/fpzz9d526ri75zxeijv4w68yrtn4he0.png"
+    },
     "tags": [
       "援襲技能"
     ]
@@ -2873,6 +3318,12 @@
       "def_phy": 32,
       "crit": 17
     },
+    "skins": {
+      "天落泉源": "https://patchwiki.biligame.com/images/tdj/0/0a/dy8uu7up3hkk9h88bn2fya3doqqjsms.png",
+      "新潮食客": "https://patchwiki.biligame.com/images/tdj/f/fd/1d9spm5pnd53ore8851rj4ader8y93t.png",
+      "金玉滿堂": "https://patchwiki.biligame.com/images/tdj/7/7a/cxn8fer2ya2h6aunmwfphusxxxxm4cu.png",
+      "鹿昭依": "https://patchwiki.biligame.com/images/tdj/5/58/oq8lv48tecfbm8upisjgvjheoqywyqt.png"
+    },
     "tags": [
       "援襲技能"
     ]
@@ -2897,6 +3348,10 @@
       "def_mag": 22,
       "def_phy": 39,
       "crit": 27
+    },
+    "skins": {
+      "長劍百行": "https://patchwiki.biligame.com/images/tdj/b/be/q3y0ug2qa8khggwl42uw9ho0plnpls5.png",
+      "展昭": "https://patchwiki.biligame.com/images/tdj/e/e2/iolzbwr6ecouq85ht92jp4g7k9ybugh.png"
     },
     "tags": [
       "再行動",
@@ -2925,6 +3380,10 @@
       "crit": 45
     },
     "strategy": "義鼠奪風陣",
+    "skins": {
+      "囂塵湛玉": "https://patchwiki.biligame.com/images/tdj/1/1a/ba4ygo737viz5g8cbqsh64rghzoi7vp.png",
+      "白玉堂": "https://patchwiki.biligame.com/images/tdj/c/c2/d2ul1o53otiyk2t5d6oe7wfakovnpv9.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -2952,6 +3411,11 @@
       "crit": 36
     },
     "strategy": "焚香銷魂陣",
+    "skins": {
+      "含燻": "https://patchwiki.biligame.com/images/tdj/5/57/k94f4s66sc7pftb88u1glcmu404d8qm.png",
+      "煙籠黛": "https://patchwiki.biligame.com/images/tdj/0/07/71im108c4h7jywzzma6pa7rrg8lobf8.png",
+      "憛香": "https://patchwiki.biligame.com/images/tdj/f/f9/frqtc7o3w1f4d2n4vdsel9gj36kp6k8.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -2976,6 +3440,11 @@
       "def_mag": 28,
       "def_phy": 42,
       "crit": 18
+    },
+    "skins": {
+      "倚新妝": "https://patchwiki.biligame.com/images/tdj/f/fa/grzqk6n15qnzh58g9covt4pjeumta1i.png",
+      "須盡歡": "https://patchwiki.biligame.com/images/tdj/e/ed/pp5sh1vql722teyjqf3uzz8uieiz4e1.png",
+      "隋酒": "https://patchwiki.biligame.com/images/tdj/2/23/h7novonmvjreo61z3ym6li1rlnnszfy.png"
     },
     "tags": [
       "領域"
@@ -3002,6 +3471,11 @@
       "def_phy": 33,
       "crit": 18
     },
+    "skins": {
+      "博喜樂": "https://patchwiki.biligame.com/images/tdj/8/82/snqkmluubjzrfnly8pi0z5q44iybqwi.png",
+      "婆娑降神": "https://patchwiki.biligame.com/images/tdj/1/12/kg0dvt0ftgrxmco0duus448gvqe1xqc.png",
+      "無相·弭服": "https://patchwiki.biligame.com/images/tdj/e/ef/nsuoz8frhcd2lcij0bencdq1m4rlmdd.png"
+    },
     "career2": "猛士"
   },
   {
@@ -3026,6 +3500,10 @@
       "crit": 21
     },
     "strategy": "墨染冬月陣",
+    "skins": {
+      "法乎其上": "https://patchwiki.biligame.com/images/tdj/e/ef/irql3brfxkk4icpmc6czdhv66cgtb7r.png",
+      "白復歸": "https://patchwiki.biligame.com/images/tdj/a/a9/mce00crgj2opuvddqm714qyip3t67xd.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -3052,6 +3530,11 @@
       "crit": 46
     },
     "strategy": "神觀天掣陣",
+    "skins": {
+      "奉天神女": "https://patchwiki.biligame.com/images/tdj/b/b1/peyxz2qzghn186hn6rd5aqki2bioxkz.png",
+      "玲瓏雪": "https://patchwiki.biligame.com/images/tdj/f/f1/jeuhtz5x2txhjb8fxygh5c5tb1h64vu.png",
+      "雲衣宮主": "https://patchwiki.biligame.com/images/tdj/9/92/e3aaw6vqifle2frqt4tj6pklk0t5g89.png"
+    },
     "tags": [
       "陣眼",
       "結界"
@@ -3077,6 +3560,11 @@
       "def_mag": 33,
       "def_phy": 31,
       "crit": 46
+    },
+    "skins": {
+      "嚼月": "https://patchwiki.biligame.com/images/tdj/7/7b/mci7awkvaqbcfigszjydnuo42qpvqfo.png",
+      "醉觀枰": "https://patchwiki.biligame.com/images/tdj/b/bd/lxpkoh7ysfsyjz7yrqcm19aht2zx56n.png",
+      "靈鼩": "https://patchwiki.biligame.com/images/tdj/d/dd/1lrub5m8xl4ffmxw7r57xmbq0hknol7.png"
     },
     "tags": [
       "再行動"
@@ -3106,6 +3594,11 @@
     "summons": [
       "嘯霜"
     ],
+    "skins": {
+      "萬物生": "https://patchwiki.biligame.com/images/tdj/0/04/h1n09ryn7z3qoibvzcq3fj4z7n4dgz7.png",
+      "雪滿弓刀": "https://patchwiki.biligame.com/images/tdj/5/51/lagj2vaph8bbcpx0c7rx2ylrp5d14qa.png",
+      "銀瑪": "https://patchwiki.biligame.com/images/tdj/9/91/2534rhlq1e5v0umm1tg45jrl583lxtk.png"
+    },
     "tags": [
       "再啟動",
       "召喚物"
@@ -3131,6 +3624,11 @@
       "def_mag": 27,
       "def_phy": 36,
       "crit": 21
+    },
+    "skins": {
+      "凋零之壤": "https://patchwiki.biligame.com/images/tdj/2/2b/bze1cfi49iljbofmnq5tmyazrb7q23c.png",
+      "扶搖起": "https://patchwiki.biligame.com/images/tdj/8/89/8mghwcmroif41vpusknv8mf5o8zr4si.png",
+      "任斷離": "https://patchwiki.biligame.com/images/tdj/2/21/rs37j5ztwphemtecald242sfhb0f4p8.png"
     },
     "tags": [
       "再行動"
@@ -3158,6 +3656,12 @@
       "crit": 29
     },
     "strategy": "幽寰天契陣",
+    "skins": {
+      "英袞暢人謀": "https://patchwiki.biligame.com/images/tdj/b/bf/d55egftxweyw5wxt3etmylmgrns646b.png",
+      "逾沙軼漠": "https://patchwiki.biligame.com/images/tdj/8/84/1wbpn6b5leufkv7zrl5j98dl38ox24x.png",
+      "逾沙軼漠·貳": "https://patchwiki.biligame.com/images/tdj/c/c7/a8f4mazu2144m5z3n7lxkf48v8qc5tn.png",
+      "霍雍": "https://patchwiki.biligame.com/images/tdj/6/64/kjvxvdefoumetdke08nj8mwjtjk1h7i.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -3187,6 +3691,10 @@
       "crit": 37
     },
     "strategy": "朝花夕夢陣",
+    "skins": {
+      "佳期如夢": "https://patchwiki.biligame.com/images/tdj/9/98/1800ck9em4snfyhaejv3lovouqv66a5.png",
+      "九陰": "https://patchwiki.biligame.com/images/tdj/d/de/7xy2y1vg8i8v0i2sq67bqhxqg1qtka8.png"
+    },
     "career2": "猛士",
     "tags": [
       "陣眼",
@@ -3213,6 +3721,11 @@
       "def_mag": 40,
       "def_phy": 29,
       "crit": 26
+    },
+    "skins": {
+      "臨帛聽溪": "https://patchwiki.biligame.com/images/tdj/1/1c/19717qatjsr9h0mu94v87hmes3rrv7r.png",
+      "半盞星河": "https://patchwiki.biligame.com/images/tdj/d/d1/1ph9uta7jd3aeyld77allrixjmsyipr.png",
+      "高皇君": "https://patchwiki.biligame.com/images/tdj/5/54/dvbw4tuaybe1rtgv72pkufmabzzwp0r.png"
     }
   },
   {
@@ -3235,6 +3748,10 @@
       "def_mag": 39,
       "def_phy": 34,
       "crit": 34
+    },
+    "skins": {
+      "如我聞": "https://patchwiki.biligame.com/images/tdj/7/78/rtv8i69z9ff0g2mly8501ylk8iqwqkp.png",
+      "春蘭": "https://patchwiki.biligame.com/images/tdj/b/b1/crtgxe0n7dy3d1edpejp7n93vxg9whh.png"
     },
     "tags": [
       "挪移友方",
@@ -3263,6 +3780,10 @@
       "crit": 50
     },
     "strategy": "俠風洗刃陣",
+    "skins": {
+      "荊棘過": "https://patchwiki.biligame.com/images/tdj/5/5c/mme33w8fmrco5y3r1l1vzv4tccs00hl.png",
+      "奚歌": "https://patchwiki.biligame.com/images/tdj/a/ad/rzp0q2xt63r86b1bmsieshrt9qq5ufo.png"
+    },
     "tags": [
       "陣眼",
       "干擾選取"
@@ -3288,6 +3809,11 @@
       "def_mag": 40,
       "def_phy": 35,
       "crit": 22
+    },
+    "skins": {
+      "彼時花好 此方月圓": "https://patchwiki.biligame.com/images/tdj/2/25/mf9vix3ykwte5ydacow2bjyqaeihmyo.png",
+      "此方月圓": "https://patchwiki.biligame.com/images/tdj/f/fb/5mvn644w3zgc7i8kuuhv8f9qfwnhxqg.png",
+      "寧采臣": "https://patchwiki.biligame.com/images/tdj/1/1d/0k633skgrovzypmbaiv1q9xq93zznyk.png"
     },
     "tags": [
       "協攻",
@@ -3316,6 +3842,10 @@
       "def_phy": 25,
       "crit": 30
     },
+    "skins": {
+      "彼時花好": "https://patchwiki.biligame.com/images/tdj/2/24/1nrzqpyr6h4706kdx375zzj8ei653y9.png",
+      "聶小倩": "https://patchwiki.biligame.com/images/tdj/3/34/6xu29ei3380pnk298wdipkwb3pw1o4c.png"
+    },
     "tags": [
       "領域"
     ]
@@ -3342,6 +3872,10 @@
       "crit": 39
     },
     "strategy": "劍膽星馳陣",
+    "skins": {
+      "無匣劍": "https://patchwiki.biligame.com/images/tdj/6/65/c79tyqswq22kklbfec4di25eut302u7.png",
+      "燕赤霞": "https://patchwiki.biligame.com/images/tdj/6/6f/h7sczgqlgx2yepqr03c0s5v7w1j9rsm.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -3368,6 +3902,11 @@
       "def_phy": 35,
       "crit": 47
     },
+    "skins": {
+      "鎏銀朽音": "https://patchwiki.biligame.com/images/tdj/d/d5/d9y2223nivvouw3eb9e23v5gjv2z2vn.png",
+      "聞鬼聲": "https://patchwiki.biligame.com/images/tdj/8/85/cd615a69943ztkwvmmv0dpn91ksyymd.png",
+      "玄羽": "https://patchwiki.biligame.com/images/tdj/5/54/kdn29d4yb7ytscyc9r6hei5ch6a2nff.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -3392,6 +3931,11 @@
       "def_mag": 39,
       "def_phy": 28,
       "crit": 31
+    },
+    "skins": {
+      "白晝月": "https://patchwiki.biligame.com/images/tdj/d/d4/6oq4ck3yeqaoa4527qs6grgu6anvmo4.png",
+      "離人照火": "https://patchwiki.biligame.com/images/tdj/5/58/hgcxybbd0z56vma394t4papnhlc07t1.png",
+      "雲襄": "https://patchwiki.biligame.com/images/tdj/7/7a/08n4nu4427fna1q5pipild7ppqkargu.png"
     },
     "tags": [
       "協攻"
@@ -3419,6 +3963,9 @@
       "crit": 24
     },
     "strategy": "鬼冥煉獄陣",
+    "skins": {
+      "鮮于超": "https://patchwiki.biligame.com/images/tdj/6/61/9qk3h59876gbp6inzskgpgg2avcw927.png"
+    },
     "career2": "猛士",
     "tags": [
       "免死",
@@ -3449,6 +3996,10 @@
       "def_phy": 40,
       "crit": 22
     },
+    "skins": {
+      "篆字燕然": "https://patchwiki.biligame.com/images/tdj/3/3c/6608tgtukuxu1dycpn3hxwf0hxkp1y8.png",
+      "上官遠": "https://patchwiki.biligame.com/images/tdj/f/f7/ba3a0b0g5wyztyfs8ppeepya0c928he.png"
+    },
     "career2": "猛士",
     "tags": [
       "再行動"
@@ -3474,6 +4025,11 @@
       "def_mag": 27,
       "def_phy": 30,
       "crit": 49
+    },
+    "skins": {
+      "鏤紅絮": "https://patchwiki.biligame.com/images/tdj/5/52/29xknhgeaql3axya7lbvdx31e8cb97n.png",
+      "闌珊夜話": "https://patchwiki.biligame.com/images/tdj/a/a3/3iyjf9opvc8e17y8gvwfcu1kh3n9prp.png",
+      "方芸": "https://patchwiki.biligame.com/images/tdj/d/d3/aedxigo9qtex3ci5ymyhj58pmomu1w1.png"
     },
     "tags": [
       "再行動",
@@ -3529,6 +4085,12 @@
       "crit": 17
     },
     "strategy": "元龍兩儀陣",
+    "skins": {
+      "瀚海雲天": "https://patchwiki.biligame.com/images/tdj/e/ef/i8jyconvzj3u38015ih837mn3u7j1fh.png",
+      "燃燭": "https://patchwiki.biligame.com/images/tdj/a/a1/ifzwat0pd0qu1md2vkllipnvvrj4nwr.png",
+      "鴻蒙初色": "https://patchwiki.biligame.com/images/tdj/b/b5/cyzszk4yl7jkrira4ssfa0nv8spfyqh.png",
+      "召祐": "https://patchwiki.biligame.com/images/tdj/5/54/llt8u51l2f1tdyb5ljeo7qmnhk4dcsl.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -3553,6 +4115,11 @@
       "def_mag": 28,
       "def_phy": 36,
       "crit": 46
+    },
+    "skins": {
+      "濯蓮化生": "https://patchwiki.biligame.com/images/tdj/8/86/sbw6d5qyp8kej156wxm9g85oygtn8j5.png",
+      "縛殘": "https://patchwiki.biligame.com/images/tdj/b/b5/a8yxzygutrbldnj50jyjm7xnfqotxnl.png",
+      "赤煉": "https://patchwiki.biligame.com/images/tdj/a/a3/ofuyrj7vk10z1f572c8bwj58b0trict.png"
     },
     "tags": [
       "干擾選取"
@@ -3584,6 +4151,12 @@
       "劍魂",
       "天劍"
     ],
+    "skins": {
+      "劍戰橫空": "https://patchwiki.biligame.com/images/tdj/2/2f/r7n10ij7jb2ncv3i1vaxlek4411rze6.png",
+      "劍戰橫空·貳": "https://patchwiki.biligame.com/images/tdj/c/c2/9bjg53sowxh34we33r1ksoomp5p473z.png",
+      "松山閒雲": "https://patchwiki.biligame.com/images/tdj/f/fc/ohoek56vbxbfbhynql0jhrsp9fec6z6.png",
+      "武英仲": "https://patchwiki.biligame.com/images/tdj/8/84/ick7cv8fzy0p2bi70wok201owx2fjxo.png"
+    },
     "tags": [
       "陣眼",
       "召喚物",
@@ -3610,6 +4183,11 @@
       "def_mag": 41,
       "def_phy": 36,
       "crit": 24
+    },
+    "skins": {
+      "綺靡繁華": "https://patchwiki.biligame.com/images/tdj/c/c9/b6bqeqahl1j4fqofpc2oz39m43kg87m.png",
+      "青花濃": "https://patchwiki.biligame.com/images/tdj/7/75/8obcm658y1atcrxj12zahqkfcq21nyz.png",
+      "舞蝶": "https://patchwiki.biligame.com/images/tdj/9/98/iej2anl9c8xman6qnqcr61ee4hwsutz.png"
     }
   },
   {
@@ -3634,6 +4212,10 @@
       "crit": 19
     },
     "strategy": "天恩妙雪陣",
+    "skins": {
+      "清蘭雪": "https://patchwiki.biligame.com/images/tdj/c/cb/cfcogrjjc9wwfp6fxax7untxqqr91ik.png",
+      "于小雪": "https://patchwiki.biligame.com/images/tdj/d/d2/7bx2r3uteloowwiiajhyiee121n1ufs.png"
+    },
     "tags": [
       "免死",
       "陣眼"
@@ -3659,6 +4241,10 @@
       "def_mag": 22,
       "def_phy": 38,
       "crit": 34
+    },
+    "skins": {
+      "奔煌": "https://patchwiki.biligame.com/images/tdj/d/df/agj8lxuvnr4zeap9ogorfs2hdr4ftev.png",
+      "宇文拓": "https://patchwiki.biligame.com/images/tdj/d/dd/8m89zd5u7gryk344igsvqh3l19bjsnr.png"
     },
     "tags": [
       "領域"
@@ -3686,6 +4272,9 @@
       "crit": 20
     },
     "strategy": "醉夢紅塵陣",
+    "skins": {
+      "李逍遙": "https://patchwiki.biligame.com/images/tdj/7/70/ncp5d3qnf43m4tiisxjco32vm00fy06.png"
+    },
     "tags": [
       "陣眼",
       "挪移友方"
@@ -3712,6 +4301,10 @@
       "def_phy": 33,
       "crit": 39
     },
+    "skins": {
+      "聖靈濯世": "https://patchwiki.biligame.com/images/tdj/d/d2/f3j06x9rlfr131rst6o7wueu9jawt6z.png",
+      "趙靈兒": "https://patchwiki.biligame.com/images/tdj/a/a0/s7hmcs7ztrxepixv1rxr19j2hvpzkgi.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -3736,6 +4329,10 @@
       "def_mag": 30,
       "def_phy": 32,
       "crit": 49
+    },
+    "skins": {
+      "舞韶華": "https://patchwiki.biligame.com/images/tdj/0/0a/g986jkpurfdng53mme53z61hkm3iead.png",
+      "林月如": "https://patchwiki.biligame.com/images/tdj/b/b7/q6a33gysv7d0wje4ygkroa4fp76tzy1.png"
     }
   },
   {
@@ -3758,6 +4355,12 @@
       "def_mag": 36,
       "def_phy": 30,
       "crit": 24
+    },
+    "skins": {
+      "圓波又漪": "https://patchwiki.biligame.com/images/tdj/5/5b/7n8lyqf6069s4h156gi57fbeq0pdcku.png",
+      "躍鯉祈夏": "https://patchwiki.biligame.com/images/tdj/5/51/swqrrqshusly17x4u50to0ju8qb7zh0.png",
+      "踏歌行": "https://patchwiki.biligame.com/images/tdj/f/f4/l0gy0bkizyb96gsxu398j46fb18heru.png",
+      "諸葛艾": "https://patchwiki.biligame.com/images/tdj/b/b2/duvxmfd5blve8gzaxmbyi6av3jzfbmt.png"
     },
     "tags": [
       "挪移友方"
@@ -3785,6 +4388,11 @@
       "crit": 28
     },
     "strategy": "風花劍影陣",
+    "skins": {
+      "萬劍冢": "https://patchwiki.biligame.com/images/tdj/a/a7/6vm337i0n6izp5kjk0ij4iwz2eq64p3.png",
+      "山河易": "https://patchwiki.biligame.com/images/tdj/5/55/nf9imt1udxsgzrns7amivz9vmksrhqj.png",
+      "殷無邪": "https://patchwiki.biligame.com/images/tdj/b/b3/mgkxe1t1vvm37h5b1n2re0vuqquk2ux.png"
+    },
     "tags": [
       "陣眼",
       "領域"
@@ -3810,6 +4418,11 @@
       "def_mag": 42,
       "def_phy": 34,
       "crit": 30
+    },
+    "skins": {
+      "牽思戲": "https://patchwiki.biligame.com/images/tdj/5/55/nwuqaa4om7ah0x4opg21yp20c1jt46u.png",
+      "煢煢孑立": "https://patchwiki.biligame.com/images/tdj/c/c0/lb2oiiy5yeearhcsovbi9am04423ymr.png",
+      "宇韶容": "https://patchwiki.biligame.com/images/tdj/b/b4/ed1z3c3cfbwfclrlo184z8kq1oylk4z.png"
     }
   },
   {
@@ -3834,6 +4447,10 @@
       "crit": 56
     },
     "strategy": "天魔萬象陣",
+    "skins": {
+      "枯榮骨": "https://patchwiki.biligame.com/images/tdj/b/b0/7235oxsc9r93z3xf5a7kmzn2cahfgt3.png",
+      "劍邪": "https://patchwiki.biligame.com/images/tdj/b/b0/owcliwcgcxh9vta8porgot3mjzpawpv.png"
+    },
     "tags": [
       "陣眼",
       "援襲技能"
@@ -3861,6 +4478,13 @@
       "crit": 43
     },
     "strategy": "幽冥夜華陣",
+    "skins": {
+      "一簾幽夢": "https://patchwiki.biligame.com/images/tdj/d/d8/ma2dleyiyxmta1st69qaprmcwyijua2.png",
+      "一簾幽夢·貳": "https://patchwiki.biligame.com/images/tdj/1/1d/ohn1ldgjqadao858ca8zjb4vlu1nvra.png",
+      "無常": "https://patchwiki.biligame.com/images/tdj/0/07/79viijwt8tkbp7032cqmd26cpj1y1kp.png",
+      "花期": "https://patchwiki.biligame.com/images/tdj/5/55/7bfskcag4wjmbmn5gfk4svizn00cg9d.png",
+      "黎幽": "https://patchwiki.biligame.com/images/tdj/e/e3/9tcgjp40ww04eegivx04m99nx1ouuul.png"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -3886,6 +4510,14 @@
       "def_mag": 28,
       "def_phy": 35,
       "crit": 43
+    },
+    "skins": {
+      "鳳舞玄焰": "https://patchwiki.biligame.com/images/tdj/6/69/03j953s5kuvbwqel96depepr2sqec89.png",
+      "鳳舞玄焰·貳": "https://patchwiki.biligame.com/images/tdj/7/7e/i8omw7p9nx7fvt82atr27uhn6ht1cki.png",
+      "血衣非天": "https://patchwiki.biligame.com/images/tdj/d/dc/6wird8ptpwsmhpd15wcroc9e3whewhs.png",
+      "行路難": "https://patchwiki.biligame.com/images/tdj/e/e4/t8jmewvmzb22jha943lj5a4g7m9qg0d.png",
+      "錦衣夜行": "https://patchwiki.biligame.com/images/tdj/6/6b/s9xgz5a3lh7qbww53m1r3bnc0n2esme.png",
+      "曹沁": "https://patchwiki.biligame.com/images/tdj/1/18/hleuyfrt68euvxv655gms7oe7msc18f.png"
     },
     "tags": [
       "協攻",
@@ -3913,6 +4545,10 @@
       "def_phy": 30,
       "crit": 41
     },
+    "skins": {
+      "冰戈行": "https://patchwiki.biligame.com/images/tdj/c/cb/5d706s0i37lkrpwvd3eg7b67t0knwa4.png",
+      "秦惟剛": "https://patchwiki.biligame.com/images/tdj/0/0a/k8tp7dao8i9ug422zcg526zoe6oilvl.png"
+    },
     "tags": [
       "領域"
     ]
@@ -3939,6 +4575,11 @@
       "crit": 38
     },
     "strategy": "瓊華飛仙陣",
+    "skins": {
+      "敦煌曲": "https://patchwiki.biligame.com/images/tdj/9/9d/ielwvb328gi41yfxj85te5wvn17fxbb.png",
+      "月汐夢": "https://patchwiki.biligame.com/images/tdj/f/f8/l5opdluafo1vqhp7hpazrwg0awwargj.png",
+      "紫楓": "https://patchwiki.biligame.com/images/tdj/5/57/sy6i5sly7jzrgxmye1ov83udt5f6zpv.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -3963,6 +4604,15 @@
       "def_mag": 19,
       "def_phy": 37,
       "crit": 47
+    },
+    "skins": {
+      "豐城夜投雪": "https://patchwiki.biligame.com/images/tdj/1/12/n9xju7nm2hsmgqcuizl67pmko39pym4.png",
+      "豐城夜投雪 英袞暢人謀": "https://patchwiki.biligame.com/images/tdj/8/85/q3pe09jcxdlcv8l2agqtrfr3m4tuw8f.png",
+      "幻夢生": "https://patchwiki.biligame.com/images/tdj/c/c3/a6icieclj1ccs4kxlgis9ufc2wt5kki.png",
+      "幽神憑體": "https://patchwiki.biligame.com/images/tdj/8/81/61la5iat05h2xt1zijuhmghcse52p94.png",
+      "故蕊逐風": "https://patchwiki.biligame.com/images/tdj/2/21/5mfppn6cxt541uz6h6wlgfnsd1da7gg.png",
+      "森羅來客": "https://patchwiki.biligame.com/images/tdj/2/28/fmtpgzsb10ia1yl97pjxhgwwt7sm878.png",
+      "冰璃": "https://patchwiki.biligame.com/images/tdj/7/73/dzs38fhcoc6l94kbce2t8dlee19er6x.png"
     },
     "tags": [
       "免死",
@@ -3998,6 +4648,10 @@
       "穢土靈俑·壹",
       "穢土靈俑·貳"
     ],
+    "skins": {
+      "終夜輓歌": "https://patchwiki.biligame.com/images/tdj/d/d1/7k97a7m9jy6iwbzvt1vnlzv65qas2di.png",
+      "鄲陰": "https://patchwiki.biligame.com/images/tdj/1/14/46fntadz1uimhskoa28d1ef1py1ny6p.png"
+    },
     "tags": [
       "免死",
       "召喚物",
@@ -4027,6 +4681,13 @@
       "crit": 35
     },
     "strategy": "弦月封霜陣",
+    "skins": {
+      "小酌時": "https://patchwiki.biligame.com/images/tdj/d/da/nv6way42vmirggyqoezl3vikxdcjxpk.png",
+      "見月如水": "https://patchwiki.biligame.com/images/tdj/b/bc/cflqyz94caz1f0fieyhcjaafemz2z43.png",
+      "飛雲月隱": "https://patchwiki.biligame.com/images/tdj/e/e9/7y1swjhlex8fefa91j692c4n7ld4vca.png",
+      "飛星如梭": "https://patchwiki.biligame.com/images/tdj/2/25/rzr4x1dcrpow5d834zxvkc89hd1djzb.png",
+      "封寒月": "https://patchwiki.biligame.com/images/tdj/b/b5/5exzqx07wogfyqs82q2hbe0g8dsnz44.png"
+    },
     "tags": [
       "陣眼",
       "援襲技能"
@@ -4053,6 +4714,14 @@
       "def_phy": 31,
       "crit": 20
     },
+    "skins": {
+      "卷中紅塵": "https://patchwiki.biligame.com/images/tdj/a/a1/7hseghjhcteb6sbvsh3ethy8aiyvr8m.png",
+      "棋落何處": "https://patchwiki.biligame.com/images/tdj/8/84/tppz8650dn7wkuiztdgqrl41oupw83l.png",
+      "赴情長": "https://patchwiki.biligame.com/images/tdj/8/89/1gwrs1m33tm1gz797uyhg65i4wjkupt.png",
+      "赴情長·貳": "https://patchwiki.biligame.com/images/tdj/d/dd/fp50mbuqekztfig44ivyqvmo25p1bj0.png",
+      "青鸞有信": "https://patchwiki.biligame.com/images/tdj/6/67/g5h49xkwc3i6ccoz5q1vvlfdfo8fis7.png",
+      "封鈴笙": "https://patchwiki.biligame.com/images/tdj/0/0d/mfdnelbcv81emefx4j6n127ctmsnj48.png"
+    },
     "tags": [
       "再啟動",
       "剋制地形"
@@ -4078,6 +4747,10 @@
       "def_mag": 40,
       "def_phy": 33,
       "crit": 23
+    },
+    "skins": {
+      "沂水舞雩": "https://patchwiki.biligame.com/images/tdj/c/c2/hq3kw76e1hy1g1pxpyb3hwykvsj04hb.png",
+      "葛雲衣": "https://patchwiki.biligame.com/images/tdj/c/cc/89ocm49wmaeo7iemn8yim8ivpy7qip3.png"
     },
     "tags": [
       "援襲技能",
@@ -4106,6 +4779,10 @@
       "crit": 14
     },
     "strategy": "倫巴第協陣",
+    "skins": {
+      "第二次降臨": "https://patchwiki.biligame.com/images/tdj/e/e8/fexhc61yeogfqjxozbkziiw1hbt7vss.png",
+      "古倫德": "https://patchwiki.biligame.com/images/tdj/0/08/h52zabm7y0isp8l2d9zid0p4qvhxdxf.png"
+    },
     "tags": [
       "陣眼",
       "協攻",
@@ -4134,6 +4811,10 @@
       "crit": 55
     },
     "strategy": "飛燕驚鴻陣",
+    "skins": {
+      "碎清光": "https://patchwiki.biligame.com/images/tdj/f/f3/h1jnso8ks1hzl47t8mj130bhyxlebox.png",
+      "韓千秀": "https://patchwiki.biligame.com/images/tdj/6/68/fp2onbpbpj64tvxyp46xkdyyy2pxh9f.png"
+    },
     "tags": [
       "陣眼",
       "協攻",
@@ -4164,6 +4845,10 @@
       "def_phy": 33,
       "crit": 43
     },
+    "skins": {
+      "荒夜狴犴": "https://patchwiki.biligame.com/images/tdj/c/ce/aaft3udyjmtqvpk2ubm40h9wk38b3z1.png",
+      "皇甫申": "https://patchwiki.biligame.com/images/tdj/1/11/s0jpykjoi3af2iwt6ub4haj2zv99bo5.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -4188,6 +4873,10 @@
       "def_mag": 26,
       "def_phy": 43,
       "crit": 18
+    },
+    "skins": {
+      "撼鼓穹窿": "https://patchwiki.biligame.com/images/tdj/3/3a/b0tevuq0pwhawvvdvziw7kcpopmmxt8.png",
+      "解臾": "https://patchwiki.biligame.com/images/tdj/e/ee/iu2dfavu1or8p4c6jke8pszo7s5zdwg.png"
     },
     "tags": [
       "援襲技能"
@@ -4215,6 +4904,11 @@
       "crit": 40
     },
     "strategy": "璇璣引雷陣",
+    "skins": {
+      "一千光年": "https://patchwiki.biligame.com/images/tdj/c/cd/08bog1ee5fiivei3j12eq2oyagwh497.png",
+      "薰風南歸": "https://patchwiki.biligame.com/images/tdj/2/2a/0o2qku74rvshrps35pk57feczo0pzaw.png",
+      "慕容璇璣": "https://patchwiki.biligame.com/images/tdj/8/8b/1tf6y8ygzxehakm0hfds3c9q45xw063.png"
+    },
     "tags": [
       "陣眼",
       "協攻"
@@ -4242,6 +4936,13 @@
       "crit": 34
     },
     "strategy": "千煌幻日陣",
+    "skins": {
+      "萬古龍華": "https://patchwiki.biligame.com/images/tdj/7/71/89twjnu9iryp8izvdl7gg5z6cj6l87a.png",
+      "東風催箭": "https://patchwiki.biligame.com/images/tdj/0/0e/4bhv6okie9hm643csk1wqhvfk62ia0r.png",
+      "東風催箭·貳": "https://patchwiki.biligame.com/images/tdj/d/d6/qyqf5zkd7juqdnhyjcxavwlc58yxw2q.png",
+      "千劫燼": "https://patchwiki.biligame.com/images/tdj/7/74/7h2k8p1ck0ytmd9r29l3fe3spxzgd82.png",
+      "夏侯儀": "https://patchwiki.biligame.com/images/tdj/8/8a/tk265l8dv3le2zdrdhmtp6g3y3kt1b5.png"
+    },
     "tags": [
       "免死",
       "陣眼",
@@ -4268,6 +4969,12 @@
       "def_mag": 31,
       "def_phy": 34,
       "crit": 59
+    },
+    "skins": {
+      "笑倩兮": "https://patchwiki.biligame.com/images/tdj/0/02/j33u2yurgm01ngnzjl0c1clnscb28kj.png",
+      "笑倩兮·貳": "https://patchwiki.biligame.com/images/tdj/2/21/edevn914ltlqwj428nkelme51aqgl3o.png",
+      "花間千面": "https://patchwiki.biligame.com/images/tdj/c/cc/5sq5j3jhv11fyyhgbysoybs3wcz9kxn.png",
+      "燕明蓉": "https://patchwiki.biligame.com/images/tdj/c/c7/q1gx9rw24otej241aly1v6ire2m8m3p.png"
     },
     "tags": [
       "召喚物",
@@ -4296,6 +5003,10 @@
       "def_phy": 46,
       "crit": 21
     },
+    "skins": {
+      "蝶變": "https://patchwiki.biligame.com/images/tdj/7/7c/bkpk2d455y8tkwctob8jtk9zyljj8it.png",
+      "陰歙": "https://patchwiki.biligame.com/images/tdj/4/48/4v74igcjg387od28z0m2s5xobksq3qi.png"
+    },
     "tags": [
       "援襲技能",
       "領域"
@@ -4323,6 +5034,11 @@
       "crit": 30
     },
     "strategy": "天烈熾炎陣",
+    "skins": {
+      "光影劍歌": "https://patchwiki.biligame.com/images/tdj/c/c0/pbyndy4apcvr4g5fds63ycocxrrit7k.png",
+      "八方昏曉": "https://patchwiki.biligame.com/images/tdj/7/72/tr91tdhdp3x4e1lwemab0cv8tho4i4x.png",
+      "殷劍平": "https://patchwiki.biligame.com/images/tdj/1/1b/mop5f2ora1d2iu2j4zpj0rgwd5wgcpp.png"
+    },
     "tags": [
       "陣眼",
       "援襲技能"
@@ -4350,6 +5066,10 @@
       "crit": 14
     },
     "strategy": "神闕靈繁陣",
+    "skins": {
+      "潯陽燈": "https://patchwiki.biligame.com/images/tdj/2/2f/1g4fu6r9h365g9jyuxdinyp3udo2jdf.png",
+      "白菀": "https://patchwiki.biligame.com/images/tdj/c/c9/2kofq2p61n36oa7ntlzhds2dlla4ife.png"
+    },
     "tags": [
       "陣眼",
       "協攻"
@@ -4376,6 +5096,9 @@
       "def_phy": 28,
       "crit": 46
     },
+    "skins": {
+      "常逸風": "https://patchwiki.biligame.com/images/tdj/5/5d/7208jcs0uxjtgemmubvzj2lot9pcuas.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -4401,6 +5124,9 @@
       "def_phy": 32,
       "crit": 21
     },
+    "skins": {
+      "高戚": "https://patchwiki.biligame.com/images/tdj/6/6b/8n4v1uycft8vv3twt9bi275gz4e33go.png"
+    },
     "career2": "猛士"
   },
   {
@@ -4425,6 +5151,10 @@
       "crit": 22
     },
     "strategy": "暗香迷情陣",
+    "skins": {
+      "福兮禍兮": "https://patchwiki.biligame.com/images/tdj/f/f4/7cfkjt6323pbpbklz1btgbvj95h6mko.png",
+      "韓無砂": "https://patchwiki.biligame.com/images/tdj/a/a9/oslkg8czcb4wtl9t7tn79xt4jocv65u.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -4449,6 +5179,9 @@
       "def_mag": 20,
       "def_phy": 37,
       "crit": 14
+    },
+    "skins": {
+      "赫蘭鐵罕": "https://patchwiki.biligame.com/images/tdj/1/11/15qf1hla3syn1opnlyzmp52kw2khtgu.png"
     }
   },
   {
@@ -4473,6 +5206,9 @@
       "crit": 30
     },
     "strategy": "幻冰凝霜陣",
+    "skins": {
+      "幻鏡朧妖": "https://patchwiki.biligame.com/images/tdj/e/e9/iu9w8pykcv06ex0n4bikcnj5mh0rhkc.png"
+    },
     "tags": [
       "陣眼",
       "協攻"
@@ -4498,6 +5234,10 @@
       "def_mag": 20,
       "def_phy": 26,
       "crit": 46
+    },
+    "skins": {
+      "遊園驚夢": "https://patchwiki.biligame.com/images/tdj/6/6a/5v78iz3s3ns77weirlvshtnfiz1qg74.png",
+      "李盈鳳": "https://patchwiki.biligame.com/images/tdj/4/47/r3amqjal8acq1o109ayfcjq4r6ngsd2.png"
     },
     "tags": [
       "再行動"
@@ -4525,6 +5265,9 @@
       "crit": 25
     },
     "strategy": "光焰燭天陣",
+    "skins": {
+      "慕容箏": "https://patchwiki.biligame.com/images/tdj/f/f1/7ckcf1gjofqvy3xc88tqf3dn78e7mgg.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -4550,6 +5293,9 @@
       "def_phy": 28,
       "crit": 18
     },
+    "skins": {
+      "司徒纓": "https://patchwiki.biligame.com/images/tdj/9/90/p79mbofspq9xx9bptkf4d1k883b8xak.png"
+    },
     "tags": [
       "協攻"
     ]
@@ -4574,6 +5320,9 @@
       "def_mag": 35,
       "def_phy": 25,
       "crit": 24
+    },
+    "skins": {
+      "太淵隱逸": "https://patchwiki.biligame.com/images/tdj/a/aa/91sup6lq6wky75015u1hrff9zp3xkis.png"
     }
   },
   {
@@ -4596,6 +5345,9 @@
       "def_mag": 34,
       "def_phy": 26,
       "crit": 21
+    },
+    "skins": {
+      "相桓子": "https://patchwiki.biligame.com/images/tdj/5/5e/1ks5r9lx51s21l6i7xyepgc15o4o3cd.png"
     },
     "tags": [
       "挪移友方"
@@ -4622,6 +5374,9 @@
       "def_phy": 29,
       "crit": 22
     },
+    "skins": {
+      "陽寰": "https://patchwiki.biligame.com/images/tdj/a/ab/qq2gkhjdu1rxqzc46u9isnylb8j2lf4.png"
+    },
     "tags": [
       "再行動"
     ]
@@ -4646,6 +5401,10 @@
       "def_mag": 27,
       "def_phy": 26,
       "crit": 46
+    },
+    "skins": {
+      "登臺客": "https://patchwiki.biligame.com/images/tdj/d/d3/e9hc7k9gztlwq629c5uyghaq65u6bmh.png",
+      "楊雲佐": "https://patchwiki.biligame.com/images/tdj/1/18/d6jjvvl69oyorxsxqj7419z0odv8b1z.png"
     }
   },
   {
@@ -4668,6 +5427,9 @@
       "def_mag": 19,
       "def_phy": 32,
       "crit": 28
+    },
+    "skins": {
+      "應奉仁": "https://patchwiki.biligame.com/images/tdj/c/ca/c3c2uo08c06fvkzo1x0ywei3z8cxtw8.png"
     }
   },
   {
@@ -4690,6 +5452,9 @@
       "def_mag": 20,
       "def_phy": 31,
       "crit": 44
+    },
+    "skins": {
+      "周崇": "https://patchwiki.biligame.com/images/tdj/5/52/1hbst2dewz9nhjsxgl7071yrh7cvmdt.png"
     },
     "tags": [
       "再行動"
@@ -4715,6 +5480,9 @@
       "def_mag": 22,
       "def_phy": 28,
       "crit": 32
+    },
+    "skins": {
+      "朱繯": "https://patchwiki.biligame.com/images/tdj/8/80/mt5gaj19w78i2nl920tgyzkkuzdfuiz.png"
     },
     "tags": [
       "協攻",
@@ -4743,6 +5511,9 @@
       "crit": 13
     },
     "strategy": "紫電青霜陣",
+    "skins": {
+      "紫蘊": "https://patchwiki.biligame.com/images/tdj/4/42/7i5zb0jlbagwdg6ybumn10lsr38ueyk.png"
+    },
     "tags": [
       "陣眼"
     ]
@@ -4768,6 +5539,9 @@
       "def_phy": 30,
       "crit": 17
     },
+    "skins": {
+      "阿爾泰巴": "https://patchwiki.biligame.com/images/tdj/b/ba/ekmzu91iv5xb0pssww28o9t8dnl1xu3.png"
+    },
     "career2": "猛士"
   },
   {
@@ -4790,6 +5564,9 @@
       "def_mag": 16,
       "def_phy": 26,
       "crit": 26
+    },
+    "skins": {
+      "高世津": "https://patchwiki.biligame.com/images/tdj/f/f2/o0hsoh8b56hfwit1lla1rjnumdax6i8.png"
     }
   },
   {
@@ -4812,6 +5589,9 @@
       "def_mag": 18,
       "def_phy": 23,
       "crit": 40
+    },
+    "skins": {
+      "呼延崇": "https://patchwiki.biligame.com/images/tdj/8/8a/nn5adx9mya9368ky8cf30k0cnw9auu9.png"
     },
     "tags": [
       "機關"
@@ -4838,6 +5618,9 @@
       "def_phy": 24,
       "crit": 40
     },
+    "skins": {
+      "青蘿": "https://patchwiki.biligame.com/images/tdj/6/67/02oucavbu2hhz98thxrchg81uos9sjp.png"
+    },
     "tags": [
       "協攻"
     ]
@@ -4862,6 +5645,9 @@
       "def_mag": 18,
       "def_phy": 29,
       "crit": 15
+    },
+    "skins": {
+      "韋勝": "https://patchwiki.biligame.com/images/tdj/9/97/12ygz9sxg02wq6jzphik8kjkkj959ok.png"
     }
   },
   {
@@ -4884,6 +5670,9 @@
       "def_mag": 17,
       "def_phy": 31,
       "crit": 13
+    },
+    "skins": {
+      "希維亞": "https://patchwiki.biligame.com/images/tdj/2/2e/aq0gbg8rxdu6ltfbhj9n74oboao60yk.png"
     }
   },
   {
@@ -4906,6 +5695,9 @@
       "def_mag": 27,
       "def_phy": 21,
       "crit": 29
+    },
+    "skins": {
+      "雅布斯": "https://patchwiki.biligame.com/images/tdj/7/75/6a4q5alu3enqutrn9gj07rnqkjhtq8z.png"
     }
   },
   {
@@ -4928,6 +5720,9 @@
       "def_mag": 29,
       "def_phy": 23,
       "crit": 15
+    },
+    "skins": {
+      "伊絲朶": "https://patchwiki.biligame.com/images/tdj/e/e7/08rdb4b4nigb47ffu8y7o5j69iqa4zm.png"
     }
   },
   {
@@ -4950,6 +5745,9 @@
       "def_mag": 17,
       "def_phy": 27,
       "crit": 19
+    },
+    "skins": {
+      "應靈華": "https://patchwiki.biligame.com/images/tdj/d/d8/89ukg95745w3xlfx9h1xvdfellhvn6g.png"
     }
   },
   {
@@ -4972,6 +5770,9 @@
       "def_mag": 28,
       "def_phy": 22,
       "crit": 25
+    },
+    "skins": {
+      "朱浩": "https://patchwiki.biligame.com/images/tdj/7/76/1379tpbp4f1xoxkrig54y0z7k92k3xo.png"
     },
     "tags": [
       "領域"
