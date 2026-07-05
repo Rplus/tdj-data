@@ -42,7 +42,7 @@ gen-tags:
 #
 #
 
-update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill
+update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill fetch-bili-skin--force
 	echo 'update from biliwiki'
 
 fetch-bili-summon:
@@ -77,6 +77,11 @@ fetch-bili-skill--support:
 	bun ./task/fetch-bili-skill--support.mjs;
 fetch-bili-skill--support--force:
 	bun ./task/fetch-bili-skill--support.mjs --force-fetch;
+
+fetch-bili-skin:
+	bun run task/fetch-bili-skin.mjs;
+fetch-bili-skin--force:
+	bun run task/fetch-bili-skin.mjs --force-fetch;
 
 merge-skills:
 	bun ./task/merge_skills.mjs;
