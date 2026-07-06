@@ -48,11 +48,13 @@ try {
 const roles_tw = await fetch_with_cached({
 	url: raw_data.roles.url('tw'),
 	cached_path: 'roles.tw.res.json',
+	// ignore_cached: FORCE_FETCH,
 	ignore_cached: true,
 });
 const roles_cn = await fetch_with_cached({
 	url: raw_data.roles.url('cn'),
 	cached_path: 'roles.cn.res.json',
+	// ignore_cached: FORCE_FETCH,
 	ignore_cached: true,
 });
 
@@ -111,6 +113,11 @@ for (const role of merged_roles) {
 		ignore_cached: FORCE_FETCH,
 		// skip_sleep: true,
 	});
+
+	if (role.pinyin_tw) {
+		detail.data.data[0].pinyin = role.pinyin;
+		detail.data.data[0].pinyin_tw = role.pinyin_tw;
+	}
 
 	fetched_details.push(detail);
 }
