@@ -83,17 +83,17 @@ const merged_roles = roles_cn.data.data.map(role_cn => {
 
 outputJSON({
 	json: roles_tw,
-	fn: `${raw_data.roles.fn}.tw.raw.json`,
+	fn: `./_mid/roles.tw.raw.json`,
 	cn2tw: false,
 });
 outputJSON({
 	json: roles_cn,
-	fn: `${raw_data.roles.fn}.cn.raw.json`,
+	fn: `./_mid/roles.cn.raw.json`,
 	cn2tw: false,
 });
 outputJSON({
 	json: merged_roles,
-	fn: `${raw_data.roles.fn}.op.json`,
+	fn: `./_mid/roles.op.json`,
 	cn2tw: false,
 });
 

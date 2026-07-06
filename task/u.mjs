@@ -17,15 +17,15 @@ const domains = {
 export let raw_data = {
 	roles: {
 		url: (lang) => get_url({ module: 'hero', type: 'basic' }, lang),
-		fn: './_mid/roles',
-		cached_path: 'roles.res.json',
+		// fn: './_mid/roles',
+		// cached_path: 'roles.res.json',
 		rawdata: null,
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=basic
 	},
 	role_deatil: {
 		url: (name, lang) => get_url({ module: 'hero', type: 'detail', query: name }, lang),
-		fn: './_mid/roles_detail',
-		cached_path: 'roles_detail.res.json',
+		// fn: './_mid/roles_detail',
+		// cached_path: 'roles_detail.res.json',
 		rawdata: null,
 		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=detail&query=%s
 	},
