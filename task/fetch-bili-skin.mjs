@@ -28,7 +28,8 @@ let raw_skins = await fetch_with_cached({
 	url: 'https://wiki.biligame.com/tdj/api.php?action=ask&query=[[分类:时装]]|?名称=name|?所属=owner|limit=9999&format=json',
 	cached_path: `bili/时装/all_skin_info.askquery.res.json`,
 	// is_json: true,
-	ignore_cached: FORCE_FETCH,
+	// ignore_cached: FORCE_FETCH,
+	ignore_cached: true,
 });
 
 let all_skins = Object.values(raw_skins.query.results).map(i => {
@@ -59,64 +60,42 @@ outputJSON({
 /////
 /////
 
-const group_size = 50;
-const all_skin_fn_per50 = Array.from(
-	{ length: Math.ceil(all_skins.length / group_size) },
-	(_, i) => all_skins
-		.slice(i * group_size, (i + 1) * group_size)
-		.map(skin => `File:立绘_${skin.name}.png`)
-		.join('|')
-);
-
-
-// let all_skill_info = await fetch_with_cached({
-// 	url: `https://wiki.biligame.com/tdj/api.php?action=query&titles=${all_skin_titles}&prop=imageinfo&iiprop=url&format=json`,
-// 	cached_path: `bili/时装/all_skin_url_info.query.res.json`,
-// 	// is_json: true,
-// 	ignore_cached: FORCE_FETCH,
-// })
+// const group_size = 50;
+// const all_skin_fn_per50 = Array.from(
+// 	{ length: Math.ceil(all_skins.length / group_size) },
+// 	(_, i) => all_skins
+// 		.slice(i * group_size, (i + 1) * group_size)
+// 		.map(skin => `File:立绘_${skin.name}.png`)
+// 		.join('|')
+// );
 
 let raw_skin_info = [];
-for (let idx = 0; idx < all_skin_fn_per50.length; idx++) {
-	const title_strings = all_skin_fn_per50[idx];
+
+for (let skin of all_skins) {
+	let title = `File:立绘_${skin.name}.png`;
+
 	try {
 		const data = await fetch_with_cached({
-			url: `https://wiki.biligame.com/tdj/api.php?action=query&titles=${title_strings}&prop=imageinfo&iiprop=url&format=json`,
-			cached_path: `bili/时装/skin_info_${idx}.query.json`,
+			url: `https://wiki.biligame.com/tdj/api.php?action=query&titles=${title}&prop=imageinfo&iiprop=url&iiurlheight=550&format=json`,
+			// wiki source x550px: thumb with 550px height
+			cached_path: `bili/时装/${skin.name}.query.json`,
 			ignore_cached: FORCE_FETCH,
 			// ignore_cached: true,
 		});
+		let pinyin = pinyin_map[skin.owner];
 
-		raw_skin_info.push(Object.values(data.query.pages));
+		let img_info = Object.values(data.query.pages)[0].imageinfo[0];
+
+		let thumburl = img_info.thumburl
+			.replace('https://patchwiki.biligame.com/images/tdj/thumb', '')
+			.replace('px-%E7%AB%8B%E7%BB%98_', '♥');
+
+		role_with_skin_imgs[pinyin].skins[skin.name] = thumburl;
+
 	} catch (error) {
-		console.error(`請求失敗: ${title_strings}`, error);
+		console.error(`請求失敗: ${title}`, error);
 	}
 }
-
-let skin_img_map = raw_skin_info.flat().reduce((all, i) => {
-	let title = i.title.replace('文件:立绘 ', '').replace('.png', '');
-	let url = i.imageinfo[0].url;
-	all[title] = url;
-	return all;
-}, {});
-
-outputJSON({
-	json: skin_img_map,
-	fn: `./_mid/_all_skin_imgs.json`,
-	// space: 0,
-	// cn2tw: true,
-});
-
-//
-//
-//
-
-
-all_skins.forEach(i => {
-	let pinyin = pinyin_map[i.owner];
-	role_with_skin_imgs[pinyin].skins[i.name] = skin_img_map[i.name];
-});
-
 
 outputJSON({
 	json: role_with_skin_imgs,

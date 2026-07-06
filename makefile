@@ -42,7 +42,7 @@ gen-tags:
 #
 #
 
-update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill fetch-bili-skin--force
+update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill fetch-bili-skin
 	echo 'update from biliwiki'
 
 fetch-bili-summon:
