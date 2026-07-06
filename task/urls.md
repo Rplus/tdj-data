@@ -147,3 +147,7 @@ https://wiki.biligame.com/tdj/api.php?action=query&prop=revisions&titles=天赋/
 ## REST API
 https://wiki.biligame.com/tdj/rest.php/v1/page/召唤物%2F啸霜
 
+
+## thumb.php
+只需要 file name 就能隨意調整 SIZE
+https://wiki.biligame.com/tdj/thumb.php?f=立绘_一帘幽梦·贰.png&w=310
