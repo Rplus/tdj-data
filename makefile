@@ -4,19 +4,12 @@ all:
 # print-date:
 # 	date +%FT%T%:::z > '../src/lib/data/latest-fetch-time.txt';
 
+
 sync_official_data_version:
 	printf '{"folder_commit_sha":"%s","sync_time":"%s"}' \
 	"$$(git log -1 --format=%H -- _cache/tdj-roles)" \
 	"$$(date +%FT%T%:::z)" \
 	> '../src/lib/data/version.json'
-
-#
-
-fetch-%--force:
-	bun ./task/fetch-$*.mjs --force-fetch
-
-fetch-%:
-	bun ./task/fetch-$*.mjs
 
 #
 
