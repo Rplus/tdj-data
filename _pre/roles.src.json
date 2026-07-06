@@ -205,7 +205,7 @@
     "prop": "魔",
     "hero_icon": "Hero1504_HeadIcon_Basic",
     "career": "鬥將",
-    "pinyin": "moxiuhuoyong",
+    "pinyin": "mosuhuoyong",
     "pic": "Hero1504_img",
     "position": "近攻",
     "range": "1",
@@ -221,16 +221,10 @@
       "crit": 20
     },
     "strategy": "晦明統御陣",
-    "tags": [
-      "免死",
-      "再啟動",
-      "陣眼",
-      "再行動",
-      "戍援",
-      "嘲諷",
-      "干擾選取",
-      "限制區域"
-    ]
+    "skins": {
+      "心業斷歿": "/0/01/cnp8eq3qiqpbkp117pk1cz90eubq70v.png/625♥%E5%BF%83%E4%B8%9A%E6%96%AD%E6%AE%81.png",
+      "魔宿霍雍": "/e/e0/9fpx9y1v1r6zc1qwqffnioyba2y4zie.png/403♥%E9%AD%94%E5%AE%BF%E9%9C%8D%E9%9B%8D.png"
+    }
   },
   {
     "name": "琴色",
@@ -1929,7 +1923,7 @@
     "prop": "幽",
     "hero_icon": "Hero1054_HeadIcon_Basic",
     "career": "御風",
-    "pinyin": "lvlv",
+    "pinyin": "lv",
     "pic": "Hero1054_img",
     "position": "近攻",
     "range": "1",
@@ -1944,9 +1938,13 @@
       "def_phy": 33,
       "crit": 42
     },
-    "tags": [
-      "再行動"
-    ]
+    "skins": {
+      "無瑕枝": "/2/2b/6avc8qao42bpl6eh7t70yfhh0dhhy3y.png/560♥%E6%97%A0%E7%91%95%E6%9E%9D.png",
+      "眠芳不覺": "/2/27/b0918j8j0fh9ppod8kkmzz7mxpmoc1h.png/789♥%E7%9C%A0%E8%8A%B3%E4%B8%8D%E8%A7%89.png",
+      "蝶夢幽蘭": "/2/25/9vhwog4mskll8fhgz24j65p3b8j10ym.png/539♥%E8%9D%B6%E6%A2%A6%E5%B9%BD%E5%85%B0.png",
+      "蝶夢幽蘭·貳": "/8/88/ceq7ms8at4modvirntkt9uqhk1othi5.png/509♥%E8%9D%B6%E6%A2%A6%E5%B9%BD%E5%85%B0%C2%B7%E8%B4%B0.png",
+      "律": "/a/a9/eix13xcic4vm496tkdyqb1urli9qiz0.png/533♥%E5%BE%8B.png"
+    }
   },
   {
     "name": "賽特",
@@ -2208,7 +2206,7 @@
     "prop": "幽",
     "hero_icon": "Hero1067_HeadIcon_Basic",
     "career": "羽士",
-    "pinyin": "yuebei",
+    "pinyin": "yuebo",
     "pic": "Hero1067_img",
     "position": "遠攻",
     "range": "2",
@@ -2224,11 +2222,11 @@
       "crit": 38
     },
     "strategy": "暗月鬥靈陣",
-    "tags": [
-      "陣眼",
-      "再行動",
-      "剋制免死"
-    ]
+    "skins": {
+      "爍魂": "/e/e3/5a8dpq0xin06w9ij7c910w8lfooqp72.png/511♥%E7%83%81%E9%AD%82.png",
+      "閻羅遣使": "/7/78/rj7v9fl6w5rugdr96mdci3isvex3052.png/601♥%E9%98%8E%E7%BD%97%E9%81%A3%E4%BD%BF.png",
+      "月孛": "/7/7d/m6jjvd8ank1krv5uqo0p402vflco7vu.png/559♥%E6%9C%88%E5%AD%9B.png"
+    }
   },
   {
     "name": "朱槿",
@@ -4042,7 +4040,7 @@
     "prop": "暗",
     "hero_icon": "Hero1201_HeadIcon_Basic",
     "career": "咒師",
-    "pinyin": "mohuaxiahouyi",
+    "pinyin": "tieshouxiahouyi",
     "pic": "Hero1201_img",
     "position": "法攻",
     "range": "2",
@@ -4058,10 +4056,11 @@
       "crit": 28
     },
     "strategy": "萬念輪迴陣",
-    "tags": [
-      "陣眼",
-      "再行動"
-    ]
+    "skins": {
+      "別來春半": "/7/72/9njqyn7bps8d6er92ncsqlrfqxajqne.png/677♥%E5%88%AB%E6%9D%A5%E6%98%A5%E5%8D%8A.png",
+      "無道": "/0/03/ghyxk5gwjfjxlbvwhqu3gzoyt9e06nz.png/609♥%E6%97%A0%E9%81%93.png",
+      "鐵手夏侯儀": "/1/1c/cn9fbhgmqukricbjpilxzgpd4xhl8ce.png/338♥%E9%93%81%E6%89%8B%E5%A4%8F%E4%BE%AF%E4%BB%AA.png"
+    }
   },
   {
     "name": "召祐",
