@@ -1,8 +1,14 @@
 all:
 	echo 123;
 
-print-date:
-	date +%FT%T%:::z > '../src/lib/data/latest-fetch-time.txt';
+# print-date:
+# 	date +%FT%T%:::z > '../src/lib/data/latest-fetch-time.txt';
+
+sync_official_data_version:
+	printf '{"folder_commit_sha":"%s","sync_time":"%s"}' \
+	"$$(git log -1 --format=%H -- _cache/tdj-roles)" \
+	"$$(date +%FT%T%:::z)" \
+	> '../src/lib/data/version.json'
 
 #
 
@@ -14,7 +20,7 @@ fetch-%:
 
 #
 
-update-official: fetch-ornament fetch-role print-date
+update-official: fetch-ornament fetch-role sync_official_data_version
 	echo 'update-official';
 
 #
