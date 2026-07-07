@@ -88,9 +88,19 @@ for (let skin of all_skins) {
 
 		let thumburl = img_info.thumburl
 			.replace('https://patchwiki.biligame.com/images/tdj/thumb', '')
-			.replace('px-%E7%AB%8B%E7%BB%98_', '♥');
+			.replace(/\d+px\-%E7%AB%8B%E7%BB%98_/, '♥');
 
-		role_with_skin_imgs[pinyin].skins[skin.name] = thumburl;
+		let thumburl_sizes = [
+			img_info.thumbwidth,
+			// extract_px_size(img_info.responsiveUrls?.['1.5']) || '',
+			extract_px_size(img_info.responsiveUrls?.['2']) || '',
+		];
+
+		if (!thumburl_sizes[1]) {
+			// console.log(11, skin.name);
+		}
+
+		role_with_skin_imgs[pinyin].skins[skin.name] = thumburl + '♥' + thumburl_sizes.join('♥');
 
 	} catch (error) {
 		console.error(`請求失敗: ${title}`, error);
@@ -103,3 +113,9 @@ outputJSON({
 	// space: 0,
 	// cn2tw: true,
 });
+
+function extract_px_size(url) {
+  const regex = /\.png\/(\d+)px-/;
+  const match = url.match(regex);
+  return match ? parseInt(match[1], 10) : null;
+}
