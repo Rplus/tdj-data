@@ -107,6 +107,10 @@ for (let skin of all_skins) {
 	}
 }
 
+{ // workaround
+	role_with_skin_imgs['shangguanyue'].skins['錦鳶逗晴'] = 'https://tw-media.game-beans.com/media/pictures/tdj/260715/02.png';
+}
+
 outputJSON({
 	json: role_with_skin_imgs,
 	fn: `./_pre/role_with_skin_imgs.json`,
