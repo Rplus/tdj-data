@@ -258,6 +258,12 @@ const op_roles = fetched_details
 			ooop.tags = tags;
 		}
 
+		{ // overwrite data
+			if (ooop.pinyin === 'guanyu') {
+				ooop.career = '破軍';
+			}
+		}
+
 		return ooop;
 	});
 
