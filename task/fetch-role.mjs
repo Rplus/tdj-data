@@ -262,6 +262,12 @@ const op_roles = fetched_details
 			if (ooop.pinyin === 'guanyu') {
 				ooop.career = '破軍';
 			}
+			if (ooop.pinyin === 'yaoyouyushaorong') {
+				ooop.rarity = 'ULR';
+			}
+			if (ooop.pinyin === 'tianyinbaiwan') {
+				// ooop.rarity = 'ULR';
+			}
 		}
 
 		return ooop;
