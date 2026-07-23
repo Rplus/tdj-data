@@ -113,6 +113,7 @@
     "position": "治療",
     "range": "2",
     "speed": "3",
+    "pinyin_tw": "tianyinbaiwan",
     "path": "%E5%A4%A9%E9%9F%B3%E7%99%BD%E8%8F%80",
     "status": {
       "hp": 180,
