@@ -120,7 +120,9 @@ const subskills = query_skills.filter(i => {
 		// console.log(111, i);
 		return false;
 	}
-	return (i.desc.includes('切換') && i.desc.match(/「[^」]+」/)) || (i.desc.includes('選擇一個絕學') && i.desc.match(/「[^」]+」/g));
+	return (i.desc.includes('切換') && i.desc.match(/「[^」]+」/)) ||
+	(i.desc.includes('選擇一個絕學') && i.desc.match(/「[^」]+」/g)) ||
+	(i.desc.includes('選擇使用絕學') && i.desc.match(/「[^」]+」/g));
 })
 	.map(i => {
 		let kwd = i.desc.match(/「[^」]+」/gm)
@@ -239,6 +241,10 @@ const subskills_whitelist = [
 	{"main": "玄圖布策", "sub": ["流火散勢", "引渠覆軍", "神機奪魁",] },
 	{"main": "玄圖布策·壹式", "sub": ["流火散勢·壹式", "引渠覆軍·壹式", "神機奪魁·壹式",] },
 	{"main": "玄圖布策·貳式", "sub": ["流火散勢·貳式", "引渠覆軍·貳式", "神機奪魁·貳式",] },
+	{"main": "玄圖布策·貳式", "sub": ["流火散勢·貳式", "引渠覆軍·貳式", "神機奪魁·貳式",] },
+	{"main": "武魂青龍斬", "sub": ["君侯顯聖"] },
+	{"main": "武魂青龍斬·壹式", "sub": ["君侯顯聖·壹式"] },
+	{"main": "武魂青龍斬·貳式", "sub": ["君侯顯聖·貳式"] },
 ];
 
 
@@ -265,13 +271,15 @@ async function fetching_sub_skills() {
 		}
 	}
 
-	const subskills_obj = {
+	let subskills_obj = {
 		map: subskills_whitelist.reduce((all, i) => {
 			all[i.main] = i.sub;
 			return all;
 		}, {}),
 		data: subskills_data,
 	};
+
+	subskills_obj = overwrite(subskills_obj);
 
 	outputJSON({
 		json: subskills_obj,
@@ -286,4 +294,76 @@ async function fetching_sub_skills() {
 		space: 0,
 		cn2tw: true,
 	});
+}
+
+
+function overwrite(subskills_obj) {
+	console.log('overwrite');
+	let _map = {
+		'十步殺一人': ['事了拂衣去'],
+		'十步殺一人·壹式': ['事了拂衣去·壹式'],
+		'十步殺一人·貳式': ['事了拂衣去·貳式'],
+		'煞戾誅邪': ['追身縱切', '追身橫斬'],
+		'煞戾誅邪·壹式': ['追身縱切', '追身橫斬'],
+		'煞戾誅邪·貳式': ['追身縱切', '追身橫斬'],
+	}
+	let _data = [
+		{
+			"name": "追身縱切",
+			"type": "物攻傷害",
+			"cd": "",
+			"cost": "",
+			"shoot": "十字5格",
+			"range": "平行5格",
+			"desc": "對範圍內所有敵人共造成1倍傷害。"
+		},
+		{
+			"name": "追身橫斬",
+			"type": "物攻傷害",
+			"cd": "",
+			"cost": "",
+			"shoot": "十字5格",
+			"range": "垂直5格",
+			"desc": "對範圍內所有敵人共造成1倍傷害。"
+		},
+		{
+			"name": "事了拂衣去",
+			"type": "支援",
+			"cd": "",
+			"cost": "",
+			"shoot": "自身",
+			"range": "直線5格",
+			"desc": "向前穿刺並到達作用範圍（5格）最遠可到達的格子上，反轉範圍內所有友方和自身2個「有害狀態」為隨機「有益狀態」，行動結束時獲得「深藏身與名」狀態。\n「深藏身與名」：免傷提高50%，回合開始時轉化為「神睿I」狀態，持續2回合（主動攻擊「對戰後」或遭受攻擊受到傷害後消失）。"
+		},
+		{
+			"name": "事了拂衣去·壹式",
+			"type": "支援",
+			"cd": "",
+			"cost": "",
+			"shoot": "自身",
+			"range": "直線5格",
+			"desc": "向前穿刺並到達作用範圍（5格）最遠可到達的格子上，反轉範圍內所有友方和自身3個「有害狀態」為隨機「有益狀態」並恢復氣血（恢復量為施術者物攻的1倍），行動結束時獲得「深藏身與名」狀態。\n「深藏身與名」：免傷提高50%，回合開始時轉化為「神睿I」「迅捷II」狀態，持續2回合（主動攻擊「對戰後」或遭受攻擊受到傷害後消失）。"
+		},
+		{
+			"name": "事了拂衣去·貳式",
+			"type": "支援",
+			"cd": "",
+			"cost": "",
+			"shoot": "自身",
+			"range": "直線5格",
+			"desc": "向前穿刺並到達作用範圍（5格）最遠可到達的格子上，反轉範圍內所有友方和自身3個「有害狀態」為隨機「有益狀態」並恢復氣血（恢復量為施術者物攻的1.5倍），行動結束時獲得「深藏身與名」狀態。\n「深藏身與名」：免傷提高50%，回合開始時轉化為「神睿I」「迅捷II」狀態，持續2回合（主動攻擊「對戰後」或遭受攻擊受到傷害後消失）。"
+		},
+	];
+
+	subskills_obj = {
+		map: {
+			...subskills_obj.map,
+			..._map,
+		},
+		data: [
+			...subskills_obj.data,
+			..._data,
+		],
+	};
+	return subskills_obj;
 }
