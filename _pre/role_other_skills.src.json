@@ -1,4 +1,142 @@
 {
+  "mingguangjiansheng": {
+    "adv_skills": [
+      [
+        {
+          "name": "斷錯斬業",
+          "img": "EXSkill_1978"
+        },
+        {
+          "name": "斷錯斬業·壹式",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "3",
+          "shoot": "1圈",
+          "range": "單體",
+          "desc": "攻擊單個敵人，造成1.6倍傷害，「對戰後」對其「召喚物」/「召喚者」額外造成1次傷害（本次傷害的50%（無法被減免）），若目標為召喚物則無視護衛。「對戰後」可選擇使用「神鋒出鞘·壹式」。"
+        },
+        {
+          "name": "斷錯斬業·貳式",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "3",
+          "shoot": "1圈",
+          "range": "單體",
+          "desc": "攻擊單個敵人，造成1.6倍傷害，目標每有1層「劍痕」狀態，傷害、暴擊率提升5%（最高25%）。「對戰後」對其「召喚物」/「召喚者」額外造成1次傷害（本次傷害的50%（無法被減免）），若目標為召喚物則無視護衛。「對戰後」可選擇使用「神鋒出鞘·貳式」。"
+        }
+      ],
+      [
+        {
+          "name": "一劍封念·橫",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "2",
+          "shoot": "自身",
+          "range": "直線5x3中線鏤空",
+          "desc": "向前方穿刺，對範圍內所有敵人造成0.6倍傷害，反轉1個「有益狀態」。目標每有1層「劍痕」狀態，傷害提升4%（最高20%）。絕學後獲得1層「化忌」狀態，持續2回合。<br/>使用「變陣·縱」後切換為「一劍封念·縱」。"
+        },
+        {
+          "name": "一劍封念·橫·壹式",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "3",
+          "shoot": "自身",
+          "range": "直線5x3中線鏤空",
+          "desc": "向前方穿刺，對範圍內所有敵人造成0.6倍傷害，反轉2個「有益狀態」，目標每有1層「劍痕」狀態，傷害提升5%（最高25%）。絕學後獲得1層「化忌」狀態，持續2回合。\n使用「變陣·縱」後切換為「一劍封念·縱·壹式」並重置冷卻時間。"
+        },
+        {
+          "name": "一劍封念·橫·貳式",
+          "type": "物攻傷害",
+          "cd": "3回合",
+          "cost": "3",
+          "shoot": "自身",
+          "range": "直線5x3中線鏤空",
+          "desc": "向前方穿刺，對範圍內所有敵人造成0.7倍傷害，反轉2個「有益狀態」，目標每有1層「劍痕」狀態，傷害提升5%（最高25%），左右「劍嵐」分別對路徑上的首個敵人追加1次「戍援·橫」攻擊。絕學後獲得1層「化忌」狀態，持續2回合。\n使用「變陣·縱」後切換為「一劍封念·縱·貳式」並重置冷卻時間。"
+        }
+      ],
+      [
+        {
+          "name": "劍指天南·橫",
+          "type": "物攻傷害",
+          "cd": "1回合",
+          "cost": "2",
+          "shoot": "3格",
+          "range": "單體",
+          "desc": "選擇2個敵方目標並各對其造成0.7倍傷害，對飛行角色額外造成20%傷害，施加「封咒」狀態，持續1回合。目標每有1層「劍痕」狀態，暴擊率提高5%（最高25%）。絕學後清除目標周圍1圈範圍內敵方機關和地形。<br/>使用「變陣·縱」後切換為「劍指天南·縱」。"
+        },
+        {
+          "name": "劍指天南·橫·壹式",
+          "type": "物攻傷害",
+          "cd": "1回合",
+          "cost": "3",
+          "shoot": "4格",
+          "range": "單體",
+          "desc": "選擇2個敵方目標並各對其造成0.7倍傷害，對飛行角色額外造成20%傷害，施加「封咒」狀態，持續1回合。目標每有1層「劍痕」狀態，暴擊率提高5%（最高25%）。絕學後清除目標周圍1圈範圍內敵方機關和地形。\n使用「變陣·縱」後切換為「劍指天南·縱·壹式」並重置冷卻時間。"
+        },
+        {
+          "name": "劍指天南·橫·貳式",
+          "type": "物攻傷害",
+          "cd": "1回合",
+          "cost": "3",
+          "shoot": "4格",
+          "range": "單體",
+          "desc": "選擇2個敵方目標並各對其造成0.7倍傷害，對飛行角色額外造成20%傷害，施加「封咒」狀態，持續1回合。目標每有1層「劍痕」狀態，暴擊率、暴擊傷害提高5%（最高25%）。左右「劍嵐」分別對敵人追加1次「戍援·橫」攻擊。絕學後清除目標周圍1圈範圍內敵方機關和地形。\n使用「變陣·縱」後切換為「劍指天南·縱·貳式」並重置冷卻時間。"
+        }
+      ]
+    ],
+    "extra_skills": [
+      {
+        "name": "變陣·縱",
+        "type": "主動",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "單體",
+        "desc": "主動使用，將戍援切換為「戍援·縱」，「劍嵐」將變成前後佈局。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/4/43/hz7eppum8mlwussyuxxry93u6a95oor.png"
+      },
+      {
+        "name": "變陣·橫",
+        "type": "主動",
+        "cd": "-",
+        "cost": "-",
+        "shoot": "自身",
+        "range": "單體",
+        "desc": "主動使用，將戍援切換為「戍援·橫」，「劍嵐」將變成左右佈局。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/b/b9/a7taqmed3yosf2z90pytst71njvn0jh.png"
+      },
+      {
+        "name": "明光聖臨",
+        "type": "物理攻擊",
+        "cd": "3回合",
+        "cost": "2",
+        "shoot": "1圈",
+        "range": "單體",
+        "desc": "攻擊單個敵人，造成1.6倍傷害，「對戰前」轉化目標3個「有益狀態」為「竭光」狀態，持續2回合。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c2/aqo3am67cos5h1vz1w1kvyw8zloi88x.png"
+      },
+      {
+        "name": "淨光濯塵",
+        "type": "被動",
+        "cd": "-",
+        "cost": "2",
+        "shoot": "-",
+        "range": "-",
+        "desc": "免傷+20%，3格內的敵人行動結束時，驅散自身1個「有害狀態」並恢復30%最大氣血。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/c/c1/s78qkrk04zcxxao2y4hcj1qbzks7f84.png"
+      },
+      {
+        "name": "明鏡止水",
+        "type": "主動",
+        "cd": "3回合",
+        "cost": "2",
+        "shoot": "自身",
+        "range": "菱形3格",
+        "desc": "主動使用，為範圍內所有友方施加「安定」「神睿I」「速行」狀態，持續3回合。",
+        "imgsrc": "https://patchwiki.biligame.com/images/tdj/e/ef/s9qksk144omswb84a3r81tminnt8jvs.png"
+      }
+    ]
+  },
   "yaoyouyushaorong": {
     "adv_skills": [
       [
@@ -10455,7 +10593,7 @@
     ],
     "support_skill": {
       "name": "列陣待發·援",
-      "img": "https://cdn.imgchest.com/files/4aee034638be.png",
+      "img": "https://patchwiki.biligame.com/images/tdj/5/57/bwrt2rgt7wa2sfavmbbr8394b5lid1i.png",
       "type": "主動",
       "cd": "2回合",
       "shoot": "自身",
@@ -10549,7 +10687,7 @@
     ],
     "support_skill": {
       "name": "電鎖雷吟·援",
-      "img": "https://cdn.imgchest.com/files/97a58cf0ff1e.png",
+      "img": "https://patchwiki.biligame.com/images/tdj/b/b0/5epgeu8lh7pw3hrnyrah2t64hlthrvc.png",
       "type": "物攻傷害",
       "cd": "3回合",
       "shoot": "自身",
@@ -11712,8 +11850,8 @@
       ]
     ],
     "support_skill": {
-      "name": "荊棘蓮華·援",
-      "img": "https://cdn.imgchest.com/files/6c37fcb05ecc.png",
+      "name": "荊刺蓮華·援",
+      "img": "https://patchwiki.biligame.com/images/tdj/d/d7/5xspgxjf6uyitvh6d56eqevik5hj88e.png",
       "type": "法攻傷害",
       "cd": "3回合",
       "shoot": "自身",

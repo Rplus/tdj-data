@@ -1,5 +1,36 @@
 [
   {
+    "name": "明光劍聖",
+    "rarity": "SSR",
+    "prop": "光",
+    "hero_icon": "Hero1227_HeadIcon_Basic",
+    "career": "破軍",
+    "pinyin": "mingguangjiansheng",
+    "pic": "Hero1227_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "path": "%E6%98%8E%E5%85%89%E5%89%91%E5%9C%A3",
+    "status": {
+      "hp": 202,
+      "atk_mag": 13,
+      "atk_phy": 106,
+      "def_mag": 28,
+      "def_phy": 37,
+      "crit": 25
+    },
+    "strategy": "聖華天光陣",
+    "skins": {
+      "天光破曉": "/5/55/aii52m04rjuxwipgcixw8skv8uecza6.png/♥%E5%A4%A9%E5%85%89%E7%A0%B4%E6%99%93.png♥1018♥2035",
+      "明光劍聖": "/9/9b/5p55891jf73bdu5az4dp4374qb9qpbq.png/♥%E6%98%8E%E5%85%89%E5%89%91%E5%9C%A3.png♥571♥1142"
+    },
+    "tags": [
+      "免死",
+      "再啟動",
+      "陣眼"
+    ]
+  },
+  {
     "name": "妖佑宇韶容",
     "rarity": "ULR",
     "prop": "幽",
@@ -192,6 +223,7 @@
     "strategy": "羅淵歸誓陣",
     "skins": {
       "漫籠寒紗": "/b/b8/gi8f7g3ihfkf2z955uvy3obaoj1e2t4.png/♥%E6%BC%AB%E7%AC%BC%E5%AF%92%E7%BA%B1.png♥834♥1668",
+      "碧海澄光": "/a/ab/8no1hf31iuss5sgobsmpukf5297jmm2.png/♥%E7%A2%A7%E6%B5%B7%E6%BE%84%E5%85%89.png♥563♥1126",
       "神煌冰璃": "/4/42/szmroxtphsh23d1qmtlp0ekyj6dzjfh.png/♥%E7%A5%9E%E7%85%8C%E5%86%B0%E7%92%83.png♥731♥1462"
     },
     "tags": [
