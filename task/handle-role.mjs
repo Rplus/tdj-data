@@ -194,8 +194,9 @@ outputJSON({
 });
 
 const strategy_overrides = {
-	'三身通智陣': [ 'strategy_core', 'strategy_core' ],
-	'群芳馥鬱陣': [ 'rider' ],
+	'三身通智陣': { type: 'push', data: [ 'strategy_core', 'strategy_core' ], },
+	'群芳馥鬱陣': { type: 'push', data: [ 'rider', ], },
+	'六韜信戰陣': { type: 'replace', data: [ 'fire/ice/electricity', 'fire/ice/electricity', ], },
 	// '驅雷魔魄陣': [ 'dusk' ],
 	// '狐靈神氛陣': [ 'dusk' ],
 	// '暗月鬥靈陣': [ 'melee' ],
@@ -216,7 +217,14 @@ const op_strategy = all_strategy.map((item) => {
 	};
 
 	if (strategy_overrides[item.name]) {
-		obj.members.push(...strategy_overrides[item.name].map(gen_mem_by_img));
+		if (strategy_overrides[item.name].type === 'push') {
+			obj.members.push(...strategy_overrides[item.name].data.map(gen_mem_by_img));
+		} else if (strategy_overrides[item.name].type === 'replace') {
+			obj.members = [
+				...obj.members.slice(0, 1),
+				...strategy_overrides[item.name].data.map(gen_mem_by_img),
+			];
+		}
 	}
 
 	return obj;
