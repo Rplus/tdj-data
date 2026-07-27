@@ -13,7 +13,7 @@ sync_official_data_version:
 
 #
 
-update-official: fetch-ornament fetch-role sync_official_data_version
+update-official: fetch-ornament fetch-role handle-role sync_official_data_version
 	echo 'update-official';
 
 #
@@ -28,6 +28,9 @@ fetch-role:
 fetch-role--force:
 	bun ./task/fetch-role.mjs --force-fetch;
 
+handle-role:
+	bun ./task/handle-role.mjs;
+
 gen-tags:
 	bun ./task/gen-role-tags.js;
 
@@ -41,7 +44,7 @@ gen-tags:
 #
 #
 
-update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill fetch-bili-skin
+update-biliwiki: fetch-bili-summon fetch-bili-state fetch-bili-skill fetch-bili-skin handle-role
 	echo 'update from biliwiki'
 
 fetch-bili-summon:
