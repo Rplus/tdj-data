@@ -1,5 +1,31 @@
 // bili wiki 爬得到的額外技能
 export const extra_fetching_resource = {
+	'mingguangjiansheng': {
+		'pinyin': 'mingguangjiansheng',
+		'name': '明光剑圣',
+		'skills': [
+			{
+				'name': '变阵·纵',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/4/43/hz7eppum8mlwussyuxxry93u6a95oor.png'
+			},
+			{
+				'name': '变阵·横',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/b/b9/a7taqmed3yosf2z90pytst71njvn0jh.png'
+			},
+			{
+				'name': '明光圣临',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/c/c2/aqo3am67cos5h1vz1w1kvyw8zloi88x.png'
+			},
+			{
+				'name': '净光濯尘',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/c/c1/s78qkrk04zcxxao2y4hcj1qbzks7f84.png'
+			},
+			{
+				'name': '明镜止水',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/e/ef/s9qksk144omswb84a3r81tminnt8jvs.png'
+			},
+		]
+	},
 	'zhugeliang': {
 		'pinyin': 'zhugeliang',
 		'name': '諸葛亮',
