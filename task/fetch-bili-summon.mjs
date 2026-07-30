@@ -2,6 +2,7 @@ import fs from 'fs';
 import {
 	outputJSON,
 	uniq_array,
+	pick_obj,
 } from './u.mjs';
 
 import {
@@ -9,6 +10,8 @@ import {
 	fetch_with_cached,
 	trans_key_map,
 } from './u-fetch-bili.mjs';
+
+import uni_skills from '../_mid/_uni_skills.hant.json' with { type: 'json' };
 
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');
@@ -160,6 +163,71 @@ for (const skill_name of summon_skills_name.flat()) {
 // fill data by hand
 {
 	{
+		// workaround: add 明光劍聖|召喚物/明劍
+		summon_data.push({
+			key: '召喚物/明劍',
+			name: '明劍',
+			owner: ['明光劍聖', 'mingguangjiansheng'],
+			inherent_name: '神劍英華',
+			inherent:
+				'行動時無視敵方角色阻擋。死亡時對周圍3格敵人施加1層「劍痕」狀態，持續2回合。\n召喚者處於「馳騁」狀態時離場。',
+			status: [80, 80, 80, 80, 80, 80],
+			prop: '光',
+			career: '御風',
+			range: 1,
+			speed: 5,
+			skill_names: ['明心衛主', '天地異位', '銘魂'],
+		});
+		summon_skills.push(...[
+			{
+				name: '明心衛主',
+				cd: '2回合',
+				shoot: '3格',
+				range: '單體',
+				type: '支援',
+				desc: '主動使用，對單個友方施加2個隨機「有益狀態」，自身獲得「護主」狀態。\n「護主」：代替召喚者承受攻擊，且此次「對戰中」免傷提高 20%（觸發後移除）',
+			},
+			{
+				name: '天地異位',
+				cd: '2回合',
+				shoot: '5格',
+				range: '單體',
+				type: '支援',
+				desc: '和召喚者交換位置，驅散召喚者2個「有害狀態」。',
+			},
+			{
+				name: '銘魂',
+				type: '被動',
+				desc: '行動結束時對2格內的敵方施加1層「劍痕」狀態，持續2回合，並恢復召喚者1層「飛馳」狀態。',
+			},
+		]);
+	}
+
+	{
+		// workaround: add 燕明蓉|召喚物/燕明蓉分身
+		summon_data.push({
+			key: '召喚物/燕明蓉分身',
+			name: '燕明蓉分身',
+			owner: ['燕明蓉', 'yanmingrong'],
+			inherent_name: '靈狐雀步',
+			inherent:
+				'主動攻擊「對戰中」傷害提高20%。\n主動擊殺敵人後，可無視敵人阻擋再移動4格，並獲得「閃避」狀態，持續2回合（「閃避」間隔2回合觸發）。',
+			status: [100, 100, 100, 100, 100, 100],
+			prop: '雷',
+			career: '御風',
+			range: 1,
+			speed: 5,
+			skill_names: ['吟狐獵聲', '孤膽', '靈狐穿刺', '縛力奇謀'],
+		});
+		summon_skills.push(...[
+			get_skill_info('吟狐獵聲'),
+			get_skill_info('孤膽'),
+			get_skill_info('靈狐穿刺'),
+			get_skill_info('縛力奇謀'),
+		]);
+	}
+
+	{
 		// workaround: add 賽特|召喚物/賽特分身
 		summon_data.push({
 			key: '召喚物/賽特分身',
@@ -175,6 +243,11 @@ for (const skill_name of summon_skills_name.flat()) {
 			speed: 3,
 			skill_names: ['天狼巽閃', '霸王崩山勁', '蛟龍翻身'],
 		});
+		summon_skills.push(...[
+			get_skill_info('天狼巽閃'),
+			get_skill_info('霸王崩山勁'),
+			get_skill_info('蛟龍翻身'),
+		]);
 	}
 
 	{
@@ -276,24 +349,12 @@ for (const skill_name of summon_skills_name.flat()) {
 			career: '俠客',
 			range: 1,
 			speed: 3,
-			skill_names: ['雷晶護體', '輕身', '流霆'],
+			skill_names: ['雷晶護體', '輕身', '流霆', ],
 		});
 		summon_skills.push(...[
-			{
-				name: '雷晶護體',
-				type: '被動',
-				desc: '遭受範圍傷害、固定傷害降低20%。\n若自身處於「離魂」狀態，遭受「固定傷害」額外降低30%。',
-			},
-			{
-				name: '輕身',
-				type: '被動',
-				desc: '永久獲得輕功能力，可以翻越障礙。',
-			},
-			{
-				name: '流霆',
-				type: '被動',
-				desc: '追擊傷害提升30%，主動攻擊「對戰後」恢復自身氣血，恢復量為本次傷害的30%。\n若本回合發起過攻擊，行動結束時使自身召喚物/召喚者移除「移動力限制」狀態，並施加「奮起」狀態，持續2回合。',
-			},
+			get_skill_info('雷晶護體'),
+			get_skill_info('輕身'),
+			get_skill_info('流霆'),
 		]);
 	}
 
@@ -436,3 +497,15 @@ outputJSON({
 	space: 0,
 	cn2tw: true,
 });
+
+function get_skill_info(skill_name = '') {
+	let skill = uni_skills.find(s => s.name === skill_name);
+	if (!skill) return;
+	let dd = pick_obj(skill, ['name', 'type', 'cd', 'cost', 'shoot', 'range', 'desc',]);
+	for (const key in dd) {
+		if (!dd[key] || dd[key] === '無') {
+			delete dd[key];
+		}
+	}
+	return dd;
+}
