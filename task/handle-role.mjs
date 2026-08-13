@@ -145,13 +145,21 @@ const op_roles = fetched_details
 		{ // overwrite data
 			if (ooop.pinyin === 'guanyu') {
 				ooop.career = '破軍';
+				ooop.rarity = 'SSR';
 			}
-			if (ooop.pinyin === 'yaoyouyushaorong') {
-				ooop.rarity = 'ULR';
+
+			if (ooop.pinyin === 'zhugeliang') {
+				ooop.prop = '神';
+				ooop.rarity = 'SSR';
 			}
-			if (ooop.pinyin === 'tianyinbaiwan') {
-				// ooop.rarity = 'ULR';
-			}
+
+			// if (ooop.pinyin === 'yaoyouyushaorong') {
+			// 	ooop.rarity = 'ULR';
+			// }
+
+			// if (ooop.pinyin === 'tianyinbaiwan') {
+			// 	ooop.rarity = 'ULR';
+			// }
 		}
 
 		return ooop;

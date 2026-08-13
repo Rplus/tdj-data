@@ -89,6 +89,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
+    "pinyin_tw": "guanyu",
     "path": "%E5%85%B3%E7%BE%BD",
     "status": {
       "hp": 203,
@@ -121,6 +122,7 @@
     "position": "遠攻",
     "range": "2",
     "speed": "3",
+    "pinyin_tw": "zhugeliang",
     "path": "%E8%AF%B8%E8%91%9B%E4%BA%AE",
     "status": {
       "hp": 185,
