@@ -146,6 +146,7 @@ const op_roles = fetched_details
 			if (ooop.pinyin === 'guanyu') {
 				ooop.career = '破軍';
 				ooop.rarity = 'SSR';
+				// delete ooop.pinyin_tw
 			}
 
 			if (ooop.pinyin === 'zhugeliang') {
