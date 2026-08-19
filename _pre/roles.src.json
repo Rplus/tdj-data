@@ -4270,7 +4270,10 @@
       "綺靡繁華": "/c/c9/b6bqeqahl1j4fqofpc2oz39m43kg87m.png/♥%E7%BB%AE%E9%9D%A1%E7%B9%81%E5%8D%8E.png♥761♥",
       "青花濃": "/7/75/8obcm658y1atcrxj12zahqkfcq21nyz.png/♥%E9%9D%92%E8%8A%B1%E6%B5%93.png♥534♥",
       "舞蝶": "/9/98/iej2anl9c8xman6qnqcr61ee4hwsutz.png/♥%E8%88%9E%E8%9D%B6.png♥466♥932"
-    }
+    },
+    "tags": [
+      "援襲技能"
+    ]
   },
   {
     "name": "于小雪",
@@ -4505,7 +4508,10 @@
       "牽思戲": "/5/55/nwuqaa4om7ah0x4opg21yp20c1jt46u.png/♥%E7%89%B5%E6%80%9D%E6%88%8F.png♥723♥1446",
       "煢煢孑立": "/c/c0/lb2oiiy5yeearhcsovbi9am04423ymr.png/♥%E8%8C%95%E8%8C%95%E5%AD%91%E7%AB%8B.png♥560♥",
       "宇韶容": "/b/b4/ed1z3c3cfbwfclrlo184z8kq1oylk4z.png/♥%E5%AE%87%E9%9F%B6%E5%AE%B9.png♥584♥"
-    }
+    },
+    "tags": [
+      "援襲技能"
+    ]
   },
   {
     "name": "劍邪",
@@ -4934,7 +4940,8 @@
       "皇甫申": "/1/11/s0jpykjoi3af2iwt6ub4haj2zv99bo5.png/♥%E7%9A%87%E7%94%AB%E7%94%B3.png♥519♥"
     },
     "tags": [
-      "再行動"
+      "再行動",
+      "援襲技能"
     ]
   },
   {
