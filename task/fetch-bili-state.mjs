@@ -84,6 +84,22 @@ outputJSON({
 		'擴': false,
 		'偷': false,
 	})
+	status.push({
+		name: '濟世',
+		// cate: '其它',
+		desc: '受到來自敵方的主動攻擊傷害後消失，移除1個「減益狀態」並恢復氣血（恢復量為施術者法攻的0.5倍）',
+		'驅': false,
+		'擴': false,
+		'偷': false,
+	})
+	status.push({
+		name: '濟世·煥',
+		// cate: '其它',
+		desc: '受到來自敵方的主動攻擊傷害後消失，移除1個「減益狀態」，獲得1層「神佑狀態」並恢復氣血（恢復量為施術者法攻的0.5倍）',
+		'驅': false,
+		'擴': false,
+		'偷': false,
+	})
 
 	status.forEach(i => {
 		switch (i.name) {
