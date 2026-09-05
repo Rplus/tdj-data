@@ -1,4 +1,12 @@
 {
+  "lianhuan": {
+    "name": "连环",
+    "pinyin": "lianhuan",
+    "skins": {
+      "琅璆朝云": "/d/d1/bqni3cf0kgwo81la9fg11wwntejen83.png/♥%E7%90%85%E7%92%86%E6%9C%9D%E4%BA%91.png♥636♥1271",
+      "连环": "/f/f6/2jzvxo1dtwjxjty34i91jbil8tpf9rn.png/♥%E8%BF%9E%E7%8E%AF.png♥719♥1437"
+    }
+  },
   "mingguangjiansheng": {
     "name": "明光剑圣",
     "pinyin": "mingguangjiansheng",
@@ -43,6 +51,7 @@
     "name": "紫霆司命",
     "pinyin": "zitingsiming",
     "skins": {
+      "云裳照尘": "/b/bd/7o9k98d32szjk5njvehx1tynb7mvwfd.png/♥%E4%BA%91%E8%A3%B3%E7%85%A7%E5%B0%98.png♥648♥1296",
       "芳菲不见": "/c/c3/0x2x3ep3gjyyqc94rzuzz7qg2wpiu5g.png/♥%E8%8A%B3%E8%8F%B2%E4%B8%8D%E8%A7%81.png♥700♥1399",
       "紫霆司命": "/9/9d/3wru0qt22fsowc69hzn30ln132jyb5u.png/♥%E7%B4%AB%E9%9C%86%E5%8F%B8%E5%91%BD.png♥625♥1250"
     }

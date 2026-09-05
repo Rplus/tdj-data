@@ -143,6 +143,9 @@ const op_roles = fetched_details
 		}
 
 		{ // overwrite data
+			if (ooop.prop === '火') {
+				ooop.prop = '炎';
+			}
 			if (ooop.pinyin === 'guanyu') {
 				ooop.career = '破軍';
 				ooop.rarity = 'SSR';
