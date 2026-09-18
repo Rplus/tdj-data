@@ -12,12 +12,14 @@ import {
 // const FORCE_FETCH = false;
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');
+const USE_PROXY_FOR_CN = !false;
 
 raw_data.ornaments.rawdata = await fetch_with_cached({
 	url: raw_data.ornaments.url(),
 	cached_path: raw_data.ornaments.cached_path,
 	is_json: true,
 	ignore_cached: FORCE_FETCH,
+	proxy: USE_PROXY_FOR_CN,
 });
 
 raw_data.ornaments_tw.rawdata = await fetch_with_cached({

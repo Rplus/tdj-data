@@ -10,7 +10,7 @@ import {
 } from './u-fetch-bili.mjs';
 
 // import { converter_cn2tw, converter_tw2cn } from './opencc.mjs';
-
+const USE_PROXY_FOR_CN = !false;
 
 // const FORCE_FETCH = true;
 const FORCE_FETCH = process.argv.includes('--force-fetch');
@@ -27,6 +27,7 @@ const roles_cn = await fetch_with_cached({
 	cached_path: 'roles.cn.res.json',
 	// ignore_cached: FORCE_FETCH,
 	ignore_cached: true,
+	proxy: USE_PROXY_FOR_CN,
 });
 
 const tw_map = new Map(
@@ -82,6 +83,7 @@ for (const role of merged_roles) {
 		cached_path: `tdj-roles/${role.name}.${_lang}.json`,
 		is_json: true,
 		ignore_cached: FORCE_FETCH,
+		proxy: role.pinyin_tw ? false : USE_PROXY_FOR_CN,
 		// skip_sleep: true,
 	});
 

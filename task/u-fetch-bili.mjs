@@ -147,6 +147,10 @@ export async function muli_fetch_bili_page_rest({
 //
 
 
+function proxy_url(url = '') {
+	return `https://cors.io/?url=${encodeURIComponent(url)}`;
+}
+
 const log_state = {
 	row1: '',
 	row2: '',
@@ -169,6 +173,7 @@ export async function fetch_with_cached({
 	ignore_cached = false,
 	skip_sleep = false,
 	sleep_time = null,
+	proxy = false,
 }) {
 	if (!url) throw new Error('URL is required');
 	cached_path = CACHE_FOLDER + cached_path;
@@ -195,8 +200,10 @@ export async function fetch_with_cached({
 
 		const old_etag = etag_cache.get(url);
 
+		const fetch_url = proxy ? proxy_url(url) : url;
+
 		// 2. 若無快取或忽略快取 → fetch
-		const res = await fetch(url, {
+		const res = await fetch(fetch_url, {
 			headers: {
 				...random_header(),
 				// ...(old_etag ? { 'If-None-Match': old_etag } : {}),
@@ -226,12 +233,19 @@ export async function fetch_with_cached({
 				etag_cache.set(url, new_etag);
 			}
 
-			const text = await res.text();
-			const parsed = is_json ? JSON.parse(text) : text;
+			let raw_data = '';
+
+			if (proxy) {
+				const res_json = await res.json();
+				raw_data = res_json.body;
+			} else {
+				raw_data = await res.text();
+			}
+			const parsed = is_json ? JSON.parse(raw_data) : raw_data;
 
 			// 確保快取目錄存在
 			fs.mkdirSync(cached_dir_path, { recursive: true });
-			fs.writeFileSync(cached_path, text, 'utf8');
+			fs.writeFileSync(cached_path, raw_data, 'utf8');
 
 			return parsed;
 		}
