@@ -30,15 +30,21 @@ function get_url(qs_obj = {}, lang = 'cn') {
 {
 	roles: {
 		url: (lang) => get_url({ module: 'hero', type: 'basic' }, lang),
+		// cn https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=basic
+		// tw https://tdj-activity.game-beans.com/tdj/data/mQuery.do?id=1&action=info&module=hero&type=basic
 	},
 	role_deatil: {
 		url: (name, lang) => get_url({ module: 'hero', type: 'detail', query: name }, lang),
+		// cn https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=hero&type=detail&query=%E9%80%A3%E7%92%B0
+		// tw https://tdj-activity.game-beans.com/tdj/data/mQuery.do?id=1&action=info&module=hero&type=detail&query=%E9%80%A3%E7%92%B0
 	},
 	ornaments: {
 		url: (name) => get_url({ module: 'ornaments', type: 'ornaments' }),
+		// https://tdj-activity.zlongame.com/tdj/data/mQuery.do?id=0&action=info&module=ornaments&type=ornaments
 	},
 	ornaments_tw: {
 		url: (name) => get_url({ module: 'ornaments', type: 'ornaments' }, 'tw'),
+		// https://tdj-activity.game-beans.com/tdj/data/mQuery.do?id=1&action=info&module=ornaments&type=ornaments
 	},
 }
 ```
