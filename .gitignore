@@ -3,4 +3,5 @@
 /_cache/bili-old
 /_cache/etag.json
 /task/fetch_errors.log
+/task/test.js
 task/fetch-bili-test.mjs
