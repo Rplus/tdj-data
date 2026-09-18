@@ -1,5 +1,58 @@
 [
   {
+    "name": "姬穸",
+    "rarity": "SSR",
+    "prop": "暗",
+    "hero_icon": "Hero2033_HeadIcon_Basic",
+    "career": "咒師",
+    "pinyin": "jixi",
+    "pic": "Hero2033_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "path": "%E5%A7%AC%E7%A9%B8",
+    "status": {
+      "hp": 188,
+      "atk_mag": 108,
+      "atk_phy": 14,
+      "def_mag": 35,
+      "def_phy": 30,
+      "crit": 25
+    },
+    "strategy": "魔犼血煉陣",
+    "skins": {},
+    "tags": [
+      "陣眼",
+      "再行動"
+    ]
+  },
+  {
+    "name": "煥心",
+    "rarity": "SSR",
+    "prop": "光",
+    "hero_icon": "Hero2032_HeadIcon_Basic",
+    "career": "俠客",
+    "pinyin": "huanxin",
+    "pic": "Hero2032_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "3",
+    "path": "%E7%84%95%E5%BF%83",
+    "status": {
+      "hp": 210,
+      "atk_mag": 13,
+      "atk_phy": 108,
+      "def_mag": 22,
+      "def_phy": 39,
+      "crit": 17
+    },
+    "skins": {},
+    "tags": [
+      "陣眼",
+      "再行動"
+    ]
+  },
+  {
     "name": "連環",
     "rarity": "SSR",
     "prop": "炎",
