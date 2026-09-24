@@ -149,6 +149,12 @@ const op_roles = fetched_details
 			if (ooop.career === 'Rider') {
 				ooop.career = '破軍';
 			}
+			if (ooop.rarity === '絕品') {
+				ooop.rarity = 'SSR';
+			}
+			if (ooop.prop === 'God') {
+				ooop.prop = '神';
+			}
 
 			if (ooop.pinyin === 'guanyu') {
 				ooop.rarity = 'SSR';
