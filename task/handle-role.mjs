@@ -146,15 +146,18 @@ const op_roles = fetched_details
 			if (ooop.prop === '火') {
 				ooop.prop = '炎';
 			}
-			if (ooop.pinyin === 'guanyu') {
+			if (ooop.career === 'Rider') {
 				ooop.career = '破軍';
-				ooop.rarity = 'SSR';
-				// delete ooop.pinyin_tw
 			}
 
-			if (ooop.pinyin === 'zhugeliang') {
+			if (ooop.pinyin === 'guanyu') {
+				ooop.rarity = 'SSR';
+				// delete ooop.pinyin_tw
+
+			} else if (ooop.pinyin === 'zhugeliang') {
 				ooop.prop = '神';
 				ooop.rarity = 'SSR';
+
 			}
 
 			// if (ooop.pinyin === 'yaoyouyushaorong') {

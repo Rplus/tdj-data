@@ -48,6 +48,8 @@ outputJSON({
 });
 
 const owner = {
+	'死灵术士': ['姬穸', 'jixi'],
+	'明剑': ['明光劍聖', 'mingguangjiansheng'],
 	'冥渊魁王': ['幻海冥皇', 'huanhaiminghuang'],
 	'剑魂': ['武英仲', 'wuyingzhong'],
 	'哮天犬': ['楊戩', 'yangjian'],
@@ -156,51 +158,74 @@ for (const skill_name of summon_skills_name.flat()) {
 			sss.speed = 3;
 			sss.range = 0;
 		}
+
+		if (sss.name === '死灵术士') {
+			sss.career = '咒師';
+			sss.prop = '暗';
+		}
 	});
 }
 
 
 // fill data by hand
 {
+	// {
+	// 	// workaround: add 明光劍聖|召喚物/明劍
+	// 	summon_data.push({
+	// 		key: '召喚物/明劍',
+	// 		name: '明劍',
+	// 		owner: ['明光劍聖', 'mingguangjiansheng'],
+	// 		inherent_name: '神劍英華',
+	// 		inherent:
+	// 			'行動時無視敵方角色阻擋。死亡時對周圍3格敵人施加1層「劍痕」狀態，持續2回合。\n召喚者處於「馳騁」狀態時離場。',
+	// 		status: [80, 80, 80, 80, 80, 80],
+	// 		prop: '光',
+	// 		career: '御風',
+	// 		range: 1,
+	// 		speed: 5,
+	// 		skill_names: ['明心衛主', '天地異位', '銘魂'],
+	// 	});
+	// 	summon_skills.push(...[
+	// 		{
+	// 			name: '明心衛主',
+	// 			cd: '2回合',
+	// 			shoot: '3格',
+	// 			range: '單體',
+	// 			type: '支援',
+	// 			desc: '主動使用，對單個友方施加2個隨機「有益狀態」，自身獲得「護主」狀態。\n「護主」：代替召喚者承受攻擊，且此次「對戰中」免傷提高 20%（觸發後移除）',
+	// 		},
+	// 		{
+	// 			name: '天地異位',
+	// 			cd: '2回合',
+	// 			shoot: '5格',
+	// 			range: '單體',
+	// 			type: '支援',
+	// 			desc: '和召喚者交換位置，驅散召喚者2個「有害狀態」。',
+	// 		},
+	// 		{
+	// 			name: '銘魂',
+	// 			type: '被動',
+	// 			desc: '行動結束時對2格內的敵方施加1層「劍痕」狀態，持續2回合，並恢復召喚者1層「飛馳」狀態。',
+	// 		},
+	// 	]);
+	// }
+
 	{
-		// workaround: add 明光劍聖|召喚物/明劍
+		// workaround: add 朧夢嫿妖|召喚物/朧夢嫿妖分身
 		summon_data.push({
-			key: '召喚物/明劍',
-			name: '明劍',
-			owner: ['明光劍聖', 'mingguangjiansheng'],
-			inherent_name: '神劍英華',
+			key: '召喚物/朧夢嫿妖分身',
+			name: '朧夢嫿妖分身',
+			owner: ['朧夢嫿妖', 'longmenghuayao'],
+			inherent_name: '嫿鏡凝幽',
 			inherent:
-				'行動時無視敵方角色阻擋。死亡時對周圍3格敵人施加1層「劍痕」狀態，持續2回合。\n召喚者處於「馳騁」狀態時離場。',
-			status: [80, 80, 80, 80, 80, 80],
-			prop: '光',
-			career: '御風',
-			range: 1,
-			speed: 5,
-			skill_names: ['明心衛主', '天地異位', '銘魂'],
+				'3格內的友方受治療效果提高20%。\n自身造成「過量治療」後，或場上有單位死亡後，獲得1層「鏡朦朧」，若「鏡朦朧」已達到4層，則額外對自身3格內的友方施加「暗鎧」狀態。',
+			status: [100, 70, 70, 70, 70, 70],
+			prop: '暗',
+			career: '祝由',
+			range: 2,
+			speed: 3,
+			skill_names: [],
 		});
-		summon_skills.push(...[
-			{
-				name: '明心衛主',
-				cd: '2回合',
-				shoot: '3格',
-				range: '單體',
-				type: '支援',
-				desc: '主動使用，對單個友方施加2個隨機「有益狀態」，自身獲得「護主」狀態。\n「護主」：代替召喚者承受攻擊，且此次「對戰中」免傷提高 20%（觸發後移除）',
-			},
-			{
-				name: '天地異位',
-				cd: '2回合',
-				shoot: '5格',
-				range: '單體',
-				type: '支援',
-				desc: '和召喚者交換位置，驅散召喚者2個「有害狀態」。',
-			},
-			{
-				name: '銘魂',
-				type: '被動',
-				desc: '行動結束時對2格內的敵方施加1層「劍痕」狀態，持續2回合，並恢復召喚者1層「飛馳」狀態。',
-			},
-		]);
 	}
 
 	{

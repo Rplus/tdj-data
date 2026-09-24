@@ -1,5 +1,15 @@
 // bili wiki 爬得到的額外技能
 export const extra_fetching_resource = {
+	'jixi': {
+		'pinyin': 'jixi',
+		'name': '姬穸',
+		'skills': [
+			{
+				'name': '血童不死身',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/8/8b/2k06hz0cbahoer1vq38zv7axgrhgkfe.png'
+			},
+		]
+	},
 	'mingguangjiansheng': {
 		'pinyin': 'mingguangjiansheng',
 		'name': '明光剑圣',

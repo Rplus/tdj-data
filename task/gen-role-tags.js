@@ -47,6 +47,7 @@ let tags = [
 		tag: '免死',
 		data: [
 			...query_kwd('免除死亡'),
+			['', '姬穸'],
 			['', '瑚兒'],
 			['', '趙雲'],
 			['', '赤魃韓無砂'],
@@ -92,9 +93,7 @@ let tags = [
 		// data: roles.map(r => r.summons && r.name + ' - ' + r.pinyin).filter(Boolean),
 		data: [
 			...roles.map(r => r.summons && [r.pinyin, r.name]).filter(Boolean),
-			['', '燕明蓉'],
-			['', '朧夢嫿妖'],
-			['', '明光劍聖'],
+			['', '姬穸'],
 		],
 	},
 	{
@@ -237,6 +236,7 @@ let tags = [
 	{
 		tag: '領域',
 		data: [
+			['', '姬穸'],
 			['', '幽寰夏侯儀'],
 			['', '耶律紗'],
 			['', '幽姬鹿昭依'],
@@ -346,6 +346,8 @@ let tags = [
 	{
 		tag: '干擾選取',
 		data: [
+			...query_kwd('惑妄'),
+			['', '姬穸'],
 			['', '奚歌'],
 			['', '赤煉'],
 			['', '趙雲'],
