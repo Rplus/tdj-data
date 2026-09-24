@@ -2,12 +2,18 @@
   "jixi": {
     "name": "姬穸",
     "pinyin": "jixi",
-    "skins": {}
+    "skins": {
+      "无物结同心": "/f/f1/9b698zigc2kll68bwl7sfv7pchcexex.png/♥%E6%97%A0%E7%89%A9%E7%BB%93%E5%90%8C%E5%BF%83.png♥621♥1241",
+      "姬穸": "/3/3e/rm8rceathmryxnuunhfynyjidrq5gpq.png/♥%E5%A7%AC%E7%A9%B8.png♥437♥873"
+    }
   },
   "huanxin": {
     "name": "焕心",
     "pinyin": "huanxin",
-    "skins": {}
+    "skins": {
+      "春风赠剑": "/b/b7/3dzck4w3vjdn6uqntmxxunaog2zjx0o.png/♥%E6%98%A5%E9%A3%8E%E8%B5%A0%E5%89%91.png♥708♥1415",
+      "焕心": "/5/5b/a2bjvg6at243sn0fpafv58kz5rz0fcm.png/♥%E7%84%95%E5%BF%83.png♥630♥1260"
+    }
   },
   "lianhuan": {
     "name": "连环",
@@ -87,6 +93,7 @@
     "name": "琴色",
     "pinyin": "qinse",
     "skins": {
+      "临江仙": "/c/c3/ddtr79bbil7qtyi4qk2hhd69twhsq60.png/♥%E4%B8%B4%E6%B1%9F%E4%BB%99.png♥771♥1541",
       "早春曲": "/d/d5/jxlhu6wmcd2p2niv6iobkeydqrz1okw.png/♥%E6%97%A9%E6%98%A5%E6%9B%B2.png♥543♥1086",
       "琴色": "/4/4e/ijv6uyh2iarirznkk1edezd07xj2c28.png/♥%E7%90%B4%E8%89%B2.png♥530♥1059"
     }

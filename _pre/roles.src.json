@@ -20,10 +20,20 @@
       "crit": 25
     },
     "strategy": "魔犼血煉陣",
-    "skins": {},
+    "summons": [
+      "死靈術士"
+    ],
+    "skins": {
+      "無物結同心": "/f/f1/9b698zigc2kll68bwl7sfv7pchcexex.png/♥%E6%97%A0%E7%89%A9%E7%BB%93%E5%90%8C%E5%BF%83.png♥621♥1241",
+      "姬穸": "/3/3e/rm8rceathmryxnuunhfynyjidrq5gpq.png/♥%E5%A7%AC%E7%A9%B8.png♥437♥873"
+    },
     "tags": [
+      "免死",
       "陣眼",
-      "再行動"
+      "召喚物",
+      "再行動",
+      "領域",
+      "干擾選取"
     ]
   },
   {
@@ -46,7 +56,10 @@
       "def_phy": 39,
       "crit": 17
     },
-    "skins": {},
+    "skins": {
+      "春風贈劍": "/b/b7/3dzck4w3vjdn6uqntmxxunaog2zjx0o.png/♥%E6%98%A5%E9%A3%8E%E8%B5%A0%E5%89%91.png♥708♥1415",
+      "煥心": "/5/5b/a2bjvg6at243sn0fpafv58kz5rz0fcm.png/♥%E7%84%95%E5%BF%83.png♥630♥1260"
+    },
     "tags": [
       "陣眼",
       "再行動"
@@ -89,7 +102,7 @@
   },
   {
     "name": "明光劍聖",
-    "rarity": "SSR",
+    "rarity": "絕品",
     "prop": "光",
     "hero_icon": "Hero1227_HeadIcon_Basic",
     "career": "破軍",
@@ -98,11 +111,12 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
+    "pinyin_tw": "mingguangjiansheng",
     "path": "%E6%98%8E%E5%85%89%E5%89%91%E5%9C%A3",
     "status": {
       "hp": 202,
       "atk_mag": 13,
-      "atk_phy": 106,
+      "atk_phy": 107,
       "def_mag": 28,
       "def_phy": 37,
       "crit": 25
@@ -401,6 +415,7 @@
     },
     "strategy": "群芳馥鬱陣",
     "skins": {
+      "臨江仙": "/c/c3/ddtr79bbil7qtyi4qk2hhd69twhsq60.png/♥%E4%B8%B4%E6%B1%9F%E4%BB%99.png♥771♥1541",
       "早春曲": "/d/d5/jxlhu6wmcd2p2niv6iobkeydqrz1okw.png/♥%E6%97%A9%E6%98%A5%E6%9B%B2.png♥543♥1086",
       "琴色": "/4/4e/ijv6uyh2iarirznkk1edezd07xj2c28.png/♥%E7%90%B4%E8%89%B2.png♥530♥1059"
     },
@@ -1509,6 +1524,9 @@
       "def_phy": 31,
       "crit": 22
     },
+    "summons": [
+      "朧夢嫿妖分身"
+    ],
     "skins": {
       "孽鏡臺前": "/2/2b/5u95wafbrrvt7eej5ox9jez8qzojd9n.png/♥%E5%AD%BD%E9%95%9C%E5%8F%B0%E5%89%8D.png♥705♥1410",
       "照海朦朧": "/f/fd/4na8oipc559xc2eltffo7jgqocljrpi.png/♥%E7%85%A7%E6%B5%B7%E6%9C%A6%E8%83%A7.png♥725♥1449",
