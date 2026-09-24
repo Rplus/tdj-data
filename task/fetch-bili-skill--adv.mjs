@@ -84,7 +84,7 @@ for (const role of roles) {
 
 const adv_skills_name = Object.values(roles_with_adv_skills_list)
 	.flatMap(i => (i.adv_skills.flat() || []))
-	.filter(i => i.includes('·'));
+	.filter(i => i.includes('·') && i.includes('式'));
 
 const adv_skills = await muli_fetch_bili_page_rest({
 	names: adv_skills_name.map(i => '绝学/' + i),
