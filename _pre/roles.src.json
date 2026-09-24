@@ -102,7 +102,7 @@
   },
   {
     "name": "明光劍聖",
-    "rarity": "絕品",
+    "rarity": "SSR",
     "prop": "光",
     "hero_icon": "Hero1227_HeadIcon_Basic",
     "career": "破軍",
@@ -144,7 +144,7 @@
   },
   {
     "name": "妖佑宇韶容",
-    "rarity": "絕品",
+    "rarity": "SSR",
     "prop": "幽",
     "hero_icon": "Hero2510_HeadIcon_Basic",
     "career": "鬥將",
@@ -254,8 +254,8 @@
   },
   {
     "name": "天音白菀",
-    "rarity": "絕品",
-    "prop": "God",
+    "rarity": "SSR",
+    "prop": "神",
     "hero_icon": "Hero1404_HeadIcon_Basic",
     "career": "祝由",
     "pinyin": "tianyinbaiwan",
