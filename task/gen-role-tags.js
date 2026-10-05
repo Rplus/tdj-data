@@ -386,6 +386,15 @@ let tags = [
 			['', '幽寰夏侯儀'],
 		],
 	},
+	{
+		tag: '猛士',
+		data: roles.map(r => {
+			if (r.career2 && r.career2 === '猛士') {
+				return ['', r.name];
+			}
+			return null;
+		}).filter(Boolean),
+	},
 	// {
 	// 	tag: '挪移敵方',
 	// 	data: [
