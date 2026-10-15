@@ -49,6 +49,12 @@ outputJSON({
 	space: 0,
 	cn2tw: true,
 });
+outputJSON({
+	json: skills_for_query,
+	fn: '../src/lib/data/roles_skills_for_query.min.json',
+	space: 0,
+	cn2tw: true,
+});
 
 const all_icons = {};
 const all_strategy = [];
