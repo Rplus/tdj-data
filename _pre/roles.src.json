@@ -1,5 +1,34 @@
 [
   {
+    "name": "李輕素",
+    "rarity": "SSR",
+    "prop": "冰",
+    "hero_icon": "Hero1094_HeadIcon_Basic",
+    "career": "御風",
+    "pinyin": "liqingsu",
+    "pic": "Hero1094_img",
+    "position": "近攻",
+    "range": "1",
+    "speed": "5",
+    "path": "%E6%9D%8E%E8%BD%BB%E7%B4%A0",
+    "status": {
+      "hp": 188,
+      "atk_mag": 14,
+      "atk_phy": 107,
+      "def_mag": 33,
+      "def_phy": 34,
+      "crit": 45
+    },
+    "strategy": "皓濯如霜陣",
+    "skins": {},
+    "tags": [
+      "免死",
+      "再啟動",
+      "陣眼",
+      "再行動"
+    ]
+  },
+  {
     "name": "姬穸",
     "rarity": "SSR",
     "prop": "暗",
@@ -92,7 +121,7 @@
     },
     "tags": [
       "免死",
-      "再啟動",
+      "剋制再啟動",
       "陣眼",
       "機關",
       "剋制機關",

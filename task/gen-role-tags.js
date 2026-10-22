@@ -20,14 +20,16 @@ const roles_has_support_skill = Object.keys(role_other_skills).filter(i => role_
 // }).filter(Boolean);
 
 
-function query_kwd(kwd = '') {
+function query_kwd(kwd = '', removed_name = []) {
 	return roles_details.reduce((acc, i) => {
 		const dd = i.data?.data?.[0];
 		if (dd && JSON.stringify(dd).includes(kwd)) {
 			const { pinyin, name } = dd;
 			// acc.push(name + ' - ' + pinyin);
 			// acc.push(pinyin);
-			acc.push([pinyin, name]);
+			if (!removed_name.length || !removed_name.includes(name)) {
+				acc.push([pinyin, name]);
+			}
 		}
 		return acc;
 	}, []);
@@ -58,10 +60,16 @@ let tags = [
 	{
 		tag: '再啟動',
 		data: [
-			...query_kwd('再啟動'),
+			...query_kwd('再啟動', ['連環']),
 			['', '巴艾邇'],
 			['', '琴色'],
 			['', '暗曜陽寰'],
+		],
+	},
+	{
+		tag: '剋制再啟動',
+		data: [
+			['', '連環'],
 		],
 	},
 	{
