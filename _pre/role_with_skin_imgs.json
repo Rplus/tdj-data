@@ -2,7 +2,10 @@
   "liqingsu": {
     "name": "李轻素",
     "pinyin": "liqingsu",
-    "skins": {}
+    "skins": {
+      "纤尘不染": "/d/d5/792z71r6h1efz689zifaijbtgqh6bdo.png/♥%E7%BA%A4%E5%B0%98%E4%B8%8D%E6%9F%93.png♥616♥1232",
+      "李轻素": "/7/73/phgd3mja58zmpo92og7ire6qm15qtuv.png/♥%E6%9D%8E%E8%BD%BB%E7%B4%A0.png♥681♥1362"
+    }
   },
   "jixi": {
     "name": "姬穸",
@@ -191,6 +194,7 @@
     "pinyin": "huer",
     "skins": {
       "霞绡惊蝶": "/6/63/4zt0or5uesnkay88sc1a5q6sy2y0c27.png/♥%E9%9C%9E%E7%BB%A1%E6%83%8A%E8%9D%B6.png♥661♥1322",
+      "青瓷素韵": "/0/01/7hcvvf2n2kyak82cmq14lfx343jxx5b.png/♥%E9%9D%92%E7%93%B7%E7%B4%A0%E9%9F%B5.png♥497♥994",
       "瑚儿": "/9/9e/3elimftd159hbgiei3ew41207tg4cgn.png/♥%E7%91%9A%E5%84%BF.png♥481♥962"
     }
   },
