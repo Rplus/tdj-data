@@ -73,10 +73,11 @@ let raw_skin_info = [];
 
 for (let skin of all_skins) {
 	let title = `File:立绘_${skin.name}.png`;
+	let url = `https://wiki.biligame.com/tdj/api.php?action=query&titles=${title}&prop=imageinfo&iiprop=url&iiurlheight=550&format=json`;
 
 	try {
 		const data = await fetch_with_cached({
-			url: `https://wiki.biligame.com/tdj/api.php?action=query&titles=${title}&prop=imageinfo&iiprop=url&iiurlheight=550&format=json`,
+			url,
 			// wiki source x550px: thumb with 550px height
 			cached_path: `bili/时装/${skin.name}.query.json`,
 			ignore_cached: FORCE_FETCH,
@@ -103,7 +104,7 @@ for (let skin of all_skins) {
 		role_with_skin_imgs[pinyin].skins[skin.name] = thumburl + '♥' + thumburl_sizes.join('♥');
 
 	} catch (error) {
-		console.error(`請求失敗: ${title}`, error);
+		console.error(`請求失敗: ${title}`, url, error);
 	}
 }
 
