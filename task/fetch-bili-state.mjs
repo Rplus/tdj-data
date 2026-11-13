@@ -83,7 +83,7 @@ outputJSON({
 		'驅': true,
 		'擴': false,
 		'偷': false,
-	})
+	});
 	status.push({
 		name: '濟世',
 		// cate: '其它',
@@ -91,7 +91,7 @@ outputJSON({
 		'驅': false,
 		'擴': false,
 		'偷': false,
-	})
+	});
 	status.push({
 		name: '濟世·煥',
 		// cate: '其它',
@@ -99,7 +99,7 @@ outputJSON({
 		'驅': false,
 		'擴': false,
 		'偷': false,
-	})
+	});
 	status.push({
 		name: '赤明野',
 		// cate: '其它',
@@ -107,7 +107,7 @@ outputJSON({
 		'驅': false,
 		'擴': false,
 		'偷': false,
-	})
+	});
 	status.push({
 		name: '神佑狀態',
 		// cate: '其它',
@@ -115,7 +115,39 @@ outputJSON({
 		'驅': false,
 		'擴': false,
 		'偷': false,
-	})
+	});
+	status.push({
+		name: '寒氣',
+		cate: '其它',
+		desc: '暴擊率-5%。行動結束時，若本次行動移動距離小於等於1格，獲得1層「寒氣」狀態，否則移除1層「寒氣」狀態。達到5層時，立刻轉化為「凍結」狀態，持續1回合（上限5層，其他，不可驅散）。',
+		'驅': false,
+		// '擴': false,
+		// '偷': false,
+	});
+	status.push({
+		name: '凍結',
+		// cate: '其它',
+		desc: '獲得時清除自身護盾。暴擊率-25%，無法移動。（有害狀態，可驅散）。',
+		'驅': true,
+		// '擴': false,
+		// '偷': false,
+	});
+	status.push({
+		name: '冰稜',
+		cate: '其它',
+		desc: '傷害、免傷提高20%。行動結束時，若處於危險範圍外，獲得「遁形」狀態，持續1回合。',
+		'驅': false,
+		// '擴': false,
+		// '偷': false,
+	});
+	status.push({
+		name: '遁形',
+		cate: '其它',
+		desc: '無法被選中為目標，承受1次範圍傷害後移除本狀態。',
+		'驅': false,
+		// '擴': false,
+		// '偷': false,
+	});
 
 	status.forEach(i => {
 		switch (i.name) {
