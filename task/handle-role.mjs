@@ -224,6 +224,8 @@ const strategy_overrides = {
 	'三身通智陣': { type: 'push', data: [ 'strategy_core', 'strategy_core' ], },
 	'群芳馥鬱陣': { type: 'push', data: [ 'rider', ], },
 	'六韜信戰陣': { type: 'replace', data: [ 'fire/ice/electricity', 'fire/ice/electricity', ], },
+	'聆音濟慈陣': { type: 'replace', data: [ 'fire/ice/electricity', 'fire/ice/electricity', ], },
+	'皓濯如霜陣': { type: 'push', data: [ 'rider', ], },
 	// '驅雷魔魄陣': [ 'dusk' ],
 	// '狐靈神氛陣': [ 'dusk' ],
 	// '暗月鬥靈陣': [ 'melee' ],
