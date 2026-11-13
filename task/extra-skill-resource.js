@@ -1,5 +1,25 @@
 // bili wiki 爬得到的額外技能
 export const extra_fetching_resource = {
+	// 'shouxincaoqin': {
+	// 	'pinyin': 'shouxincaoqin',
+	// 	'name': '狩心曹沁',
+	// 	'skills': [
+	// 		{
+	// 			'name': '狩影缚野',
+	// 			// 'imgsrc': 'https://patchwiki.biligame.com/images/tdj/f/f2/ob9025wr18ageexqtf3gh64onvkqcxz.png'
+	// 		},
+	// 	]
+	// },
+	'liqingsu': {
+		'pinyin': 'liqingsu',
+		'name': '李輕素',
+		'skills': [
+			{
+				'name': '鉴照冰心',
+				'imgsrc': 'https://patchwiki.biligame.com/images/tdj/f/f2/ob9025wr18ageexqtf3gh64onvkqcxz.png'
+			},
+		]
+	},
 	'jixi': {
 		'pinyin': 'jixi',
 		'name': '姬穸',
