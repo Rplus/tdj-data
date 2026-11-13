@@ -1,5 +1,37 @@
 [
   {
+    "name": "狩心曹沁",
+    "rarity": "SSR",
+    "prop": "暗",
+    "hero_icon": "Hero1095_HeadIcon_Basic",
+    "career": "羽士",
+    "pinyin": "shouxincaoqin",
+    "pic": "Hero1095_img",
+    "position": "遠攻",
+    "range": "2",
+    "speed": "3",
+    "path": "%E7%8B%A9%E5%BF%83%E6%9B%B9%E6%B2%81",
+    "status": {
+      "hp": 184,
+      "atk_mag": 14,
+      "atk_phy": 107,
+      "def_mag": 23,
+      "def_phy": 34,
+      "crit": 43
+    },
+    "strategy": "一念無回陣",
+    "skins": {},
+    "tags": [
+      "免死",
+      "多輪攻擊",
+      "陣眼",
+      "再行動",
+      "機關",
+      "剋制機關",
+      "圍陣"
+    ]
+  },
+  {
     "name": "李輕素",
     "rarity": "SSR",
     "prop": "冰",
@@ -20,6 +52,9 @@
       "crit": 45
     },
     "strategy": "皓濯如霜陣",
+    "summons": [
+      "霜意真形"
+    ],
     "skins": {
       "纖塵不染": "/d/d5/792z71r6h1efz689zifaijbtgqh6bdo.png/♥%E7%BA%A4%E5%B0%98%E4%B8%8D%E6%9F%93.png♥616♥1232",
       "李輕素": "/7/73/phgd3mja58zmpo92og7ire6qm15qtuv.png/♥%E6%9D%8E%E8%BD%BB%E7%B4%A0.png♥681♥1362"
@@ -28,7 +63,9 @@
       "免死",
       "再啟動",
       "陣眼",
-      "再行動"
+      "召喚物",
+      "再行動",
+      "剋制免死"
     ]
   },
   {
@@ -3305,7 +3342,10 @@
     "skins": {
       "獨狼在野": "/7/78/78mibntzj2qptb7hpcb51pywhpn86xz.png/♥%E7%8B%AC%E7%8B%BC%E5%9C%A8%E9%87%8E.png♥607♥",
       "卓爾": "/f/fc/da9ktztohe5a8m771lbcsshnhqoj15o.png/♥%E5%8D%93%E5%B0%94.png♥522♥"
-    }
+    },
+    "tags": [
+      "召喚物"
+    ]
   },
   {
     "name": "巴艾邇",
