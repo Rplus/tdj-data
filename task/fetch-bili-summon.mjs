@@ -210,6 +210,47 @@ for (const skill_name of summon_skills_name.flat()) {
 	// 	]);
 	// }
 
+	// {
+	// 	// workaround: add 死刀兵|召喚物/死刀兵
+	// 	summon_data.push({
+	// 		key: '召喚物/死刀兵',
+	// 		name: '死刀兵',
+	// 		owner: ['卓爾', 'zhuoer'],
+	// 		inherent_name: '',
+	// 		inherent:
+	// 			'',
+	// 		status: [100, 70, 70, 70, 70, 70],
+	// 		prop: '暗',
+	// 		career: '',
+	// 		range: ,
+	// 		speed: ,
+	// 		skill_names: [],
+	// 	});
+	// }
+
+	{
+		// workaround: add 李輕素|召喚物/霜意真形
+		summon_data.push({
+			key: '召喚物/霜意真形',
+			name: '霜意真形',
+			owner: ['李輕素', 'liqingsu'],
+			inherent_name: '？',
+			inherent:
+				'死亡時，對自身3格範圍內物攻/法攻最高的1名敵方施加「凍結」狀態，持續1回合。',
+			status: [100, 140, 100, 100, 100, 100],
+			prop: '冰',
+			career: '御風',
+			range: 1,
+			speed: 5,
+			skill_names: ['素影飛光', '朔雪凝霜', '鏡花掠影'],
+		});
+		summon_skills.push(...[
+			get_skill_info('素影飛光'),
+			get_skill_info('朔雪凝霜'),
+			get_skill_info('鏡花掠影'),
+		]);
+	}
+
 	{
 		// workaround: add 朧夢嫿妖|召喚物/朧夢嫿妖分身
 		summon_data.push({
