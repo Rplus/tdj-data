@@ -69,6 +69,70 @@ const ornaments = ornaments_reordered.map((item) => {
 	return overrides(o);
 });
 
+const ornaments_overrides = [
+	{
+		name: '垂羽決雲',
+		// icon: 'Equip_wuxingsharong',
+		img: 'https://cdn.imgchest.com/files/10f6d606e9f4.png',
+		position: '1',
+		job: '01000000',
+		type: '100001',
+		rarity: 'SSR',
+		desc: '物攻+7%，氣血+7%，主動攻擊「對戰中」，與目標距離每增加1格，傷害、暴擊率提高3%（最多12%），若目標處於自身直線位置且無其他敵方單位阻擋，則「對戰前」施加「封穴」狀態，持續1回合。'
+	},
+	{
+		name: '鎮雪狐裘',
+		// icon: 'Equip_wuxingsharong',
+		img: 'https://cdn.imgchest.com/files/25747b5e582c.png',
+		position: '2',
+		job: '11111111',
+		type: '010001',
+		rarity: 'SSR',
+		desc: '物防+5%，氣血+5%，遭受攻擊時，與目標距離每增加1格，暴擊傷害減免、暴擊抗性提高5%（最多20%）。'
+	},
+	{
+		name: '青雲繫日',
+		// icon: 'Equip_wuxingsharong',
+		img: 'https://cdn.imgchest.com/files/0bddbcfde959.png',
+		position: '3',
+		job: '11111111',
+		type: '000101',
+		rarity: 'SSR',
+		desc: '法防+7%，氣血+7%，受到單體治療絕學後，將自身溢出治療量的50%用於恢復氣血百分比最低的1名其他友方，並驅散其1個「有害狀態」。'
+	},
+
+	{
+		name: '離人簪',
+		// icon: 'Equip_wuxingsharong',
+		img: 'https://cdn.imgchest.com/files/d2313f9bd0a0.png',
+		position: '1',
+		job: '00011010',
+		type: '001001',
+		rarity: 'SSR',
+		desc: '法攻+8%，氣血+8%。主動攻擊時，若目標身周1圈沒有友方角色，則「對戰中」傷害、法術穿透提高12%。'
+	},
+	{
+		name: '雪璃寶甲',
+		// icon: 'Equip_wuxingsharong',
+		img: 'https://cdn.imgchest.com/files/d8de3cb817a0.png',
+		position: '2',
+		job: '11111111',
+		type: '010001',
+		rarity: 'SSR',
+		desc: '物防+5%，氣血+5%。若自身3格範圍內不存在其他友方，自身免疫「封咒」狀態，且遭受攻擊時，免傷、暴擊抗性提高20%。'
+	},
+	{
+		name: '百勝促織罐',
+		// icon: 'Equip_wuxingsharong',
+		img: 'https://cdn.imgchest.com/files/71097ecd4bbb.png',
+		position: '3',
+		job: '11111111',
+		type: '000101',
+		rarity: 'SSR',
+		desc: '法防+7%，氣血+7%。主動攻擊「對戰後」若自身氣血百分比大於目標則獲得「刺骨I」狀態，持續1回合，反之獲得「命蘊」狀態，持續1回合。'
+	},
+];
+
 const op = {
 	keys: {
 		rarity: ['R', 'SR', 'SSR'],
@@ -84,7 +148,7 @@ const op = {
 		type: ['物攻', '物防', '法攻', '法防', '治療', '氣血'],
 	},
 	// items: raw_data.ornaments.rawdata.data.data.map((item) => {
-	items: ornaments,
+	items: [...ornaments_overrides, ...ornaments],
 };
 
 
