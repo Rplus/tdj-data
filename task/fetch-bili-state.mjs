@@ -148,6 +148,14 @@ outputJSON({
 		// '擴': false,
 		// '偷': false,
 	});
+	status.push({
+		name: '敗露',
+		cate: '其它',
+		desc: '除氣血外全屬性降低15%，「抵擋致命傷害」效果失效。（下回合開始時移除）',
+		'驅': false,
+		'擴': false,
+		'偷': false,
+	});
 
 	status.forEach(i => {
 		switch (i.name) {
