@@ -42,6 +42,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "5",
+    "pinyin_tw": "liqingsu",
     "path": "%E6%9D%8E%E8%BD%BB%E7%B4%A0",
     "status": {
       "hp": 188,
@@ -145,6 +146,7 @@
     "position": "近攻",
     "range": "1",
     "speed": "3",
+    "pinyin_tw": "lianhuan",
     "path": "%E8%BF%9E%E7%8E%AF",
     "status": {
       "hp": 249,
