@@ -110,6 +110,7 @@ for (let skin of all_skins) {
 
 { // workaround
 	role_with_skin_imgs['shangguanyue'].skins['錦鳶逗晴'] = 'https://tw-media.game-beans.com/media/pictures/tdj/260715/02.png';
+	role_with_skin_imgs['libai'].skins['五陵豪'] = 'https://cdn.imgchest.com/files/ee7e3c3cba91.jpg';
 }
 
 outputJSON({
