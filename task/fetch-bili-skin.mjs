@@ -109,8 +109,10 @@ for (let skin of all_skins) {
 }
 
 { // workaround
-	role_with_skin_imgs['shangguanyue'].skins['錦鳶逗晴'] = 'https://tw-media.game-beans.com/media/pictures/tdj/260715/02.png';
+	// role_with_skin_imgs['shangguanyue'].skins['錦鳶逗晴'] = 'https://tw-media.game-beans.com/media/pictures/tdj/260715/02.png';
+	role_with_skin_imgs['shangguanyue'].skins['錦鳶逗晴'] = 'https://cdn.imgchest.com/files/34b2945e082a.webp';
 	role_with_skin_imgs['libai'].skins['五陵豪'] = 'https://cdn.imgchest.com/files/ee7e3c3cba91.jpg';
+	role_with_skin_imgs['shouxincaoqin'].skins['驚蟄又一年'] = 'https://cdn.imgchest.com/files/6bdb1fd68dcc.webp';
 }
 
 outputJSON({
