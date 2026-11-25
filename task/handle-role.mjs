@@ -32,7 +32,7 @@ let skills_for_query = fetched_details.map(i => {
 	}
 	skills.push({
 		name: role.inherent_name,
-		desc: role.star6,
+		desc: remove_html_tag(role.star6),
 		type: 'inherent',
 	})
 	return {
@@ -43,6 +43,12 @@ let skills_for_query = fetched_details.map(i => {
 	};
 });
 
+outputJSON({
+	json: skills_for_query,
+	fn: './_mid/roles_skills_for_query.src.json',
+	space: 2,
+	cn2tw: true,
+});
 outputJSON({
 	json: skills_for_query,
 	fn: './_pre/roles_skills_for_query.min.json',
